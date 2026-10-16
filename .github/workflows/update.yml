@@ -1,0 +1,29 @@
+name: Update picks
+on:
+  schedule:
+    - cron: "0 12,22 * * 2-6"
+    - cron: "0 14 * * 0"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test
+        run: python tests/test_all.py
+      - name: Build picks
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python pipeline/build_picks.py
+      - name: Commit if changed
+        run: |
+          git config user.name "picks-bot"
+          git config user.email "picks-bot@users.noreply.github.com"
+          git add docs/data data/snapshots
+          git diff --cached --quiet || git commit -m "Update picks $(date -u +%F' '%H:%M)"
+          git push
