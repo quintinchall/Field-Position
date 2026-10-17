@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 6,
- "generated_at": "2026-10-16T22:22+00:00",
+ "generated_at": "2026-10-17T12:21+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, Elo from nflverse results",
  "games": [
@@ -50,7 +50,15 @@
    "ml_away": 124.0,
    "status": "scheduled",
    "neutral": true,
-   "injuries": {},
+   "injuries": {
+    "HOU": [
+     "Tank Dell (WR) out",
+     "David Montgomery (RB) out"
+    ],
+    "JAX": [
+     "Montaric Brown (CB) out"
+    ]
+   },
    "alt_p_home": 0.647,
    "open_spread_home": -2.5,
    "p_home": 0.5721,
@@ -71,7 +79,17 @@
    "ml_away": -166.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "BAL": [
+     "Lamar Jackson (QB) out",
+     "Matthew Hibner (TE) out",
+     "Broderick Washington (DE) out"
+    ],
+    "CLE": [
+     "Dillon Gabriel (QB) out",
+     "Dylan Sampson (RB) out"
+    ]
+   },
    "alt_p_home": 0.3698,
    "open_spread_home": 3.5,
    "p_home": 0.4004,
@@ -87,12 +105,21 @@
    "home": "PHI",
    "away_record": "2-2",
    "home_record": "2-3",
-   "spread_home": 3.5,
+   "spread_home": 3.0,
    "ml_home": 142.0,
    "ml_away": -170.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "CAR": [
+     "AJ Dillon (RB) out"
+    ],
+    "PHI": [
+     "Jalen Hurts (QB) out",
+     "Will Shipley (RB) out",
+     "Saquon Barkley (RB) out"
+    ]
+   },
    "alt_p_home": 0.6286,
    "open_spread_home": 3.5,
    "p_home": 0.3962,
@@ -118,7 +145,15 @@
    "ml_away": -118.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "CHI": [
+     "Kyle Monangai (RB) out",
+     "Dayo Odeyingbo (DE) out"
+    ],
+    "ATL": [
+     "C.J. Henderson (CB) out"
+    ]
+   },
    "alt_p_home": 0.4654,
    "open_spread_home": 1.5,
    "p_home": 0.4826,
@@ -144,7 +179,12 @@
    "ml_away": -110.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "NYG": [
+     "Theo Johnson (TE) out",
+     "Colton Hood (CB) out"
+    ]
+   },
    "alt_p_home": 0.6448,
    "open_spread_home": 1.5,
    "p_home": 0.5,
@@ -170,16 +210,26 @@
    "away_record": "2-3",
    "home_record": "3-2",
    "spread_home": -7.5,
-   "ml_home": -345.0,
-   "ml_away": 275.0,
+   "ml_home": -340.0,
+   "ml_away": 270.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "NYJ": [
+     "Joseph Ossai (DE) out",
+     "Breece Hall (RB) out",
+     "Adonai Mitchell (WR) out"
+    ],
+    "NE": [
+     "Karon Prunty (CB) out",
+     "Carlton Davis III (CB) out"
+    ]
+   },
    "alt_p_home": 0.8045,
    "open_spread_home": -7.5,
-   "p_home": 0.7441,
+   "p_home": 0.7409,
    "pick": "NE",
-   "pick_prob": 0.7441,
+   "pick_prob": 0.7409,
    "yard": 26,
    "notes": []
   },
@@ -195,7 +245,17 @@
    "ml_away": -148.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "PIT": [
+     "Roman Wilson (WR) out",
+     "Ben Skowronek (WR) out"
+    ],
+    "TB": [
+     "Baker Mayfield (QB) out",
+     "David Sills (WR) out",
+     "Benjamin Morrison (CB) doubtful"
+    ]
+   },
    "alt_p_home": 0.4253,
    "open_spread_home": 2.5,
    "p_home": 0.4279,
@@ -216,7 +276,11 @@
    "ml_away": 270.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "IND": [
+     "Ashton Dulin (WR) out"
+    ]
+   },
    "alt_p_home": 0.7666,
    "open_spread_home": -7.0,
    "p_home": 0.7409,
@@ -233,17 +297,21 @@
    "away_record": "1-4",
    "home_record": "2-3",
    "spread_home": -12.5,
-   "ml_home": -850.0,
-   "ml_away": 575.0,
+   "ml_home": -800.0,
+   "ml_away": 550.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "ARI": [
+     "Jeremiyah Love (RB) out"
+    ]
+   },
    "alt_p_home": 0.801,
    "open_spread_home": -12.5,
-   "p_home": 0.8579,
+   "p_home": 0.8525,
    "pick": "LA",
-   "pick_prob": 0.8579,
-   "yard": 14,
+   "pick_prob": 0.8525,
+   "yard": 15,
    "notes": []
   },
   {
@@ -258,7 +326,12 @@
    "ml_away": -230.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "LV": [
+     "Dont'e Thornton Jr. (WR) out",
+     "Carter Runyon (TE) out"
+    ]
+   },
    "alt_p_home": 0.2678,
    "open_spread_home": 4.5,
    "p_home": 0.331,
@@ -275,17 +348,26 @@
    "away_record": "0-5",
    "home_record": "4-0",
    "spread_home": -7.5,
-   "ml_home": -425.0,
-   "ml_away": 330.0,
+   "ml_home": -455.0,
+   "ml_away": 350.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "LAC": [
+     "Tre Harris (WR) out",
+     "Rodney Shelley (CB) doubtful",
+     "Donte Jackson (CB) out"
+    ],
+    "KC": [
+     "Rashee Rice (WR) out"
+    ]
+   },
    "alt_p_home": 0.7334,
    "open_spread_home": -8.5,
-   "p_home": 0.7768,
+   "p_home": 0.7867,
    "pick": "KC",
-   "pick_prob": 0.7768,
-   "yard": 22,
+   "pick_prob": 0.7867,
+   "yard": 21,
    "notes": [
     {
      "kind": "move",
@@ -301,21 +383,30 @@
    "away_record": "2-3",
    "home_record": "3-2",
    "spread_home": -1.5,
-   "ml_home": -115.0,
-   "ml_away": -105.0,
+   "ml_home": -118.0,
+   "ml_away": -102.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "DAL": [
+     "Cobie Durant (CB) out"
+    ],
+    "GB": [
+     "Skyy Moore (WR) out",
+     "Jordon Riley (DE) doubtful",
+     "Benjamin St-Juste (CB) out"
+    ]
+   },
    "alt_p_home": 0.6704,
    "open_spread_home": -1.5,
-   "p_home": 0.5108,
+   "p_home": 0.5174,
    "pick": "GB",
-   "pick_prob": 0.5108,
-   "yard": 49,
+   "pick_prob": 0.5174,
+   "yard": 48,
    "notes": [
     {
      "kind": "split",
-     "text": "Elo has GB at 67%; the market has GB at 51%. A gap this size usually means news one side hasn't priced. Check injuries."
+     "text": "Elo has GB at 67%; the market has GB at 52%. A gap this size usually means news one side hasn't priced. Check injuries."
     },
     {
      "kind": "flip",
