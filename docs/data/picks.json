@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 6,
- "generated_at": "2026-10-17T22:16+00:00",
+ "generated_at": "2026-10-18T14:22+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, Elo from nflverse results",
  "games": [
@@ -46,8 +46,8 @@
    "away_record": "1-4",
    "home_record": "4-1",
    "spread_home": -2.5,
-   "ml_home": -148.0,
-   "ml_away": 124.0,
+   "ml_home": -142.0,
+   "ml_away": 120.0,
    "status": "scheduled",
    "neutral": true,
    "injuries": {
@@ -61,10 +61,10 @@
    },
    "alt_p_home": 0.647,
    "open_spread_home": -2.5,
-   "p_home": 0.5721,
+   "p_home": 0.5635,
    "pick": "JAX",
-   "pick_prob": 0.5721,
-   "yard": 43,
+   "pick_prob": 0.5635,
+   "yard": 44,
    "notes": []
   },
   {
@@ -106,8 +106,8 @@
    "away_record": "2-2",
    "home_record": "2-3",
    "spread_home": 3.0,
-   "ml_home": 142.0,
-   "ml_away": -170.0,
+   "ml_home": 140.0,
+   "ml_away": -166.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -122,9 +122,9 @@
    },
    "alt_p_home": 0.6286,
    "open_spread_home": 3.5,
-   "p_home": 0.3962,
+   "p_home": 0.4004,
    "pick": "CAR",
-   "pick_prob": 0.6038,
+   "pick_prob": 0.5996,
    "yard": 40,
    "notes": [
     {
@@ -175,8 +175,8 @@
    "away_record": "1-4",
    "home_record": "3-1-1",
    "spread_home": 1.5,
-   "ml_home": -110.0,
-   "ml_away": -110.0,
+   "ml_home": -112.0,
+   "ml_away": -108.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -187,9 +187,9 @@
    },
    "alt_p_home": 0.6448,
    "open_spread_home": 1.5,
-   "p_home": 0.5,
+   "p_home": 0.5043,
    "pick": "NYG",
-   "pick_prob": 0.5,
+   "pick_prob": 0.5043,
    "yard": 50,
    "notes": [
     {
@@ -210,8 +210,8 @@
    "away_record": "2-3",
    "home_record": "3-2",
    "spread_home": -7.5,
-   "ml_home": -355.0,
-   "ml_away": 280.0,
+   "ml_home": -360.0,
+   "ml_away": 285.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -227,9 +227,9 @@
    },
    "alt_p_home": 0.8045,
    "open_spread_home": -7.5,
-   "p_home": 0.7478,
+   "p_home": 0.7508,
    "pick": "NE",
-   "pick_prob": 0.7478,
+   "pick_prob": 0.7508,
    "yard": 25,
    "notes": []
   },
@@ -241,8 +241,8 @@
    "away_record": "3-2",
    "home_record": "1-4",
    "spread_home": 2.5,
-   "ml_home": 124.0,
-   "ml_away": -148.0,
+   "ml_home": 120.0,
+   "ml_away": -142.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -258,10 +258,10 @@
    },
    "alt_p_home": 0.4253,
    "open_spread_home": 2.5,
-   "p_home": 0.4279,
+   "p_home": 0.4365,
    "pick": "PIT",
-   "pick_prob": 0.5721,
-   "yard": 43,
+   "pick_prob": 0.5635,
+   "yard": 44,
    "notes": []
   },
   {
@@ -271,9 +271,9 @@
    "home": "IND",
    "away_record": "0-5",
    "home_record": "2-3",
-   "spread_home": -7.0,
-   "ml_home": -340.0,
-   "ml_away": 270.0,
+   "spread_home": -6.5,
+   "ml_home": -305.0,
+   "ml_away": 245.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -283,10 +283,10 @@
    },
    "alt_p_home": 0.7666,
    "open_spread_home": -7.0,
-   "p_home": 0.7409,
+   "p_home": 0.7221,
    "pick": "IND",
-   "pick_prob": 0.7409,
-   "yard": 26,
+   "pick_prob": 0.7221,
+   "yard": 28,
    "notes": []
   },
   {
@@ -297,8 +297,8 @@
    "away_record": "1-4",
    "home_record": "2-3",
    "spread_home": -12.5,
-   "ml_home": -750.0,
-   "ml_away": 525.0,
+   "ml_home": -800.0,
+   "ml_away": 550.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -308,9 +308,9 @@
    },
    "alt_p_home": 0.801,
    "open_spread_home": -12.5,
-   "p_home": 0.8465,
+   "p_home": 0.8525,
    "pick": "LA",
-   "pick_prob": 0.8465,
+   "pick_prob": 0.8525,
    "yard": 15,
    "notes": []
   },
@@ -322,8 +322,8 @@
    "away_record": "4-1",
    "home_record": "3-2",
    "spread_home": 5.5,
-   "ml_home": 210.0,
-   "ml_away": -258.0,
+   "ml_home": 200.0,
+   "ml_away": -245.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -334,10 +334,10 @@
    },
    "alt_p_home": 0.2678,
    "open_spread_home": 4.5,
-   "p_home": 0.3092,
+   "p_home": 0.3194,
    "pick": "BUF",
-   "pick_prob": 0.6908,
-   "yard": 31,
+   "pick_prob": 0.6806,
+   "yard": 32,
    "notes": [
     {
      "kind": "move",
@@ -388,8 +388,8 @@
    "away_record": "2-3",
    "home_record": "3-2",
    "spread_home": -1.5,
-   "ml_home": -118.0,
-   "ml_away": -102.0,
+   "ml_home": -115.0,
+   "ml_away": -105.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -404,14 +404,14 @@
    },
    "alt_p_home": 0.6704,
    "open_spread_home": -1.5,
-   "p_home": 0.5174,
+   "p_home": 0.5108,
    "pick": "GB",
-   "pick_prob": 0.5174,
-   "yard": 48,
+   "pick_prob": 0.5108,
+   "yard": 49,
    "notes": [
     {
      "kind": "split",
-     "text": "Elo has GB at 67%; the market has GB at 52%. A gap this size usually means news one side hasn't priced. Check injuries."
+     "text": "Elo has GB at 67%; the market has GB at 51%. A gap this size usually means news one side hasn't priced. Check injuries."
     },
     {
      "kind": "flip",
@@ -431,7 +431,17 @@
    "ml_away": 350.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "WAS": [
+     "Marcus Mariota (QB) out",
+     "Jacory Croskey-Merritt (RB) out",
+     "Charles Omenihu (DE) out"
+    ],
+    "SF": [
+     "Nick Bosa (DE) out",
+     "Deebo Samuel Sr. (WR) out"
+    ]
+   },
    "alt_p_home": 0.8305,
    "open_spread_home": -7.5,
    "p_home": 0.7867,
