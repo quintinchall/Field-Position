@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 7,
- "generated_at": "2026-10-21T22:23+00:00",
+ "generated_at": "2026-10-22T12:31+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, Elo from nflverse results",
  "games": [
@@ -17,7 +17,16 @@
    "ml_away": 130.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "NE": [
+     "Karon Prunty (CB) out",
+     "Channing Canada (CB) out",
+     "Carlton Davis III (CB) out"
+    ],
+    "CHI": [
+     "Kyle Monangai (RB) out"
+    ]
+   },
    "alt_p_home": 0.4984,
    "open_spread_home": -3.0,
    "p_home": 0.583,
@@ -34,17 +43,17 @@
    "away_record": "4-2",
    "home_record": "2-4",
    "spread_home": 3.5,
-   "ml_home": 150.0,
-   "ml_away": -180.0,
+   "ml_home": 145.0,
+   "ml_away": -175.0,
    "status": "scheduled",
    "neutral": true,
    "injuries": {},
    "alt_p_home": 0.3201,
    "open_spread_home": 3.5,
-   "p_home": 0.3836,
+   "p_home": 0.3908,
    "pick": "PIT",
-   "pick_prob": 0.6164,
-   "yard": 38,
+   "pick_prob": 0.6092,
+   "yard": 39,
    "notes": []
   },
   {
@@ -55,17 +64,17 @@
    "away_record": "3-2",
    "home_record": "4-2",
    "spread_home": 1.5,
-   "ml_home": 100.0,
-   "ml_away": -120.0,
+   "ml_home": 102.0,
+   "ml_away": -122.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.5993,
    "open_spread_home": -2.5,
-   "p_home": 0.4783,
+   "p_home": 0.4739,
    "pick": "CIN",
-   "pick_prob": 0.5217,
-   "yard": 48,
+   "pick_prob": 0.5261,
+   "yard": 47,
    "notes": [
     {
      "kind": "move",
@@ -73,7 +82,7 @@
     },
     {
      "kind": "split",
-     "text": "Elo has BAL at 60%; the market has BAL at 48%. A gap this size usually means news one side hasn't priced. Check injuries."
+     "text": "Elo has BAL at 60%; the market has BAL at 47%. A gap this size usually means news one side hasn't priced. Check injuries."
     },
     {
      "kind": "flip",
@@ -89,22 +98,18 @@
    "away_record": "4-2",
    "home_record": "1-5",
    "spread_home": 1.5,
-   "ml_home": 105.0,
-   "ml_away": -125.0,
+   "ml_home": 110.0,
+   "ml_away": -130.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.3653,
    "open_spread_home": 1.5,
-   "p_home": 0.4675,
+   "p_home": 0.4573,
    "pick": "CLE",
-   "pick_prob": 0.5325,
-   "yard": 47,
+   "pick_prob": 0.5427,
+   "yard": 46,
    "notes": [
-    {
-     "kind": "split",
-     "text": "Elo has CLE at 63%; the market has CLE at 53%. A gap this size usually means news one side hasn't priced. Check injuries."
-    },
     {
      "kind": "flip",
      "text": "Coin flip. In a confidence pool this belongs in a low-point slot."
@@ -191,22 +196,26 @@
    "home": "ATL",
    "away_record": "6-0",
    "home_record": "2-4",
-   "spread_home": 3.0,
-   "ml_home": 136.0,
-   "ml_away": -162.0,
+   "spread_home": 2.5,
+   "ml_home": 130.0,
+   "ml_away": -155.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.2829,
    "open_spread_home": 3.5,
-   "p_home": 0.4066,
+   "p_home": 0.417,
    "pick": "SF",
-   "pick_prob": 0.5934,
-   "yard": 41,
+   "pick_prob": 0.583,
+   "yard": 42,
    "notes": [
     {
+     "kind": "move",
+     "text": "Moved 1 pt toward ATL since open (ATL +3.5 to ATL +2.5)."
+    },
+    {
      "kind": "split",
-     "text": "Elo has SF at 72%; the market has SF at 59%. A gap this size usually means news one side hasn't priced. Check injuries."
+     "text": "Elo has SF at 72%; the market has SF at 58%. A gap this size usually means news one side hasn't priced. Check injuries."
     }
    ]
   },
