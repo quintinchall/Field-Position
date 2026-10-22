@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 7,
- "generated_at": "2026-10-22T12:31+00:00",
+ "generated_at": "2026-10-22T22:23+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, Elo from nflverse results",
  "games": [
@@ -63,26 +63,22 @@
    "home": "BAL",
    "away_record": "3-2",
    "home_record": "4-2",
-   "spread_home": 1.5,
-   "ml_home": 102.0,
-   "ml_away": -122.0,
+   "spread_home": -1.5,
+   "ml_home": -118.0,
+   "ml_away": -102.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.5993,
    "open_spread_home": -2.5,
-   "p_home": 0.4739,
-   "pick": "CIN",
-   "pick_prob": 0.5261,
-   "yard": 47,
+   "p_home": 0.5174,
+   "pick": "BAL",
+   "pick_prob": 0.5174,
+   "yard": 48,
    "notes": [
     {
      "kind": "move",
-     "text": "Line flipped: opened BAL -2.5, now BAL +1.5. Money came in on CIN."
-    },
-    {
-     "kind": "split",
-     "text": "Elo has BAL at 60%; the market has BAL at 47%. A gap this size usually means news one side hasn't priced. Check injuries."
+     "text": "Moved 1 pt toward CIN since open (BAL -2.5 to BAL -1.5)."
     },
     {
      "kind": "flip",
@@ -150,23 +146,18 @@
    "away_record": "0-5",
    "home_record": "2-4",
    "spread_home": -4.5,
-   "ml_home": -230.0,
-   "ml_away": 190.0,
+   "ml_home": -225.0,
+   "ml_away": 185.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.5679,
    "open_spread_home": -4.5,
-   "p_home": 0.669,
+   "p_home": 0.6636,
    "pick": "NYJ",
-   "pick_prob": 0.669,
-   "yard": 33,
-   "notes": [
-    {
-     "kind": "split",
-     "text": "Elo has NYJ at 57%; the market has NYJ at 67%. A gap this size usually means news one side hasn't priced. Check injuries."
-    }
-   ]
+   "pick_prob": 0.6636,
+   "yard": 34,
+   "notes": []
   },
   {
    "id": "2026_07_NYG_HOU",
@@ -197,17 +188,17 @@
    "away_record": "6-0",
    "home_record": "2-4",
    "spread_home": 2.5,
-   "ml_home": 130.0,
-   "ml_away": -155.0,
+   "ml_home": 124.0,
+   "ml_away": -148.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.2829,
    "open_spread_home": 3.5,
-   "p_home": 0.417,
+   "p_home": 0.4279,
    "pick": "SF",
-   "pick_prob": 0.583,
-   "yard": 42,
+   "pick_prob": 0.5721,
+   "yard": 43,
    "notes": [
     {
      "kind": "move",
@@ -215,7 +206,7 @@
     },
     {
      "kind": "split",
-     "text": "Elo has SF at 72%; the market has SF at 58%. A gap this size usually means news one side hasn't priced. Check injuries."
+     "text": "Elo has SF at 72%; the market has SF at 57%. A gap this size usually means news one side hasn't priced. Check injuries."
     }
    ]
   },
@@ -227,17 +218,17 @@
    "away_record": "1-5",
    "home_record": "3-2",
    "spread_home": -3.0,
-   "ml_home": -166.0,
-   "ml_away": 140.0,
+   "ml_home": -162.0,
+   "ml_away": 136.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.6543,
    "open_spread_home": -3.5,
-   "p_home": 0.5996,
+   "p_home": 0.5934,
    "pick": "CAR",
-   "pick_prob": 0.5996,
-   "yard": 40,
+   "pick_prob": 0.5934,
+   "yard": 41,
    "notes": []
   },
   {
@@ -248,17 +239,17 @@
    "away_record": "4-2",
    "home_record": "2-4",
    "spread_home": 4.5,
-   "ml_home": 190.0,
-   "ml_away": -230.0,
+   "ml_home": 195.0,
+   "ml_away": -238.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.2553,
    "open_spread_home": 4.5,
-   "p_home": 0.331,
+   "p_home": 0.325,
    "pick": "DEN",
-   "pick_prob": 0.669,
-   "yard": 33,
+   "pick_prob": 0.675,
+   "yard": 32,
    "notes": []
   },
   {
@@ -289,19 +280,24 @@
    "home": "LV",
    "away_record": "2-4",
    "home_record": "3-3",
-   "spread_home": 4.5,
-   "ml_home": 180.0,
-   "ml_away": -218.0,
+   "spread_home": 3.5,
+   "ml_home": 170.0,
+   "ml_away": -205.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.369,
    "open_spread_home": 4.5,
-   "p_home": 0.3425,
+   "p_home": 0.3553,
    "pick": "LA",
-   "pick_prob": 0.6575,
-   "yard": 34,
-   "notes": []
+   "pick_prob": 0.6447,
+   "yard": 36,
+   "notes": [
+    {
+     "kind": "move",
+     "text": "Moved 1 pt toward LV since open (LV +4.5 to LV +3.5)."
+    }
+   ]
   },
   {
    "id": "2026_07_KC_SEA",
@@ -310,7 +306,7 @@
    "home": "SEA",
    "away_record": "5-0",
    "home_record": "3-3",
-   "spread_home": -2.5,
+   "spread_home": -3.0,
    "ml_home": -148.0,
    "ml_away": 124.0,
    "status": "scheduled",
@@ -332,16 +328,16 @@
    "away_record": "2-4",
    "home_record": "2-4",
    "spread_home": 4.5,
-   "ml_home": 185.0,
-   "ml_away": -225.0,
+   "ml_home": 180.0,
+   "ml_away": -218.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.6329,
    "open_spread_home": 4.5,
-   "p_home": 0.3364,
+   "p_home": 0.3425,
    "pick": "DAL",
-   "pick_prob": 0.6636,
+   "pick_prob": 0.6575,
    "yard": 34,
    "notes": [
     {
