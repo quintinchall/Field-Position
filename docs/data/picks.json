@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 7,
- "generated_at": "2026-10-23T22:23+00:00",
+ "generated_at": "2026-10-24T12:23+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, Elo from nflverse results",
  "games": [
@@ -43,8 +43,8 @@
    "away_record": "4-2",
    "home_record": "2-4",
    "spread_home": 3.0,
-   "ml_home": 140.0,
-   "ml_away": -166.0,
+   "ml_home": 136.0,
+   "ml_away": -162.0,
    "status": "scheduled",
    "neutral": true,
    "injuries": {
@@ -55,10 +55,10 @@
    },
    "alt_p_home": 0.3201,
    "open_spread_home": 3.5,
-   "p_home": 0.4004,
+   "p_home": 0.4066,
    "pick": "PIT",
-   "pick_prob": 0.5996,
-   "yard": 40,
+   "pick_prob": 0.5934,
+   "yard": 41,
    "notes": []
   },
   {
@@ -69,17 +69,21 @@
    "away_record": "3-2",
    "home_record": "4-2",
    "spread_home": 1.5,
-   "ml_home": -108.0,
-   "ml_away": -112.0,
+   "ml_home": -105.0,
+   "ml_away": -115.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "BAL": [
+     "T.J. Tampa (CB) doubtful"
+    ]
+   },
    "alt_p_home": 0.5993,
    "open_spread_home": -2.5,
-   "p_home": 0.4957,
+   "p_home": 0.4892,
    "pick": "CIN",
-   "pick_prob": 0.5043,
-   "yard": 50,
+   "pick_prob": 0.5108,
+   "yard": 49,
    "notes": [
     {
      "kind": "move",
@@ -87,7 +91,7 @@
     },
     {
      "kind": "split",
-     "text": "Elo has BAL at 60%; the market has BAL at 50%. A gap this size usually means news one side hasn't priced. Check injuries."
+     "text": "Elo has BAL at 60%; the market has BAL at 49%. A gap this size usually means news one side hasn't priced. Check injuries."
     },
     {
      "kind": "flip",
@@ -103,17 +107,21 @@
    "away_record": "4-2",
    "home_record": "1-5",
    "spread_home": 2.5,
-   "ml_home": 114.0,
-   "ml_away": -135.0,
+   "ml_home": 110.0,
+   "ml_away": -130.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "CLE": [
+     "Dillon Gabriel (QB) out"
+    ]
+   },
    "alt_p_home": 0.3653,
    "open_spread_home": 1.5,
-   "p_home": 0.4486,
+   "p_home": 0.4573,
    "pick": "CLE",
-   "pick_prob": 0.5514,
-   "yard": 45,
+   "pick_prob": 0.5427,
+   "yard": 46,
    "notes": [
     {
      "kind": "move",
@@ -137,7 +145,13 @@
    "ml_away": 235.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "IND": [
+     "Tyler Warren (TE) out",
+     "Sauce Gardner (CB) out",
+     "Anthony Gould (WR) out"
+    ]
+   },
    "alt_p_home": 0.8073,
    "open_spread_home": -6.5,
    "p_home": 0.7136,
@@ -158,7 +172,15 @@
    "ml_away": 185.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "MIA": [
+     "Rob Beal Jr. (DE) doubtful",
+     "Reese Taylor (CB) out"
+    ],
+    "NYJ": [
+     "Joseph Ossai (DE) out"
+    ]
+   },
    "alt_p_home": 0.5679,
    "open_spread_home": -4.5,
    "p_home": 0.6636,
@@ -175,16 +197,24 @@
    "away_record": "3-2-1",
    "home_record": "2-4",
    "spread_home": -10.5,
-   "ml_home": -520.0,
-   "ml_away": 390.0,
+   "ml_home": -500.0,
+   "ml_away": 380.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "NYG": [
+     "Theo Johnson (TE) doubtful",
+     "Greg Newsome II (CB) out"
+    ],
+    "HOU": [
+     "David Montgomery (RB) out"
+    ]
+   },
    "alt_p_home": 0.7052,
    "open_spread_home": -10.0,
-   "p_home": 0.8043,
+   "p_home": 0.8,
    "pick": "HOU",
-   "pick_prob": 0.8043,
+   "pick_prob": 0.8,
    "yard": 20,
    "notes": []
   },
@@ -200,7 +230,17 @@
    "ml_away": -148.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "SF": [
+     "Nick Bosa (DE) out",
+     "Mike Evans (WR) out",
+     "Deebo Samuel Sr. (WR) out"
+    ],
+    "ATL": [
+     "Brian Robinson (RB) out",
+     "Billy Bowman Jr. (CB) out"
+    ]
+   },
    "alt_p_home": 0.2829,
    "open_spread_home": 3.5,
    "p_home": 0.4279,
@@ -230,7 +270,11 @@
    "ml_away": 130.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "TB": [
+     "Emeka Egbuka (WR) out"
+    ]
+   },
    "alt_p_home": 0.6543,
    "open_spread_home": -3.5,
    "p_home": 0.583,
@@ -247,17 +291,24 @@
    "away_record": "4-2",
    "home_record": "2-4",
    "spread_home": 4.5,
-   "ml_home": 195.0,
-   "ml_away": -238.0,
+   "ml_home": 190.0,
+   "ml_away": -230.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "DEN": [
+     "Tyler Badie (RB) out"
+    ],
+    "ARI": [
+     "Jeremiyah Love (RB) out"
+    ]
+   },
    "alt_p_home": 0.2553,
    "open_spread_home": 4.5,
-   "p_home": 0.325,
+   "p_home": 0.331,
    "pick": "DEN",
-   "pick_prob": 0.675,
-   "yard": 32,
+   "pick_prob": 0.669,
+   "yard": 33,
    "notes": []
   },
   {
@@ -293,7 +344,12 @@
    "ml_away": -175.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "LV": [
+     "Dont'e Thornton Jr. (WR) out",
+     "Carter Runyon (TE) out"
+    ]
+   },
    "alt_p_home": 0.369,
    "open_spread_home": 4.5,
    "p_home": 0.3908,
@@ -314,18 +370,26 @@
    "home": "SEA",
    "away_record": "5-0",
    "home_record": "3-3",
-   "spread_home": -2.5,
-   "ml_home": -142.0,
-   "ml_away": 120.0,
+   "spread_home": -3.0,
+   "ml_home": -148.0,
+   "ml_away": 124.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "KC": [
+     "Rashee Rice (WR) out",
+     "Brashard Smith (RB) out"
+    ],
+    "SEA": [
+     "Zach Charbonnet (RB) out"
+    ]
+   },
    "alt_p_home": 0.6139,
    "open_spread_home": -2.5,
-   "p_home": 0.5635,
+   "p_home": 0.5721,
    "pick": "SEA",
-   "pick_prob": 0.5635,
-   "yard": 44,
+   "pick_prob": 0.5721,
+   "yard": 43,
    "notes": []
   },
   {
