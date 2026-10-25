@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 7,
- "generated_at": "2026-10-24T22:18+00:00",
+ "generated_at": "2026-10-25T14:23+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, Elo from nflverse results",
  "games": [
@@ -68,13 +68,14 @@
    "home": "BAL",
    "away_record": "3-2",
    "home_record": "4-2",
-   "spread_home": 2.5,
+   "spread_home": 3.0,
    "ml_home": 124.0,
    "ml_away": -148.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
     "BAL": [
+     "Lamar Jackson (QB) out",
      "T.J. Tampa (CB) doubtful"
     ]
    },
@@ -87,7 +88,7 @@
    "notes": [
     {
      "kind": "move",
-     "text": "Line flipped: opened BAL -2.5, now BAL +2.5. Money came in on CIN."
+     "text": "Line flipped: opened BAL -2.5, now BAL +3. Money came in on CIN."
     },
     {
      "kind": "split",
@@ -137,8 +138,8 @@
    "away_record": "2-4",
    "home_record": "5-0",
    "spread_home": -6.5,
-   "ml_home": -290.0,
-   "ml_away": 235.0,
+   "ml_home": -325.0,
+   "ml_away": 260.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -150,10 +151,10 @@
    },
    "alt_p_home": 0.8073,
    "open_spread_home": -6.5,
-   "p_home": 0.7136,
+   "p_home": 0.7335,
    "pick": "MIN",
-   "pick_prob": 0.7136,
-   "yard": 29,
+   "pick_prob": 0.7335,
+   "yard": 27,
    "notes": []
   },
   {
@@ -163,9 +164,9 @@
    "home": "NYJ",
    "away_record": "0-5",
    "home_record": "2-4",
-   "spread_home": -4.5,
-   "ml_home": -225.0,
-   "ml_away": 185.0,
+   "spread_home": -3.5,
+   "ml_home": -218.0,
+   "ml_away": 180.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -179,11 +180,16 @@
    },
    "alt_p_home": 0.5679,
    "open_spread_home": -4.5,
-   "p_home": 0.6636,
+   "p_home": 0.6575,
    "pick": "NYJ",
-   "pick_prob": 0.6636,
+   "pick_prob": 0.6575,
    "yard": 34,
-   "notes": []
+   "notes": [
+    {
+     "kind": "move",
+     "text": "Moved 1 pt toward MIA since open (NYJ -4.5 to NYJ -3.5)."
+    }
+   ]
   },
   {
    "id": "2026_07_NYG_HOU",
@@ -192,9 +198,9 @@
    "home": "HOU",
    "away_record": "3-2-1",
    "home_record": "2-4",
-   "spread_home": -10.0,
-   "ml_home": -500.0,
-   "ml_away": 380.0,
+   "spread_home": -10.5,
+   "ml_home": -535.0,
+   "ml_away": 400.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -208,11 +214,16 @@
    },
    "alt_p_home": 0.7052,
    "open_spread_home": -10.0,
-   "p_home": 0.8,
+   "p_home": 0.8082,
    "pick": "HOU",
-   "pick_prob": 0.8,
-   "yard": 20,
-   "notes": []
+   "pick_prob": 0.8082,
+   "yard": 19,
+   "notes": [
+    {
+     "kind": "split",
+     "text": "Elo has HOU at 71%; the market has HOU at 81%. A gap this size usually means news one side hasn't priced. Check injuries."
+    }
+   ]
   },
   {
    "id": "2026_07_SF_ATL",
@@ -222,8 +233,8 @@
    "away_record": "6-0",
    "home_record": "2-4",
    "spread_home": 2.5,
-   "ml_home": 124.0,
-   "ml_away": -148.0,
+   "ml_home": 120.0,
+   "ml_away": -142.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -234,15 +245,16 @@
     ],
     "ATL": [
      "Brian Robinson (RB) out",
-     "Billy Bowman Jr. (CB) out"
+     "Billy Bowman Jr. (CB) out",
+     "Beaux Collins (WR) out"
     ]
    },
    "alt_p_home": 0.2829,
    "open_spread_home": 3.5,
-   "p_home": 0.4279,
+   "p_home": 0.4365,
    "pick": "SF",
-   "pick_prob": 0.5721,
-   "yard": 43,
+   "pick_prob": 0.5635,
+   "yard": 44,
    "notes": [
     {
      "kind": "move",
@@ -250,7 +262,7 @@
     },
     {
      "kind": "split",
-     "text": "Elo has SF at 72%; the market has SF at 57%. A gap this size usually means news one side hasn't priced. Check injuries."
+     "text": "Elo has SF at 72%; the market has SF at 56%. A gap this size usually means news one side hasn't priced. Check injuries."
     }
    ]
   },
@@ -262,8 +274,8 @@
    "away_record": "1-5",
    "home_record": "3-2",
    "spread_home": -3.0,
-   "ml_home": -155.0,
-   "ml_away": 130.0,
+   "ml_home": -166.0,
+   "ml_away": 140.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -273,10 +285,10 @@
    },
    "alt_p_home": 0.6543,
    "open_spread_home": -3.5,
-   "p_home": 0.583,
+   "p_home": 0.5996,
    "pick": "CAR",
-   "pick_prob": 0.583,
-   "yard": 42,
+   "pick_prob": 0.5996,
+   "yard": 40,
    "notes": []
   },
   {
@@ -314,7 +326,7 @@
    "home": "DET",
    "away_record": "4-2",
    "home_record": "3-2",
-   "spread_home": -3.0,
+   "spread_home": -3.5,
    "ml_home": -180.0,
    "ml_away": 150.0,
    "status": "scheduled",
@@ -335,9 +347,9 @@
    "home": "LV",
    "away_record": "2-4",
    "home_record": "3-3",
-   "spread_home": 3.0,
-   "ml_home": 145.0,
-   "ml_away": -175.0,
+   "spread_home": 3.5,
+   "ml_home": 150.0,
+   "ml_away": -180.0,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -348,14 +360,14 @@
    },
    "alt_p_home": 0.369,
    "open_spread_home": 4.5,
-   "p_home": 0.3908,
+   "p_home": 0.3836,
    "pick": "LA",
-   "pick_prob": 0.6092,
-   "yard": 39,
+   "pick_prob": 0.6164,
+   "yard": 38,
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 1.5 pts toward LV since open (LV +4.5 to LV +3)."
+     "text": "Moved 1 pt toward LV since open (LV +4.5 to LV +3.5)."
     }
    ]
   },
@@ -396,21 +408,30 @@
    "away_record": "2-4",
    "home_record": "2-4",
    "spread_home": 4.5,
-   "ml_home": 185.0,
-   "ml_away": -225.0,
+   "ml_home": 170.0,
+   "ml_away": -205.0,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "DAL": [
+     "KaVontae Turpin (WR) out"
+    ],
+    "PHI": [
+     "Michael Carter II (CB) out",
+     "Dontayvion Wicks (WR) out",
+     "DeVonta Smith (WR) out"
+    ]
+   },
    "alt_p_home": 0.6329,
    "open_spread_home": 4.5,
-   "p_home": 0.3364,
+   "p_home": 0.3553,
    "pick": "DAL",
-   "pick_prob": 0.6636,
-   "yard": 34,
+   "pick_prob": 0.6447,
+   "yard": 36,
    "notes": [
     {
      "kind": "split",
-     "text": "Elo has PHI at 63%; the market has PHI at 34%. A gap this size usually means news one side hasn't priced. Check injuries."
+     "text": "Elo has PHI at 63%; the market has PHI at 36%. A gap this size usually means news one side hasn't priced. Check injuries."
     }
    ]
   }
