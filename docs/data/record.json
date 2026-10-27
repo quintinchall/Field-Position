@@ -1,0 +1,110 @@
+{
+ "2026": {
+  "6": {
+   "2026_06_HOU_JAX": {
+    "away": "HOU",
+    "home": "JAX",
+    "pick": "JAX",
+    "prob": 0.5696,
+    "locked_at": "2026-10-16T03:31+00:00",
+    "winner": "HOU"
+   },
+   "2026_06_BAL_CLE": {
+    "away": "BAL",
+    "home": "CLE",
+    "pick": "BAL",
+    "prob": 0.6806,
+    "locked_at": "2026-10-16T03:31+00:00",
+    "winner": "CLE"
+   },
+   "2026_06_CAR_PHI": {
+    "away": "CAR",
+    "home": "PHI",
+    "pick": "PHI",
+    "prob": 0.5108,
+    "locked_at": "2026-10-16T03:31+00:00",
+    "winner": "CAR"
+   },
+   "2026_06_CHI_ATL": {
+    "away": "CHI",
+    "home": "ATL",
+    "pick": "CHI",
+    "prob": 0.5174,
+    "locked_at": "2026-10-16T03:31+00:00",
+    "winner": "CHI"
+   },
+   "2026_06_NO_NYG": {
+    "away": "NO",
+    "home": "NYG",
+    "pick": "NO",
+    "prob": 0.5043,
+    "locked_at": "2026-10-16T03:31+00:00",
+    "winner": "NO"
+   },
+   "2026_06_NYJ_NE": {
+    "away": "NYJ",
+    "home": "NE",
+    "pick": "NE",
+    "prob": 0.7447,
+    "locked_at": "2026-10-16T03:31+00:00",
+    "winner": "NE"
+   },
+   "2026_06_PIT_TB": {
+    "away": "PIT",
+    "home": "TB",
+    "pick": "PIT",
+    "prob": 0.5602,
+    "locked_at": "2026-10-16T03:31+00:00",
+    "winner": "PIT"
+   },
+   "2026_06_TEN_IND": {
+    "away": "TEN",
+    "home": "IND",
+    "pick": "IND",
+    "prob": 0.7409,
+    "locked_at": "2026-10-16T03:31+00:00",
+    "winner": "TEN"
+   },
+   "2026_06_ARI_LA": {
+    "away": "ARI",
+    "home": "LA",
+    "pick": "LA",
+    "prob": 0.863,
+    "locked_at": "2026-10-16T03:31+00:00",
+    "winner": "ARI"
+   },
+   "2026_06_BUF_LV": {
+    "away": "BUF",
+    "home": "LV",
+    "pick": "BUF",
+    "prob": 0.6756,
+    "locked_at": "2026-10-16T03:31+00:00",
+    "winner": "BUF"
+   },
+   "2026_06_LAC_KC": {
+    "away": "LAC",
+    "home": "KC",
+    "pick": "KC",
+    "prob": 0.7889,
+    "locked_at": "2026-10-16T03:31+00:00",
+    "winner": "KC"
+   },
+   "2026_06_DAL_GB": {
+    "away": "DAL",
+    "home": "GB",
+    "pick": "GB",
+    "prob": 0.5217,
+    "locked_at": "2026-10-16T03:31+00:00",
+    "winner": "GB"
+   },
+   "2026_06_WAS_SF": {
+    "away": "WAS",
+    "home": "SF",
+    "pick": "SF",
+    "prob": 0.7764,
+    "locked_at": "2026-10-16T03:31+00:00",
+    "winner": "SF"
+   }
+  }
+ }
+}

@@ -92,6 +92,7 @@ def live_build_with_fake_nflverse():
     bp.injury_notes = lambda s, w: {}
     bp.odds_api_lines = lambda: {}
     bp.SNAP_DIR = tmp
+    bp.RECORD = os.path.join(tmp, "record.json")
     d = bp.build_live()
     assert d["week"] == 2 and len(d["games"]) == 1
     g = d["games"][0]
@@ -110,6 +111,31 @@ def manual_build_matches_schema():
             assert k in g, (g["id"], k)
         assert 0.5 <= g["pick_prob"] <= 1 and g["pick"] in (g["home"], g["away"])
     json.dumps(d)
+
+@test
+def ledger_locks_at_kickoff_and_grades():
+    import ledger
+    from datetime import datetime, timezone
+    before = datetime(2026, 10, 18, 12, 0, tzinfo=timezone.utc)   # 8am ET Sunday
+    after = datetime(2026, 10, 18, 18, 0, tzinfo=timezone.utc)    # 2pm ET Sunday
+    g = {"id": "G1", "kickoff": "2026-10-18T13:00", "away": "A", "home": "B", "pick": "B", "pick_prob": 0.6}
+    late = {"id": "G2", "kickoff": "2026-10-15T20:15", "away": "C", "home": "D", "pick": "C", "pick_prob": 0.57}
+    L = ledger.update({}, 2026, 6, [g, late], {}, before)
+    assert "G1" in L["2026"]["6"] and "G2" not in L["2026"]["6"], "games already kicked off are never added"
+    flipped = dict(g, pick="A", pick_prob=0.55)
+    L = ledger.update(L, 2026, 6, [flipped], {}, after)
+    assert L["2026"]["6"]["G1"]["pick"] == "B", "pick stays frozen after kickoff"
+    L = ledger.update(L, 2026, 6, [flipped], {"G1": "A"}, after)
+    assert L["2026"]["6"]["G1"]["winner"] == "A"
+    s = ledger.summary(L, 2026)
+    assert (s["w"], s["l"]) == (0, 1) and s["weeks"] == [{"week": 6, "w": 0, "l": 1}]
+    L["2026"]["6"]["G3"] = {"pick": "X", "winner": "TIE"}
+    assert ledger.summary(L, 2026)["l"] == 1, "ties are not counted"
+
+@test
+def kickoff_with_offset_parses():
+    import ledger
+    assert ledger.kickoff_dt("2026-10-18T09:30-04:00").utcoffset().total_seconds() == -4 * 3600
 
 fails = 0
 for f in T:

@@ -37,11 +37,20 @@ body{margin:0;background:var(--page);color:var(--ink);font:400 16px/1.5 var(--bo
 
 /* Masthead: painted-field numerals */
 .mast{display:grid;grid-template-columns:1fr auto;align-items:end;gap:16px;border-bottom:3px solid var(--ink);padding-bottom:14px}
-.mast h1{font:800 clamp(44px,9vw,92px)/.86 var(--display);letter-spacing:-.01em;margin:0;text-transform:uppercase}
+.mast h1{font:800 clamp(36px,7vw,64px)/.9 var(--display);letter-spacing:-.01em;margin:0;text-transform:uppercase}
 .mast h1 span{display:block;font-weight:600;font-size:clamp(17px,2.4vw,24px);line-height:1.2;letter-spacing:.02em;color:var(--ink-2);text-transform:none;margin-top:8px}
-.weekno{font:800 clamp(64px,13vw,132px)/.8 var(--display);color:transparent;-webkit-text-stroke:2px var(--ink);text-align:right}
+.weekno{font:800 clamp(28px,5vw,40px)/1 var(--display);text-align:right}
 .weekno small{display:block;font:600 15px/1.2 var(--body);-webkit-text-stroke:0;color:var(--ink-2);margin-top:8px}
 
+.record{display:grid;grid-template-columns:auto 1fr;gap:4px 20px;align-items:center;padding:16px 0;border-bottom:1px solid var(--line)}
+.record .big{font:800 52px/1 var(--display);font-variant-numeric:tabular-nums;grid-row:span 2}
+.record .lbl{font:700 18px/1.2 var(--display);text-transform:uppercase;letter-spacing:.04em}
+.record .ctx{font-size:14px;color:var(--ink-2);max-width:60ch}
+.weeks{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.weeks span{font:600 13px/1 var(--body);padding:6px 8px;border-radius:3px;background:var(--panel);box-shadow:inset 0 0 0 1px var(--line);font-variant-numeric:tabular-nums}
+.res{font-weight:600}
+.res.ok{color:#2E9E5B}
+.res.miss{color:#D2452F}
 .how{display:flex;flex-wrap:wrap;gap:8px 22px;align-items:center;margin:18px 0 10px;color:var(--ink-2);font-size:15px;max-width:72ch}
 .how b{color:var(--ink);font-weight:600}
 .key{display:inline-flex;align-items:center;gap:7px;font-size:14px}
@@ -63,6 +72,11 @@ body{margin:0;background:var(--page);color:var(--ink);font:400 16px/1.5 var(--bo
 .field{position:relative;height:70px;border-radius:3px;overflow:hidden;display:grid;grid-template-columns:8.333% 1fr 8.333%;box-shadow:inset 0 0 0 2px var(--chalk)}
 .ez{display:flex;align-items:center;justify-content:center;font:800 clamp(14px,2.6vw,22px)/1 var(--display);letter-spacing:.04em;writing-mode:vertical-rl;color:#fff}
 .ez.left{transform:rotate(180deg)}
+.ez.lose{filter:grayscale(1);opacity:.35}
+.ez.win{box-shadow:inset 0 0 0 3px var(--chalk)}
+.drive{position:absolute;top:50%;height:12px;transform:translateY(-50%);z-index:2;box-shadow:0 0 0 2px var(--chalk);border-radius:6px}
+.sw{display:inline-block;width:14px;height:14px;border-radius:2px;box-shadow:0 0 0 1.5px var(--ink-2);margin-right:10px;vertical-align:2px}
+.call .over{font:600 18px/1 var(--body);color:var(--ink-2);letter-spacing:0}
 .turf{position:relative;background:
   repeating-linear-gradient(90deg,var(--chalk) 0 2px,transparent 2px 10%),
   repeating-linear-gradient(90deg,var(--turf) 0 10%,var(--turf-2) 10% 20%)}
@@ -78,13 +92,13 @@ body{margin:0;background:var(--page);color:var(--ink);font:400 16px/1.5 var(--bo
 @keyframes snap{from{left:50%;opacity:0}}
 @media (prefers-reduced-motion:reduce){.intro .bw{animation:none}}
 
-.call{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-top:10px}
+.call{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin:0 0 10px}
 .call .who{font:800 30px/1 var(--display);letter-spacing:.01em}
 .call .spot{color:var(--ink-2);font-size:15px}
 .call .spot b{color:var(--ink);font-weight:600}
 .call .pct{font:800 30px/1 var(--display);font-variant-numeric:tabular-nums;text-align:right}
 .lines{grid-column:1/-1;font-size:14px;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:4px 18px}
-.snip{margin:4px 0 0;font-size:15px;color:var(--ink-2);max-width:72ch}
+.snip{margin:10px 0 0;font-size:15px;color:var(--ink-2);max-width:72ch}
 .notes{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:6px;max-width:76ch}
 .notes li{font-size:15px;padding-left:12px;border-left:4px solid var(--flip)}
 .notes li.edge{border-color:var(--edge)} .notes li.move{border-color:var(--move)} .notes li.split{border-color:var(--split)}
@@ -132,11 +146,12 @@ footer{margin-top:36px;font-size:13px;color:var(--ink-2);max-width:76ch;display:
 <body>
 <div class="wrap">
   <header class="mast">
-    <h1>Field Position<span>This week's picks</span></h1>
+    <h1>Field Position</h1>
     <div class="weekno" id="weekno" aria-live="polite"></div>
   </header>
 
-  <p class="how">The favorite has the ball. The closer it sits to the other goal line, the likelier the win.</p>
+  <section class="record" id="record" hidden></section>
+  <p class="how">The ball leans toward the predicted winner. Farther from midfield means a surer pick.</p>
 
   <main id="view"></main>
 
@@ -160,7 +175,7 @@ const spreadProb=s=>.5*(1+erf((-s/SD)/Math.SQRT2));
 const pct=p=>Math.round(p*100)+"%";
 const sp=(t,s)=>s===0?`${t} pick'em`:`${t} ${s>0?"+":""}${s}`;
 const ml=m=>m==null?"":(m>0?"+":"")+Math.round(m);
-const posOf=pHome=>(10+100*(1-pHome))/120*100; // percent across full 120-yard strip
+const posOf=pHome=>(10+100*pHome)/120*100; // ball leans toward the predicted winner
 const el=(tag,attrs={},html="")=>{const e=document.createElement(tag);for(const k in attrs)e.setAttribute(k,attrs[k]);e.innerHTML=html;return e};
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
@@ -176,17 +191,13 @@ function kickoff(g){
 function fieldHTML(g,i){
   const pos=posOf(g.p_home), fav=g.pick, dog=fav===g.home?g.away:g.home;
   const label=`${g.away} at ${g.home}. ${fav} wins ${pct(g.pick_prob)} of the time.`;
-  let extra="";
-  if(g.alt_p_home!=null) extra+=`<i class="ring" style="left:${posOf(g.alt_p_home)}%" title="${esc(DATA.alt_label)}"></i>`;
-  if(g.open_spread_home!=null && g.open_spread_home!==g.spread_home){
-    const o=posOf(spreadProb(g.open_spread_home)), c=posOf(spreadProb(g.spread_home));
-    extra+=`<i class="open" style="left:${o}%" title="Opening line"></i><i class="trail" style="left:${Math.min(o,c)}%;width:${Math.abs(c-o)}%"></i>`;
-  }
+  const extra="";
   const nums=[10,20,30,40,50,40,30,20,10].map(n=>`<span>${n}</span>`).join("");
   return `<div class="field" role="img" aria-label="${esc(label)}">
-    <div class="ez left" style="background:${COLORS[g.away]||"#333"}">${g.away}</div>
+    <div class="ez left${fav===g.away?" win":" lose"}" style="background:${COLORS[g.away]||"#333"}">${g.away}</div>
     <div class="turf"><div class="nums">${nums}</div></div>
-    <div class="ez" style="background:${COLORS[g.home]||"#333"}">${g.home}</div>
+    <div class="ez${fav===g.home?" win":" lose"}" style="background:${COLORS[g.home]||"#333"}">${g.home}</div>
+    <i class="drive" style="left:${Math.min(50,pos)}%;width:${Math.abs(pos-50)}%;background:${COLORS[fav]||"var(--pylon)"}"></i>
     ${extra}
     <span class="bw" style="left:${pos}%;--d:${(i*0.05).toFixed(2)}s">${BALL.replace('class="ball"','class="ball" style="left:0"')}</span>
   </div>`;
@@ -197,19 +208,17 @@ function spotText(g){
 }
 function snippet(g){
   const n=(g.notes||[]).find(x=>x.kind!=="flip");
-  if(n)return n.text;
-  const s=Math.abs(g.spread_home||0);
-  if(g.pick_prob<0.56)return `Coin flip. ${g.pick} by a hair, so don't bet the farm on it.`;
-  if(g.alt_p_home!=null)return `${g.pick} favored by ${s}. ${DATA.alt_label} agrees.`;
-  return `${g.pick} favored by ${s}.`;
+  return n?n.text:"";
 }
 function gameRow(g,i){
   const row=el("article",{class:"game"});
-  const status=g.status==="live"?`<span class="live">Kicked off</span>`:g.status==="final"?"Final":kickoff(g);
+  const done=g.winner&&g.winner!=="TIE";
+  const status=done?(g.winner===g.pick?`<span class="res ok">Final: correct</span>`:`<span class="res miss">Final: missed, ${g.winner} won</span>`):g.status==="live"?`<span class="live">Kicked off</span>`:kickoff(g);
+  const dog=g.pick===g.home?g.away:g.home;
   row.innerHTML=`<div class="meta"><span>${status}</span><span>${g.away} at ${g.home}</span></div>
+    <div class="call"><span class="who"><i class="sw" style="background:${COLORS[g.pick]||"#333"}"></i>${g.pick} <span class="over">to beat ${dog}</span></span><span class="pct">${pct(g.pick_prob)}</span></div>
     ${fieldHTML(g,i)}
-    <div class="call"><span class="who">${g.pick}</span><span class="pct">${pct(g.pick_prob)}</span></div>
-    <p class="snip">${esc(snippet(g))}</p>`;
+    ${snippet(g)?`<p class="snip">${esc(snippet(g))}</p>`:""}`;
   return row;
 }
 function render(){
@@ -221,7 +230,15 @@ function render(){
 function boot(d){
   DATA=d;
   const upd=new Date(d.generated_at);
-  document.getElementById("weekno").innerHTML=`${d.week}<small>Week ${d.week}, updated ${isNaN(upd)?"":upd.toLocaleString([], {weekday:"short",hour:"numeric",minute:"2-digit"})}</small>`;
+  document.getElementById("weekno").innerHTML=`Week ${d.week}<small>Updated ${isNaN(upd)?"":upd.toLocaleString([], {weekday:"short",hour:"numeric",minute:"2-digit"})}</small>`;
+  const r=d.record, box=document.getElementById("record");
+  if(r&&(r.w+r.l)>0){
+    const p=Math.round(100*r.w/(r.w+r.l)), h=d.history;
+    box.innerHTML=`<span class="big">${r.w}–${r.l}</span><span class="lbl">Season record, ${p}%</span>
+      <span class="ctx">Picks lock at kickoff and are graded automatically.${h?` For comparison, the betting favorite won ${Math.round(h.fav_pct*100)}% of games from ${h.from} to ${h.to}.`:""}</span>
+      <div class="weeks">${r.weeks.map(w=>`<span>Wk ${w.week}: ${w.w}–${w.l}</span>`).join("")}</div>`;
+    box.hidden=false;
+  }
   document.getElementById("source").textContent="Sources: "+(d.source||"");
   render();
 }

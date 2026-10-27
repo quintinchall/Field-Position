@@ -11,11 +11,12 @@ import argparse, csv, io, json, os, sys, urllib.request
 from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(__file__))
-import model
+import model, ledger as led
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "docs", "data", "picks.json")
 SNAP_DIR = os.path.join(ROOT, "data", "snapshots")
+RECORD = os.path.join(ROOT, "docs", "data", "record.json")
 CONFIG = os.path.join(ROOT, "config")
 
 NFLVERSE_GAMES = "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
@@ -207,7 +208,29 @@ def build_live():
         if g["id"] in snap:
             g["open_spread_home"] = snap[g["id"]]["spread_home"]
     src = "nflverse schedule and lines" + (", The Odds API live lines" if live else "") + ", Elo from nflverse results"
-    return finish(games, season, week, "Elo", src)
+    data = finish(games, season, week, "Elo", src)
+    # Track record: freeze picks at kickoff, grade finished games
+    finals = {}
+    for r in rows:
+        hs, as_ = fnum(r["home_score"]), fnum(r["away_score"])
+        if hs is not None and as_ is not None:
+            finals[r["game_id"]] = team(r["home_team"]) if hs > as_ else team(r["away_team"]) if as_ > hs else "TIE"
+    path = RECORD
+    ledger = led.update(load_json(path, {}), season, week, data["games"], finals, datetime.now(timezone.utc))
+    with open(path, "w") as f:
+        json.dump(ledger, f, indent=1)
+    for g in data["games"]:
+        if g["id"] in finals:
+            g["winner"] = finals[g["id"]]
+    data["record"] = led.summary(ledger, season)
+    data["history"] = history_line()
+    return data
+
+
+def history_line():
+    """One-line context from the backtest, if it has been run."""
+    bt = load_json(os.path.join(ROOT, "docs", "data", "backtest.json"), None)
+    return bt.get("headline") if bt else None
 
 
 def build_manual(path):
