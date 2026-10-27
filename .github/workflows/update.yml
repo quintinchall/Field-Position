@@ -1,11 +1,22 @@
 name: Update picks
 on:
   schedule:
-    - cron: "0 12,22 * * 2-6"
-    - cron: "0 14 * * 0"
+    # Times are UTC, set for Eastern Standard Time (Nov 1 through the end of the season)
+    - cron: "0 13 * * 2-6"              # Tue-Sat 8am: daily refresh
+    - cron: "30 13 * * 0"               # Sun 8:30am: before London games
+    - cron: "40,55 16 * * 0"            # Sun 11:40am-12:55pm: after inactives, before 1pm games
+    - cron: "10,25,40,55 17 * * 0"
+    - cron: "40,55 19 * * 0"            # Sun 2:40-3:55pm: before 4pm games
+    - cron: "10,25,40,55 20 * * 0"
+    - cron: "50 23 * * 0,1,4"           # 6:50pm Sun/Mon/Thu: before night games
+    - cron: "5,20,35,50 0 * * 1,2,5"    # 7:05-7:50pm
+    - cron: "5 1 * * 1,2,5"             # 8:05pm, last run before 8:15 kickoffs
   workflow_dispatch: {}
 permissions:
   contents: write
+concurrency:
+  group: picks
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
