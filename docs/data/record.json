@@ -105,6 +105,106 @@
     "locked_at": "2026-10-16T03:31+00:00",
     "winner": "SF"
    }
+  },
+  "8": {
+   "2026_08_CAR_GB": {
+    "away": "CAR",
+    "home": "GB",
+    "pick": "GB",
+    "prob": 0.6366,
+    "locked_at": "2026-10-27T17:38+00:00"
+   },
+   "2026_08_ARI_DAL": {
+    "away": "ARI",
+    "home": "DAL",
+    "pick": "DAL",
+    "prob": 0.725,
+    "locked_at": "2026-10-27T17:38+00:00"
+   },
+   "2026_08_ATL_TB": {
+    "away": "ATL",
+    "home": "TB",
+    "pick": "TB",
+    "prob": 0.5526,
+    "locked_at": "2026-10-27T17:38+00:00"
+   },
+   "2026_08_BAL_BUF": {
+    "away": "BAL",
+    "home": "BUF",
+    "pick": "BUF",
+    "prob": 0.6211,
+    "locked_at": "2026-10-27T17:38+00:00"
+   },
+   "2026_08_CLE_PIT": {
+    "away": "CLE",
+    "home": "PIT",
+    "pick": "PIT",
+    "prob": 0.6164,
+    "locked_at": "2026-10-27T17:38+00:00"
+   },
+   "2026_08_IND_JAX": {
+    "away": "IND",
+    "home": "JAX",
+    "pick": "JAX",
+    "prob": 0.7799,
+    "locked_at": "2026-10-27T17:38+00:00"
+   },
+   "2026_08_LV_NYJ": {
+    "away": "LV",
+    "home": "NYJ",
+    "pick": "LV",
+    "prob": 0.5022,
+    "locked_at": "2026-10-27T17:38+00:00"
+   },
+   "2026_08_MIN_DET": {
+    "away": "MIN",
+    "home": "DET",
+    "pick": "DET",
+    "prob": 0.6164,
+    "locked_at": "2026-10-27T17:38+00:00"
+   },
+   "2026_08_TEN_CIN": {
+    "away": "TEN",
+    "home": "CIN",
+    "pick": "CIN",
+    "prob": 0.8139,
+    "locked_at": "2026-10-27T17:38+00:00"
+   },
+   "2026_08_LAC_LA": {
+    "away": "LAC",
+    "home": "LA",
+    "pick": "LA",
+    "prob": 0.7213,
+    "locked_at": "2026-10-27T17:38+00:00"
+   },
+   "2026_08_KC_DEN": {
+    "away": "KC",
+    "home": "DEN",
+    "pick": "KC",
+    "prob": 0.5217,
+    "locked_at": "2026-10-27T17:38+00:00"
+   },
+   "2026_08_NE_MIA": {
+    "away": "NE",
+    "home": "MIA",
+    "pick": "NE",
+    "prob": 0.7519,
+    "locked_at": "2026-10-27T17:38+00:00"
+   },
+   "2026_08_PHI_WAS": {
+    "away": "PHI",
+    "home": "WAS",
+    "pick": "WAS",
+    "prob": 0.6798,
+    "locked_at": "2026-10-27T17:38+00:00"
+   },
+   "2026_08_CHI_SEA": {
+    "away": "CHI",
+    "home": "SEA",
+    "pick": "SEA",
+    "prob": 0.6102,
+    "locked_at": "2026-10-27T17:38+00:00"
+   }
   }
  }
 }

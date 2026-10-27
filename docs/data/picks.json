@@ -1,9 +1,9 @@
 {
  "season": 2026,
  "week": 8,
- "generated_at": "2026-10-27T12:33+00:00",
+ "generated_at": "2026-10-27T17:38+00:00",
  "alt_label": "Elo",
- "source": "nflverse schedule and lines, Elo from nflverse results",
+ "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
   {
    "id": "2026_08_CAR_GB",
@@ -13,17 +13,17 @@
    "away_record": "3-3",
    "home_record": "4-3",
    "spread_home": -3.5,
-   "ml_home": -185.0,
-   "ml_away": 154.0,
+   "ml_home": -195,
+   "ml_away": 165,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.6668,
    "open_spread_home": -3.5,
-   "p_home": 0.6225,
+   "p_home": 0.6366,
    "pick": "GB",
-   "pick_prob": 0.6225,
-   "yard": 38,
+   "pick_prob": 0.6366,
+   "yard": 36,
    "notes": []
   },
   {
@@ -34,17 +34,17 @@
    "away_record": "2-5",
    "home_record": "3-4",
    "spread_home": -6.5,
-   "ml_home": -290.0,
-   "ml_away": 235.0,
+   "ml_home": -305,
+   "ml_away": 250,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.6824,
    "open_spread_home": -6.5,
-   "p_home": 0.7136,
+   "p_home": 0.725,
    "pick": "DAL",
-   "pick_prob": 0.7136,
-   "yard": 29,
+   "pick_prob": 0.725,
+   "yard": 28,
    "notes": []
   },
   {
@@ -54,17 +54,17 @@
    "home": "TB",
    "away_record": "3-4",
    "home_record": "2-5",
-   "spread_home": -2.5,
-   "ml_home": -135.0,
-   "ml_away": 114.0,
+   "spread_home": -2.0,
+   "ml_home": -135,
+   "ml_away": 115,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.5375,
    "open_spread_home": -2.5,
-   "p_home": 0.5514,
+   "p_home": 0.5526,
    "pick": "TB",
-   "pick_prob": 0.5514,
+   "pick_prob": 0.5526,
    "yard": 45,
    "notes": [
     {
@@ -81,23 +81,18 @@
    "away_record": "4-3",
    "home_record": "5-1",
    "spread_home": -3.5,
-   "ml_home": -185.0,
-   "ml_away": 154.0,
+   "ml_home": -180,
+   "ml_away": 155,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.7269,
    "open_spread_home": -3.5,
-   "p_home": 0.6225,
+   "p_home": 0.6211,
    "pick": "BUF",
-   "pick_prob": 0.6225,
+   "pick_prob": 0.6211,
    "yard": 38,
-   "notes": [
-    {
-     "kind": "split",
-     "text": "Elo has BUF at 73%; the market has BUF at 62%. A gap this size usually means news one side hasn't priced. Check injuries."
-    }
-   ]
+   "notes": []
   },
   {
    "id": "2026_08_CLE_PIT",
@@ -106,9 +101,9 @@
    "home": "PIT",
    "away_record": "5-2",
    "home_record": "5-2",
-   "spread_home": -3.5,
-   "ml_home": -180.0,
-   "ml_away": 150.0,
+   "spread_home": -3.0,
+   "ml_home": -180,
+   "ml_away": 150,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
@@ -127,19 +122,24 @@
    "home": "JAX",
    "away_record": "2-5",
    "home_record": "4-2",
-   "spread_home": -7.5,
-   "ml_home": -395.0,
-   "ml_away": 310.0,
+   "spread_home": -8.5,
+   "ml_home": -450,
+   "ml_away": 333,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.7933,
    "open_spread_home": -7.5,
-   "p_home": 0.7659,
+   "p_home": 0.7799,
    "pick": "JAX",
-   "pick_prob": 0.7659,
-   "yard": 23,
-   "notes": []
+   "pick_prob": 0.7799,
+   "yard": 22,
+   "notes": [
+    {
+     "kind": "move",
+     "text": "Moved 1 pt toward JAX since open (JAX -7.5 to JAX -8.5)."
+    }
+   ]
   },
   {
    "id": "2026_08_LV_NYJ",
@@ -148,19 +148,23 @@
    "home": "NYJ",
    "away_record": "3-4",
    "home_record": "2-5",
-   "spread_home": 1.5,
-   "ml_home": -110.0,
-   "ml_away": -110.0,
+   "spread_home": -0.5,
+   "ml_home": -108,
+   "ml_away": -110,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.506,
    "open_spread_home": 1.5,
-   "p_home": 0.5,
-   "pick": "NYJ",
-   "pick_prob": 0.5,
+   "p_home": 0.4978,
+   "pick": "LV",
+   "pick_prob": 0.5022,
    "yard": 50,
    "notes": [
+    {
+     "kind": "move",
+     "text": "Line flipped: opened NYJ +1.5, now NYJ -0.5. Money came in on NYJ."
+    },
     {
      "kind": "flip",
      "text": "Coin flip. In a confidence pool this belongs in a low-point slot."
@@ -174,24 +178,19 @@
    "home": "DET",
    "away_record": "6-0",
    "home_record": "4-2",
-   "spread_home": -3.0,
-   "ml_home": -166.0,
-   "ml_away": 140.0,
+   "spread_home": -3.5,
+   "ml_home": -180,
+   "ml_away": 150,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.4515,
    "open_spread_home": -3.0,
-   "p_home": 0.5996,
+   "p_home": 0.6164,
    "pick": "DET",
-   "pick_prob": 0.5996,
-   "yard": 40,
-   "notes": [
-    {
-     "kind": "split",
-     "text": "Elo has MIN at 55%; the market has MIN at 40%. A gap this size usually means news one side hasn't priced. Check injuries."
-    }
-   ]
+   "pick_prob": 0.6164,
+   "yard": 38,
+   "notes": []
   },
   {
    "id": "2026_08_TEN_CIN",
@@ -201,17 +200,17 @@
    "away_record": "1-6",
    "home_record": "4-2",
    "spread_home": -10.0,
-   "ml_home": -625.0,
-   "ml_away": 455.0,
+   "ml_home": -550,
+   "ml_away": 417,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.842,
    "open_spread_home": -10.0,
-   "p_home": 0.8271,
+   "p_home": 0.8139,
    "pick": "CIN",
-   "pick_prob": 0.8271,
-   "yard": 17,
+   "pick_prob": 0.8139,
+   "yard": 19,
    "notes": []
   },
   {
@@ -222,17 +221,17 @@
    "away_record": "0-6",
    "home_record": "3-4",
    "spread_home": -6.5,
-   "ml_home": -290.0,
-   "ml_away": 235.0,
+   "ml_home": -300,
+   "ml_away": 245,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.7521,
    "open_spread_home": -6.5,
-   "p_home": 0.7136,
+   "p_home": 0.7213,
    "pick": "LA",
-   "pick_prob": 0.7136,
-   "yard": 29,
+   "pick_prob": 0.7213,
+   "yard": 28,
    "notes": []
   },
   {
@@ -243,22 +242,18 @@
    "away_record": "5-1",
    "home_record": "5-2",
    "spread_home": 1.5,
-   "ml_home": 105.0,
-   "ml_away": -125.0,
+   "ml_home": 100,
+   "ml_away": -120,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.6502,
    "open_spread_home": 1.5,
-   "p_home": 0.4675,
+   "p_home": 0.4783,
    "pick": "KC",
-   "pick_prob": 0.5325,
-   "yard": 47,
+   "pick_prob": 0.5217,
+   "yard": 48,
    "notes": [
-    {
-     "kind": "split",
-     "text": "Elo has DEN at 65%; the market has DEN at 47%. A gap this size usually means news one side hasn't priced. Check injuries."
-    },
     {
      "kind": "flip",
      "text": "Coin flip. In a confidence pool this belongs in a low-point slot."
@@ -273,17 +268,17 @@
    "away_record": "4-3",
    "home_record": "1-5",
    "spread_home": 7.5,
-   "ml_home": 310.0,
-   "ml_away": -395.0,
+   "ml_home": 285,
+   "ml_away": -370,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.2939,
    "open_spread_home": 7.5,
-   "p_home": 0.2341,
+   "p_home": 0.2481,
    "pick": "NE",
-   "pick_prob": 0.7659,
-   "yard": 23,
+   "pick_prob": 0.7519,
+   "yard": 25,
    "notes": []
   },
   {
@@ -293,22 +288,22 @@
    "home": "WAS",
    "away_record": "2-5",
    "home_record": "1-4-1",
-   "spread_home": -4.5,
-   "ml_home": -205.0,
-   "ml_away": 170.0,
+   "spread_home": -5.5,
+   "ml_home": -242,
+   "ml_away": 200,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.5008,
    "open_spread_home": -4.5,
-   "p_home": 0.6447,
+   "p_home": 0.6798,
    "pick": "WAS",
-   "pick_prob": 0.6447,
-   "yard": 36,
+   "pick_prob": 0.6798,
+   "yard": 32,
    "notes": [
     {
-     "kind": "split",
-     "text": "Elo has WAS at 50%; the market has WAS at 64%. A gap this size usually means news one side hasn't priced. Check injuries."
+     "kind": "move",
+     "text": "Moved 1 pt toward WAS since open (WAS -4.5 to WAS -5.5)."
     }
    ]
   },
@@ -319,19 +314,37 @@
    "home": "SEA",
    "away_record": "5-2",
    "home_record": "4-3",
-   "spread_home": -3.5,
-   "ml_home": -170.0,
-   "ml_away": 142.0,
+   "spread_home": -3.0,
+   "ml_home": -175,
+   "ml_away": 146,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.6473,
    "open_spread_home": -3.5,
-   "p_home": 0.6038,
+   "p_home": 0.6102,
    "pick": "SEA",
-   "pick_prob": 0.6038,
-   "yard": 40,
+   "pick_prob": 0.6102,
+   "yard": 39,
    "notes": []
   }
- ]
+ ],
+ "record": {
+  "season": 2026,
+  "w": 8,
+  "l": 5,
+  "weeks": [
+   {
+    "week": 6,
+    "w": 8,
+    "l": 5
+   }
+  ]
+ },
+ "history": {
+  "from": 2015,
+  "to": 2025,
+  "games": 2885,
+  "fav_pct": 0.6627
+ }
 }
