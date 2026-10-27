@@ -108,12 +108,8 @@ def build_notes(game, p_home, alt_p_home=None, alt_label="Second model", pick_pc
             notes.append(("move", f"Moved {abs(move):g} pt{'s' if abs(move) != 1 else ''} toward {toward} since open "
                                   f"({fmt_spread(game['home'], opn)} to {fmt_spread(game['home'], cur)})."))
 
-    # 3. Model disagreement
-    if alt_p_home is not None and abs(alt_p_home - p_home) >= 0.10:
-        alt_fav, alt_pf = favored(game, alt_p_home)
-        notes.append(("split", f"{alt_label} has {alt_fav} at {alt_pf:.0%}; the market has "
-                               f"{alt_fav} at {(p_home if alt_fav == game['home'] else 1 - p_home):.0%}. "
-                               f"A gap this size usually means news one side hasn't priced. Check injuries."))
+    # 3. Model disagreement: removed. Backtest 2015-2025: when Elo and the market picked different
+    #    winners (344 games) the market was right 59.6%, so the flag pointed the wrong way.
 
     # 4. Crowd leverage (only if pick percentages are entered)
     if pick_pct is not None and fav in pick_pct:
