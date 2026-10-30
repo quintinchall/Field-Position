@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 8,
- "generated_at": "2026-10-30T00:18+00:00",
+ "generated_at": "2026-10-30T00:44+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -13,8 +13,8 @@
    "away_record": "3-3",
    "home_record": "4-3",
    "spread_home": -3.5,
-   "ml_home": -185,
-   "ml_away": 159,
+   "ml_home": -190,
+   "ml_away": 150,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -24,10 +24,10 @@
    },
    "alt_p_home": 0.6668,
    "open_spread_home": -3.5,
-   "p_home": 0.627,
+   "p_home": 0.6209,
    "pick": "GB",
-   "pick_prob": 0.627,
-   "yard": 37,
+   "pick_prob": 0.6209,
+   "yard": 38,
    "notes": []
   },
   {
@@ -230,17 +230,17 @@
    "away_record": "0-6",
    "home_record": "3-4",
    "spread_home": -6.5,
-   "ml_home": -295,
-   "ml_away": 238,
+   "ml_home": -285,
+   "ml_away": 234,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.7521,
    "open_spread_home": -6.5,
-   "p_home": 0.7163,
+   "p_home": 0.712,
    "pick": "LA",
-   "pick_prob": 0.7163,
-   "yard": 28,
+   "pick_prob": 0.712,
+   "yard": 29,
    "notes": []
   },
   {
