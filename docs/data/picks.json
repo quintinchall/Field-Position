@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 8,
- "generated_at": "2026-10-30T00:44+00:00",
+ "generated_at": "2026-10-30T01:42+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -12,9 +12,9 @@
    "home": "GB",
    "away_record": "3-3",
    "home_record": "4-3",
-   "spread_home": -3.5,
-   "ml_home": -190,
-   "ml_away": 150,
+   "spread_home": -11.5,
+   "ml_home": -1115,
+   "ml_away": 680,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -24,11 +24,16 @@
    },
    "alt_p_home": 0.6668,
    "open_spread_home": -3.5,
-   "p_home": 0.6209,
+   "p_home": 0.8774,
    "pick": "GB",
-   "pick_prob": 0.6209,
-   "yard": 38,
-   "notes": []
+   "pick_prob": 0.8774,
+   "yard": 12,
+   "notes": [
+    {
+     "kind": "move",
+     "text": "Moved 8 pts toward GB since open (GB -3.5 to GB -11.5)."
+    }
+   ]
   },
   {
    "id": "2026_08_ARI_DAL",
@@ -86,16 +91,16 @@
    "home_record": "5-1",
    "spread_home": -3.0,
    "ml_home": -169,
-   "ml_away": 142,
+   "ml_away": 145,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.7269,
    "open_spread_home": -3.5,
-   "p_home": 0.6032,
+   "p_home": 0.6062,
    "pick": "BUF",
-   "pick_prob": 0.6032,
-   "yard": 40,
+   "pick_prob": 0.6062,
+   "yard": 39,
    "notes": []
   },
   {
@@ -152,22 +157,22 @@
    "home": "NYJ",
    "away_record": "3-4",
    "home_record": "2-5",
-   "spread_home": -1.5,
-   "ml_home": -124,
+   "spread_home": -1.0,
+   "ml_home": -122,
    "ml_away": 105,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.506,
    "open_spread_home": 1.5,
-   "p_home": 0.5316,
+   "p_home": 0.5298,
    "pick": "NYJ",
-   "pick_prob": 0.5316,
+   "pick_prob": 0.5298,
    "yard": 47,
    "notes": [
     {
      "kind": "move",
-     "text": "Line flipped: opened NYJ +1.5, now NYJ -1.5. Money came in on NYJ."
+     "text": "Line flipped: opened NYJ +1.5, now NYJ -1. Money came in on NYJ."
     },
     {
      "kind": "flip",
