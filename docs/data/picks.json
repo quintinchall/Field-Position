@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 8,
- "generated_at": "2026-10-30T13:53+00:00",
+ "generated_at": "2026-10-31T13:40+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -39,16 +39,20 @@
    "away_record": "2-5",
    "home_record": "3-4",
    "spread_home": -7.0,
-   "ml_home": -320,
+   "ml_home": -319,
    "ml_away": 253,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "DAL": [
+     "KaVontae Turpin (WR) out"
+    ]
+   },
    "alt_p_home": 0.6824,
    "open_spread_home": -6.5,
-   "p_home": 0.729,
+   "p_home": 0.7288,
    "pick": "DAL",
-   "pick_prob": 0.729,
+   "pick_prob": 0.7288,
    "yard": 27,
    "notes": []
   },
@@ -60,17 +64,24 @@
    "away_record": "3-4",
    "home_record": "2-5",
    "spread_home": -2.5,
-   "ml_home": -141,
+   "ml_home": -135,
    "ml_away": 115,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "ATL": [
+     "Brian Robinson (RB) out"
+    ],
+    "TB": [
+     "Emeka Egbuka (WR) out"
+    ]
+   },
    "alt_p_home": 0.5375,
    "open_spread_home": -2.5,
-   "p_home": 0.5571,
+   "p_home": 0.5526,
    "pick": "TB",
-   "pick_prob": 0.5571,
-   "yard": 44,
+   "pick_prob": 0.5526,
+   "yard": 45,
    "notes": [
     {
      "kind": "flip",
@@ -86,16 +97,20 @@
    "away_record": "4-3",
    "home_record": "5-1",
    "spread_home": -3.0,
-   "ml_home": -175,
-   "ml_away": 145,
+   "ml_home": -174,
+   "ml_away": 146,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "BUF": [
+     "Tyrell Shavers (WR) out"
+    ]
+   },
    "alt_p_home": 0.7269,
    "open_spread_home": -3.5,
-   "p_home": 0.6092,
+   "p_home": 0.6097,
    "pick": "BUF",
-   "pick_prob": 0.6092,
+   "pick_prob": 0.6097,
    "yard": 39,
    "notes": []
   },
@@ -107,17 +122,22 @@
    "away_record": "5-2",
    "home_record": "5-2",
    "spread_home": -3.5,
-   "ml_home": -195,
-   "ml_away": 165,
+   "ml_home": -192,
+   "ml_away": 164,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "PIT": [
+     "Doneiko Slaughter (CB) out",
+     "Brandin Echols (CB) out"
+    ]
+   },
    "alt_p_home": 0.6889,
    "open_spread_home": -3.5,
-   "p_home": 0.6366,
+   "p_home": 0.6345,
    "pick": "PIT",
-   "pick_prob": 0.6366,
-   "yard": 36,
+   "pick_prob": 0.6345,
+   "yard": 37,
    "notes": []
   },
   {
@@ -129,15 +149,20 @@
    "home_record": "4-2",
    "spread_home": -10.0,
    "ml_home": -500,
-   "ml_away": 380,
+   "ml_away": 375,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "IND": [
+     "Justin Walley (CB) out",
+     "Anthony Gould (WR) out"
+    ]
+   },
    "alt_p_home": 0.7933,
    "open_spread_home": -7.5,
-   "p_home": 0.8,
+   "p_home": 0.7983,
    "pick": "JAX",
-   "pick_prob": 0.8,
+   "pick_prob": 0.7983,
    "yard": 20,
    "notes": [
     {
@@ -154,16 +179,25 @@
    "away_record": "3-4",
    "home_record": "2-5",
    "spread_home": -1.0,
-   "ml_home": -119,
-   "ml_away": 100,
+   "ml_home": -120,
+   "ml_away": 101,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "LV": [
+     "Patrick Johnson (DE) out",
+     "Carter Runyon (TE) out"
+    ],
+    "NYJ": [
+     "Joseph Ossai (DE) out",
+     "David Bailey (DE) doubtful"
+    ]
+   },
    "alt_p_home": 0.506,
    "open_spread_home": 1.5,
-   "p_home": 0.5208,
+   "p_home": 0.523,
    "pick": "NYJ",
-   "pick_prob": 0.5208,
+   "pick_prob": 0.523,
    "yard": 48,
    "notes": [
     {
@@ -209,7 +243,12 @@
    "ml_away": 505,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "TEN": [
+     "Tyjae Spears (RB) out",
+     "Carnell Tate (WR) out"
+    ]
+   },
    "alt_p_home": 0.842,
    "open_spread_home": -10.0,
    "p_home": 0.8411,
@@ -231,17 +270,22 @@
    "away_record": "0-6",
    "home_record": "3-4",
    "spread_home": -6.5,
-   "ml_home": -295,
-   "ml_away": 238,
+   "ml_home": -285,
+   "ml_away": 234,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "LAC": [
+     "Deane Leonard (CB) out",
+     "Brenen Thompson (WR) out"
+    ]
+   },
    "alt_p_home": 0.7521,
    "open_spread_home": -6.5,
-   "p_home": 0.7163,
+   "p_home": 0.712,
    "pick": "LA",
-   "pick_prob": 0.7163,
-   "yard": 28,
+   "pick_prob": 0.712,
+   "yard": 29,
    "notes": []
   },
   {
@@ -256,7 +300,11 @@
    "ml_away": -120,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "DEN": [
+     "RJ Harvey (RB) out"
+    ]
+   },
    "alt_p_home": 0.6502,
    "open_spread_home": 1.5,
    "p_home": 0.4783,
@@ -298,22 +346,28 @@
    "home": "WAS",
    "away_record": "2-5",
    "home_record": "1-4-1",
-   "spread_home": -6.0,
-   "ml_home": -255,
-   "ml_away": 211,
+   "spread_home": -5.5,
+   "ml_home": -250,
+   "ml_away": 210,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "PHI": [
+     "Jonathan Jones (CB) out",
+     "Dontayvion Wicks (WR) out",
+     "DeVonta Smith (WR) out"
+    ]
+   },
    "alt_p_home": 0.5008,
    "open_spread_home": -4.5,
-   "p_home": 0.6908,
+   "p_home": 0.6889,
    "pick": "WAS",
-   "pick_prob": 0.6908,
+   "pick_prob": 0.6889,
    "yard": 31,
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 1.5 pts toward WAS since open (WAS -4.5 to WAS -6)."
+     "text": "Moved 1 pt toward WAS since open (WAS -4.5 to WAS -5.5)."
     }
    ]
   },
