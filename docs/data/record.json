@@ -127,7 +127,8 @@
     "home": "TB",
     "pick": "TB",
     "prob": 0.5427,
-    "locked_at": "2026-11-01T17:37+00:00"
+    "locked_at": "2026-11-01T17:37+00:00",
+    "winner": "TB"
    },
    "2026_08_BAL_BUF": {
     "away": "BAL",
@@ -141,28 +142,32 @@
     "home": "PIT",
     "pick": "PIT",
     "prob": 0.6507,
-    "locked_at": "2026-11-01T17:37+00:00"
+    "locked_at": "2026-11-01T17:37+00:00",
+    "winner": "PIT"
    },
    "2026_08_IND_JAX": {
     "away": "IND",
     "home": "JAX",
     "pick": "JAX",
     "prob": 0.799,
-    "locked_at": "2026-11-01T17:37+00:00"
+    "locked_at": "2026-11-01T17:37+00:00",
+    "winner": "JAX"
    },
    "2026_08_LV_NYJ": {
     "away": "LV",
     "home": "NYJ",
     "pick": "NYJ",
     "prob": 0.5447,
-    "locked_at": "2026-11-01T17:37+00:00"
+    "locked_at": "2026-11-01T17:37+00:00",
+    "winner": "LV"
    },
    "2026_08_MIN_DET": {
     "away": "MIN",
     "home": "DET",
     "pick": "DET",
     "prob": 0.6155,
-    "locked_at": "2026-11-01T17:37+00:00"
+    "locked_at": "2026-11-01T17:37+00:00",
+    "winner": "DET"
    },
    "2026_08_TEN_CIN": {
     "away": "TEN",
@@ -182,29 +187,29 @@
     "away": "KC",
     "home": "DEN",
     "pick": "KC",
-    "prob": 0.5022,
-    "locked_at": "2026-11-01T20:41+00:00"
+    "prob": 0.5023,
+    "locked_at": "2026-11-01T21:23+00:00"
    },
    "2026_08_NE_MIA": {
     "away": "NE",
     "home": "MIA",
     "pick": "NE",
-    "prob": 0.7472,
-    "locked_at": "2026-11-01T20:41+00:00"
+    "prob": 0.7513,
+    "locked_at": "2026-11-01T21:23+00:00"
    },
    "2026_08_PHI_WAS": {
     "away": "PHI",
     "home": "WAS",
     "pick": "WAS",
     "prob": 0.6913,
-    "locked_at": "2026-11-01T20:41+00:00"
+    "locked_at": "2026-11-01T21:23+00:00"
    },
    "2026_08_CHI_SEA": {
     "away": "CHI",
     "home": "SEA",
     "pick": "SEA",
     "prob": 0.6077,
-    "locked_at": "2026-11-01T20:41+00:00"
+    "locked_at": "2026-11-01T21:23+00:00"
    }
   }
  }
