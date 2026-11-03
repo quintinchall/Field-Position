@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 8,
- "generated_at": "2026-11-02T02:04+00:00",
+ "generated_at": "2026-11-03T00:19+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -359,12 +359,12 @@
    "kickoff": "2026-11-01T20:20",
    "away": "PHI",
    "home": "WAS",
-   "away_record": "2-5",
-   "home_record": "1-4-1",
-   "spread_home": 3.5,
-   "ml_home": 135,
-   "ml_away": -165,
-   "status": "scheduled",
+   "away_record": "2-6",
+   "home_record": "2-4-1",
+   "spread_home": -6.0,
+   "ml_home": -278.0,
+   "ml_away": 225.0,
+   "status": "final",
    "neutral": false,
    "injuries": {
     "PHI": [
@@ -373,18 +373,19 @@
      "DeVonta Smith (WR) out"
     ]
    },
-   "alt_p_home": 0.5008,
+   "alt_p_home": 0.5831,
    "open_spread_home": -4.5,
-   "p_home": 0.406,
-   "pick": "PHI",
-   "pick_prob": 0.594,
-   "yard": 41,
+   "p_home": 0.705,
+   "pick": "WAS",
+   "pick_prob": 0.705,
+   "yard": 29,
    "notes": [
     {
      "kind": "move",
-     "text": "Line flipped: opened WAS -4.5, now WAS +3.5. Money came in on PHI."
+     "text": "Moved 1.5 pts toward WAS since open (WAS -4.5 to WAS -6)."
     }
-   ]
+   ],
+   "winner": "WAS"
   },
   {
    "id": "2026_08_CHI_SEA",
@@ -394,8 +395,8 @@
    "away_record": "5-2",
    "home_record": "4-3",
    "spread_home": -3.0,
-   "ml_home": -170,
-   "ml_away": 145,
+   "ml_home": -177,
+   "ml_away": 152,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -409,16 +410,16 @@
    },
    "alt_p_home": 0.6473,
    "open_spread_home": -3.5,
-   "p_home": 0.6067,
+   "p_home": 0.6169,
    "pick": "SEA",
-   "pick_prob": 0.6067,
-   "yard": 39,
+   "pick_prob": 0.6169,
+   "yard": 38,
    "notes": []
   }
  ],
  "record": {
   "season": 2026,
-  "w": 17,
+  "w": 18,
   "l": 8,
   "weeks": [
    {
@@ -428,7 +429,7 @@
    },
    {
     "week": 8,
-    "w": 9,
+    "w": 10,
     "l": 3
    }
   ]
