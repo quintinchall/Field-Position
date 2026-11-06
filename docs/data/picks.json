@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 9,
- "generated_at": "2026-11-06T00:55+00:00",
+ "generated_at": "2026-11-06T02:12+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -12,9 +12,9 @@
    "home": "BAL",
    "away_record": "5-2",
    "home_record": "4-4",
-   "spread_home": 9.5,
-   "ml_home": 334,
-   "ml_away": -425,
+   "spread_home": 11.5,
+   "ml_home": 540,
+   "ml_away": -900,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -25,11 +25,16 @@
    },
    "alt_p_home": 0.3809,
    "open_spread_home": 9.5,
-   "p_home": 0.2216,
+   "p_home": 0.1479,
    "pick": "JAX",
-   "pick_prob": 0.7784,
-   "yard": 22,
-   "notes": []
+   "pick_prob": 0.8521,
+   "yard": 15,
+   "notes": [
+    {
+     "kind": "move",
+     "text": "Moved 2 pts toward JAX since open (BAL +9.5 to BAL +11.5)."
+    }
+   ]
   },
   {
    "id": "2026_09_CIN_ATL",
