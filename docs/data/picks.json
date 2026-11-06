@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 9,
- "generated_at": "2026-11-06T02:12+00:00",
+ "generated_at": "2026-11-06T14:06+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -10,12 +10,12 @@
    "kickoff": "2026-11-05T20:15",
    "away": "JAX",
    "home": "BAL",
-   "away_record": "5-2",
-   "home_record": "4-4",
-   "spread_home": 11.5,
-   "ml_home": 540,
-   "ml_away": -900,
-   "status": "scheduled",
+   "away_record": "6-2",
+   "home_record": "4-5",
+   "spread_home": 8.5,
+   "ml_home": 350.0,
+   "ml_away": -455.0,
+   "status": "final",
    "neutral": false,
    "injuries": {
     "BAL": [
@@ -23,18 +23,19 @@
      "Lamar Jackson (QB) out"
     ]
    },
-   "alt_p_home": 0.3809,
+   "alt_p_home": 0.3199,
    "open_spread_home": 9.5,
-   "p_home": 0.1479,
+   "p_home": 0.2133,
    "pick": "JAX",
-   "pick_prob": 0.8521,
-   "yard": 15,
+   "pick_prob": 0.7867,
+   "yard": 21,
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 2 pts toward JAX since open (BAL +9.5 to BAL +11.5)."
+     "text": "Moved 1 pt toward BAL since open (BAL +9.5 to BAL +8.5)."
     }
-   ]
+   ],
+   "winner": "JAX"
   },
   {
    "id": "2026_09_CIN_ATL",
@@ -107,16 +108,16 @@
    "away_record": "6-2",
    "home_record": "3-4",
    "spread_home": 2.5,
-   "ml_home": 125,
-   "ml_away": -145,
+   "ml_home": 123,
+   "ml_away": -143,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.2844,
    "open_spread_home": 3.0,
-   "p_home": 0.4289,
+   "p_home": 0.4325,
    "pick": "DEN",
-   "pick_prob": 0.5711,
+   "pick_prob": 0.5675,
    "yard": 43,
    "notes": []
   },
@@ -149,17 +150,17 @@
    "away_record": "4-4",
    "home_record": "2-4-1",
    "spread_home": 4.5,
-   "ml_home": 189,
-   "ml_away": -225,
+   "ml_home": 185,
+   "ml_away": -222,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.3515,
    "open_spread_home": 5.5,
-   "p_home": 0.3332,
+   "p_home": 0.3373,
    "pick": "LA",
-   "pick_prob": 0.6668,
-   "yard": 33,
+   "pick_prob": 0.6627,
+   "yard": 34,
    "notes": [
     {
      "kind": "move",
@@ -195,17 +196,17 @@
    "home": "KC",
    "away_record": "2-6",
    "home_record": "5-2",
-   "spread_home": -10.0,
+   "spread_home": -9.5,
    "ml_home": -525,
-   "ml_away": 375,
+   "ml_away": 390,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.8032,
    "open_spread_home": -9.5,
-   "p_home": 0.7996,
+   "p_home": 0.8045,
    "pick": "KC",
-   "pick_prob": 0.7996,
+   "pick_prob": 0.8045,
    "yard": 20,
    "notes": []
   },
@@ -238,16 +239,16 @@
    "away_record": "4-4",
    "home_record": "6-1",
    "spread_home": -10.0,
-   "ml_home": -475,
+   "ml_home": -485,
    "ml_away": 360,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.8019,
    "open_spread_home": -10.0,
-   "p_home": 0.7917,
+   "p_home": 0.7923,
    "pick": "SF",
-   "pick_prob": 0.7917,
+   "pick_prob": 0.7923,
    "yard": 21,
    "notes": []
   },
@@ -327,23 +328,23 @@
    "away_record": "6-1",
    "home_record": "6-1",
    "spread_home": 3.0,
-   "ml_home": 146,
-   "ml_away": -173,
+   "ml_home": 148,
+   "ml_away": -175,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.4975,
    "open_spread_home": 3.5,
-   "p_home": 0.3908,
+   "p_home": 0.3879,
    "pick": "BUF",
-   "pick_prob": 0.6092,
+   "pick_prob": 0.6121,
    "yard": 39,
    "notes": []
   }
  ],
  "record": {
   "season": 2026,
-  "w": 18,
+  "w": 19,
   "l": 9,
   "weeks": [
    {
@@ -355,6 +356,11 @@
     "week": 8,
     "w": 10,
     "l": 4
+   },
+   {
+    "week": 9,
+    "w": 1,
+    "l": 0
    }
   ]
  },
