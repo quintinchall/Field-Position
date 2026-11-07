@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 9,
- "generated_at": "2026-11-06T14:06+00:00",
+ "generated_at": "2026-11-07T13:44+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -45,16 +45,21 @@
    "away_record": "5-2",
    "home_record": "3-5",
    "spread_home": 3.0,
-   "ml_home": 145,
-   "ml_away": -170,
+   "ml_home": 146,
+   "ml_away": -172,
    "status": "scheduled",
    "neutral": true,
-   "injuries": {},
+   "injuries": {
+    "ATL": [
+     "Zachariah Branch (WR) out",
+     "Brian Robinson (RB) out"
+    ]
+   },
    "alt_p_home": 0.3517,
    "open_spread_home": 3.0,
-   "p_home": 0.3933,
+   "p_home": 0.3913,
    "pick": "CIN",
-   "pick_prob": 0.6067,
+   "pick_prob": 0.6087,
    "yard": 39,
    "notes": []
   },
@@ -66,16 +71,20 @@
    "away_record": "5-3",
    "home_record": "2-5",
    "spread_home": -3.0,
-   "ml_home": -165,
+   "ml_home": -170,
    "ml_away": 142,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "NO": [
+     "CJ Donaldson (RB) out"
+    ]
+   },
    "alt_p_home": 0.5026,
    "open_spread_home": -2.5,
-   "p_home": 0.6011,
+   "p_home": 0.6038,
    "pick": "NO",
-   "pick_prob": 0.6011,
+   "pick_prob": 0.6038,
    "yard": 40,
    "notes": []
   },
@@ -86,19 +95,31 @@
    "home": "IND",
    "away_record": "3-5",
    "home_record": "2-6",
-   "spread_home": 5.5,
-   "ml_home": 200,
-   "ml_away": -240,
+   "spread_home": 5.0,
+   "ml_home": 190,
+   "ml_away": -235,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "DAL": [
+     "KaVontae Turpin (WR) out"
+    ],
+    "IND": [
+     "Justin Walley (CB) out"
+    ]
+   },
    "alt_p_home": 0.4926,
    "open_spread_home": 6.0,
-   "p_home": 0.3208,
+   "p_home": 0.3296,
    "pick": "DAL",
-   "pick_prob": 0.6792,
-   "yard": 32,
-   "notes": []
+   "pick_prob": 0.6704,
+   "yard": 33,
+   "notes": [
+    {
+     "kind": "move",
+     "text": "Moved 1 pt toward IND since open (IND +6 to IND +5)."
+    }
+   ]
   },
   {
    "id": "2026_09_DEN_CAR",
@@ -109,15 +130,23 @@
    "home_record": "3-4",
    "spread_home": 2.5,
    "ml_home": 123,
-   "ml_away": -143,
+   "ml_away": -145,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "DEN": [
+     "Kris Abrams-Draine (CB) out",
+     "Eyioma Uwazurike (DE) out"
+    ],
+    "CAR": [
+     "Will Lee III (CB) out"
+    ]
+   },
    "alt_p_home": 0.2844,
    "open_spread_home": 3.0,
-   "p_home": 0.4325,
+   "p_home": 0.4311,
    "pick": "DEN",
-   "pick_prob": 0.5675,
+   "pick_prob": 0.5689,
    "yard": 43,
    "notes": []
   },
@@ -128,18 +157,23 @@
    "home": "MIA",
    "away_record": "5-2",
    "home_record": "1-6",
-   "spread_home": 7.0,
-   "ml_home": 255,
-   "ml_away": -325,
+   "spread_home": 6.5,
+   "ml_home": 236,
+   "ml_away": -290,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "DET": [
+     "DJ Wonnum (DE) out",
+     "D.J. Reed (CB) out"
+    ]
+   },
    "alt_p_home": 0.2782,
    "open_spread_home": 7.0,
-   "p_home": 0.2692,
+   "p_home": 0.2858,
    "pick": "DET",
-   "pick_prob": 0.7308,
-   "yard": 27,
+   "pick_prob": 0.7142,
+   "yard": 29,
    "notes": []
   },
   {
@@ -151,15 +185,24 @@
    "home_record": "2-4-1",
    "spread_home": 4.5,
    "ml_home": 185,
-   "ml_away": -222,
+   "ml_away": -225,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "LA": [
+     "Terrance Ferguson (TE) out",
+     "Jaylen Watson (CB) out"
+    ],
+    "WAS": [
+     "Treylon Burks (WR) out",
+     "Dyami Brown (WR) out"
+    ]
+   },
    "alt_p_home": 0.3515,
    "open_spread_home": 5.5,
-   "p_home": 0.3373,
+   "p_home": 0.3364,
    "pick": "LA",
-   "pick_prob": 0.6627,
+   "pick_prob": 0.6636,
    "yard": 34,
    "notes": [
     {
@@ -176,16 +219,25 @@
    "away_record": "4-2-1",
    "home_record": "2-6",
    "spread_home": 3.0,
-   "ml_home": 142,
-   "ml_away": -175,
+   "ml_home": 145,
+   "ml_away": -170,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "NYG": [
+     "Cam Skattebo (RB) doubtful"
+    ],
+    "PHI": [
+     "Michael Carter II (CB) out",
+     "Jonathan Jones (CB) out",
+     "Dontayvion Wicks (WR) out"
+    ]
+   },
    "alt_p_home": 0.4961,
    "open_spread_home": 3.0,
-   "p_home": 0.3937,
+   "p_home": 0.3933,
    "pick": "NYG",
-   "pick_prob": 0.6063,
+   "pick_prob": 0.6067,
    "yard": 39,
    "notes": []
   },
@@ -197,17 +249,24 @@
    "away_record": "2-6",
    "home_record": "5-2",
    "spread_home": -9.5,
-   "ml_home": -525,
-   "ml_away": 390,
+   "ml_home": -520,
+   "ml_away": 400,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "NYJ": [
+     "Garrett Wilson (WR) out"
+    ],
+    "KC": [
+     "Mansoor Delane (CB) out"
+    ]
+   },
    "alt_p_home": 0.8032,
    "open_spread_home": -9.5,
-   "p_home": 0.8045,
+   "p_home": 0.8075,
    "pick": "KC",
-   "pick_prob": 0.8045,
-   "yard": 20,
+   "pick_prob": 0.8075,
+   "yard": 19,
    "notes": []
   },
   {
@@ -217,19 +276,30 @@
    "home": "LAC",
    "away_record": "2-5",
    "home_record": "0-7",
-   "spread_home": 5.5,
-   "ml_home": 203,
-   "ml_away": -245,
+   "spread_home": 6.0,
+   "ml_home": 204,
+   "ml_away": -250,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "LAC": [
+     "Deane Leonard (CB) out",
+     "David Njoku (TE) doubtful",
+     "Brenen Thompson (WR) doubtful"
+    ]
+   },
    "alt_p_home": 0.4024,
    "open_spread_home": 5.0,
-   "p_home": 0.3173,
+   "p_home": 0.3153,
    "pick": "HOU",
-   "pick_prob": 0.6827,
+   "pick_prob": 0.6847,
    "yard": 32,
-   "notes": []
+   "notes": [
+    {
+     "kind": "move",
+     "text": "Moved 1 pt toward HOU since open (LAC +5 to LAC +6)."
+    }
+   ]
   },
   {
    "id": "2026_09_LV_SF",
@@ -239,17 +309,23 @@
    "away_record": "4-4",
    "home_record": "6-1",
    "spread_home": -10.0,
-   "ml_home": -485,
-   "ml_away": 360,
+   "ml_home": -481,
+   "ml_away": 370,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "SF": [
+     "Mike Evans (WR) out",
+     "Deebo Samuel Sr. (WR) out",
+     "Christian Kirk (WR) out"
+    ]
+   },
    "alt_p_home": 0.8019,
    "open_spread_home": -10.0,
-   "p_home": 0.7923,
+   "p_home": 0.7955,
    "pick": "SF",
-   "pick_prob": 0.7923,
-   "yard": 21,
+   "pick_prob": 0.7955,
+   "yard": 20,
    "notes": []
   },
   {
@@ -261,15 +337,23 @@
    "home_record": "4-4",
    "spread_home": -8.5,
    "ml_home": -425,
-   "ml_away": 320,
+   "ml_away": 315,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "ARI": [
+     "Bam Knight (RB) out"
+    ],
+    "SEA": [
+     "Sam Darnold (QB) out",
+     "Rashid Shaheed (WR) out"
+    ]
+   },
    "alt_p_home": 0.8064,
    "open_spread_home": -11.0,
-   "p_home": 0.7727,
+   "p_home": 0.7706,
    "pick": "SEA",
-   "pick_prob": 0.7727,
+   "pick_prob": 0.7706,
    "yard": 23,
    "notes": [
     {
@@ -287,15 +371,23 @@
    "home_record": "5-3",
    "spread_home": -3.0,
    "ml_home": -170,
-   "ml_away": 141,
+   "ml_away": 142,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "GB": [
+     "Josh Whyle (TE) out"
+    ],
+    "NE": [
+     "TreVeyon Henderson (RB) out",
+     "A.J. Brown (WR) out"
+    ]
+   },
    "alt_p_home": 0.6179,
    "open_spread_home": -3.0,
-   "p_home": 0.6028,
+   "p_home": 0.6038,
    "pick": "NE",
-   "pick_prob": 0.6028,
+   "pick_prob": 0.6038,
    "yard": 40,
    "notes": []
   },
@@ -308,15 +400,15 @@
    "home_record": "6-2",
    "spread_home": -6.0,
    "ml_home": -270,
-   "ml_away": 222,
+   "ml_away": 220,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.7102,
    "open_spread_home": -6.0,
-   "p_home": 0.7015,
+   "p_home": 0.7002,
    "pick": "CHI",
-   "pick_prob": 0.7015,
+   "pick_prob": 0.7002,
    "yard": 30,
    "notes": []
   },
@@ -328,17 +420,17 @@
    "away_record": "6-1",
    "home_record": "6-1",
    "spread_home": 3.0,
-   "ml_home": 148,
-   "ml_away": -175,
+   "ml_home": 142,
+   "ml_away": -170,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.4975,
    "open_spread_home": 3.5,
-   "p_home": 0.3879,
+   "p_home": 0.3962,
    "pick": "BUF",
-   "pick_prob": 0.6121,
-   "yard": 39,
+   "pick_prob": 0.6038,
+   "yard": 40,
    "notes": []
   }
  ],
