@@ -234,7 +234,8 @@
     "home": "ATL",
     "pick": "CIN",
     "prob": 0.6183,
-    "locked_at": "2026-11-08T14:08+00:00"
+    "locked_at": "2026-11-08T14:08+00:00",
+    "winner": "CIN"
    },
    "2026_09_CLE_NO": {
     "away": "CLE",
@@ -290,42 +291,42 @@
     "home": "LAC",
     "pick": "HOU",
     "prob": 0.6742,
-    "locked_at": "2026-11-08T17:39+00:00"
+    "locked_at": "2026-11-08T18:14+00:00"
    },
    "2026_09_LV_SF": {
     "away": "LV",
     "home": "SF",
     "pick": "SF",
     "prob": 0.7971,
-    "locked_at": "2026-11-08T17:39+00:00"
+    "locked_at": "2026-11-08T18:14+00:00"
    },
    "2026_09_ARI_SEA": {
     "away": "ARI",
     "home": "SEA",
     "pick": "SEA",
-    "prob": 0.7748,
-    "locked_at": "2026-11-08T17:39+00:00"
+    "prob": 0.7727,
+    "locked_at": "2026-11-08T18:14+00:00"
    },
    "2026_09_GB_NE": {
     "away": "GB",
     "home": "NE",
     "pick": "NE",
     "prob": 0.6145,
-    "locked_at": "2026-11-08T17:39+00:00"
+    "locked_at": "2026-11-08T18:14+00:00"
    },
    "2026_09_TB_CHI": {
     "away": "TB",
     "home": "CHI",
     "pick": "CHI",
     "prob": 0.7002,
-    "locked_at": "2026-11-08T17:39+00:00"
+    "locked_at": "2026-11-08T18:14+00:00"
    },
    "2026_09_BUF_MIN": {
     "away": "BUF",
     "home": "MIN",
     "pick": "BUF",
     "prob": 0.6102,
-    "locked_at": "2026-11-08T17:39+00:00"
+    "locked_at": "2026-11-08T18:14+00:00"
    }
   }
  }
