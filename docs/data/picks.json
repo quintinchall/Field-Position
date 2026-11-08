@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 9,
- "generated_at": "2026-11-08T20:42+00:00",
+ "generated_at": "2026-11-08T21:23+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -71,9 +71,9 @@
    "home": "NO",
    "away_record": "5-3",
    "home_record": "2-5",
-   "spread_home": 3.5,
-   "ml_home": 176,
-   "ml_away": -230,
+   "spread_home": -1.5,
+   "ml_home": -1400,
+   "ml_away": 650,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -83,14 +83,14 @@
    },
    "alt_p_home": 0.5026,
    "open_spread_home": -2.5,
-   "p_home": 0.342,
-   "pick": "CLE",
-   "pick_prob": 0.658,
-   "yard": 34,
+   "p_home": 0.875,
+   "pick": "NO",
+   "pick_prob": 0.875,
+   "yard": 12,
    "notes": [
     {
      "kind": "move",
-     "text": "Line flipped: opened NO -2.5, now NO +3.5. Money came in on CLE."
+     "text": "Moved 1 pt toward CLE since open (NO -2.5 to NO -1.5)."
     }
    ]
   },
@@ -101,9 +101,9 @@
    "home": "IND",
    "away_record": "3-5",
    "home_record": "2-6",
-   "spread_home": 4.5,
-   "ml_home": 260,
-   "ml_away": -345,
+   "spread_home": 2.5,
+   "ml_home": -120,
+   "ml_away": -110,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -116,14 +116,18 @@
    },
    "alt_p_home": 0.4926,
    "open_spread_home": 6.0,
-   "p_home": 0.2638,
-   "pick": "DAL",
-   "pick_prob": 0.7362,
-   "yard": 26,
+   "p_home": 0.5101,
+   "pick": "IND",
+   "pick_prob": 0.5101,
+   "yard": 49,
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 1.5 pts toward IND since open (IND +6 to IND +4.5)."
+     "text": "Moved 3.5 pts toward IND since open (IND +6 to IND +2.5)."
+    },
+    {
+     "kind": "flip",
+     "text": "Coin flip. In a confidence pool this belongs in a low-point slot."
     }
    ]
   },
@@ -132,12 +136,12 @@
    "kickoff": "2026-11-08T13:00",
    "away": "DEN",
    "home": "CAR",
-   "away_record": "6-2",
-   "home_record": "3-4",
-   "spread_home": 7.5,
-   "ml_home": 800,
-   "ml_away": -1200,
-   "status": "scheduled",
+   "away_record": "7-2",
+   "home_record": "3-5",
+   "spread_home": 4.5,
+   "ml_home": 1500,
+   "ml_away": -7000,
+   "status": "final",
    "neutral": false,
    "injuries": {
     "DEN": [
@@ -148,30 +152,31 @@
      "Will Lee III (CB) out"
     ]
    },
-   "alt_p_home": 0.2844,
+   "alt_p_home": 0.2627,
    "open_spread_home": 3.0,
-   "p_home": 0.1074,
+   "p_home": 0.0596,
    "pick": "DEN",
-   "pick_prob": 0.8926,
-   "yard": 11,
+   "pick_prob": 0.9404,
+   "yard": 6,
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 4.5 pts toward DEN since open (CAR +3 to CAR +7.5)."
+     "text": "Moved 1.5 pts toward DEN since open (CAR +3 to CAR +4.5)."
     }
-   ]
+   ],
+   "winner": "DEN"
   },
   {
    "id": "2026_09_DET_MIA",
    "kickoff": "2026-11-08T13:00",
    "away": "DET",
    "home": "MIA",
-   "away_record": "5-2",
-   "home_record": "1-6",
-   "spread_home": 11.5,
+   "away_record": "6-2",
+   "home_record": "1-7",
+   "spread_home": 6.5,
    "ml_home": 245.0,
    "ml_away": -305.0,
-   "status": "scheduled",
+   "status": "final",
    "neutral": false,
    "injuries": {
     "DET": [
@@ -179,30 +184,26 @@
      "D.J. Reed (CB) out"
     ]
    },
-   "alt_p_home": 0.2782,
+   "alt_p_home": 0.2504,
    "open_spread_home": 7.0,
    "p_home": 0.2779,
    "pick": "DET",
    "pick_prob": 0.7221,
    "yard": 28,
-   "notes": [
-    {
-     "kind": "move",
-     "text": "Moved 4.5 pts toward DET since open (MIA +7 to MIA +11.5)."
-    }
-   ]
+   "notes": [],
+   "winner": "DET"
   },
   {
    "id": "2026_09_LA_WAS",
    "kickoff": "2026-11-08T13:00",
    "away": "LA",
    "home": "WAS",
-   "away_record": "4-4",
-   "home_record": "2-4-1",
-   "spread_home": 7.0,
-   "ml_home": 700,
-   "ml_away": -1400,
-   "status": "scheduled",
+   "away_record": "5-4",
+   "home_record": "2-5-1",
+   "spread_home": 6.5,
+   "ml_home": 1000,
+   "ml_away": -3000,
+   "status": "final",
    "neutral": false,
    "injuries": {
     "LA": [
@@ -214,18 +215,19 @@
      "Dyami Brown (WR) out"
     ]
    },
-   "alt_p_home": 0.3515,
+   "alt_p_home": 0.3158,
    "open_spread_home": 5.5,
-   "p_home": 0.1181,
+   "p_home": 0.0859,
    "pick": "LA",
-   "pick_prob": 0.8819,
-   "yard": 12,
+   "pick_prob": 0.9141,
+   "yard": 9,
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 1.5 pts toward LA since open (WAS +5.5 to WAS +7)."
+     "text": "Moved 1 pt toward LA since open (WAS +5.5 to WAS +6.5)."
     }
-   ]
+   ],
+   "winner": "LA"
   },
   {
    "id": "2026_09_NYG_PHI",
@@ -235,8 +237,8 @@
    "away_record": "4-2-1",
    "home_record": "2-6",
    "spread_home": 7.5,
-   "ml_home": 675,
-   "ml_away": -1000,
+   "ml_home": 3500,
+   "ml_away": -7000,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -251,10 +253,10 @@
    },
    "alt_p_home": 0.4961,
    "open_spread_home": 3.0,
-   "p_home": 0.1243,
+   "p_home": 0.0274,
    "pick": "NYG",
-   "pick_prob": 0.8757,
-   "yard": 12,
+   "pick_prob": 0.9726,
+   "yard": 3,
    "notes": [
     {
      "kind": "move",
@@ -267,12 +269,12 @@
    "kickoff": "2026-11-08T13:00",
    "away": "NYJ",
    "home": "KC",
-   "away_record": "2-6",
-   "home_record": "5-2",
-   "spread_home": -16.5,
+   "away_record": "2-7",
+   "home_record": "6-2",
+   "spread_home": -9.5,
    "ml_home": -520.0,
    "ml_away": 390.0,
-   "status": "scheduled",
+   "status": "final",
    "neutral": false,
    "injuries": {
     "NYJ": [
@@ -284,18 +286,14 @@
      "Mansoor Delane (CB) out"
     ]
    },
-   "alt_p_home": 0.8032,
+   "alt_p_home": 0.8228,
    "open_spread_home": -9.5,
    "p_home": 0.8043,
    "pick": "KC",
    "pick_prob": 0.8043,
    "yard": 20,
-   "notes": [
-    {
-     "kind": "move",
-     "text": "Moved 7 pts toward KC since open (KC -9.5 to KC -16.5)."
-    }
-   ]
+   "notes": [],
+   "winner": "KC"
   },
   {
    "id": "2026_09_HOU_LAC",
@@ -304,9 +302,9 @@
    "home": "LAC",
    "away_record": "2-5",
    "home_record": "0-7",
-   "spread_home": 5.5,
-   "ml_home": 194,
-   "ml_away": -235,
+   "spread_home": 7.5,
+   "ml_home": 280,
+   "ml_away": -400,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -321,11 +319,16 @@
    },
    "alt_p_home": 0.4024,
    "open_spread_home": 5.0,
-   "p_home": 0.3265,
+   "p_home": 0.2475,
    "pick": "HOU",
-   "pick_prob": 0.6735,
-   "yard": 33,
-   "notes": []
+   "pick_prob": 0.7525,
+   "yard": 25,
+   "notes": [
+    {
+     "kind": "move",
+     "text": "Moved 2.5 pts toward HOU since open (LAC +5 to LAC +7.5)."
+    }
+   ]
   },
   {
    "id": "2026_09_LV_SF",
@@ -335,8 +338,8 @@
    "away_record": "4-4",
    "home_record": "6-1",
    "spread_home": -9.0,
-   "ml_home": -475,
-   "ml_away": 370,
+   "ml_home": -460,
+   "ml_away": 355,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -348,10 +351,10 @@
    },
    "alt_p_home": 0.8019,
    "open_spread_home": -10.0,
-   "p_home": 0.7952,
+   "p_home": 0.7889,
    "pick": "SF",
-   "pick_prob": 0.7952,
-   "yard": 20,
+   "pick_prob": 0.7889,
+   "yard": 21,
    "notes": [
     {
      "kind": "move",
@@ -366,9 +369,9 @@
    "home": "SEA",
    "away_record": "3-5",
    "home_record": "4-4",
-   "spread_home": -8.5,
-   "ml_home": -420,
-   "ml_away": 322,
+   "spread_home": -9.0,
+   "ml_home": -450,
+   "ml_away": 350,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -382,14 +385,14 @@
    },
    "alt_p_home": 0.8064,
    "open_spread_home": -11.0,
-   "p_home": 0.7732,
+   "p_home": 0.7864,
    "pick": "SEA",
-   "pick_prob": 0.7732,
-   "yard": 23,
+   "pick_prob": 0.7864,
+   "yard": 21,
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 2.5 pts toward ARI since open (SEA -11 to SEA -8.5)."
+     "text": "Moved 2 pts toward ARI since open (SEA -11 to SEA -9)."
     }
    ]
   },
@@ -401,8 +404,8 @@
    "away_record": "5-3",
    "home_record": "5-3",
    "spread_home": -3.0,
-   "ml_home": -180,
-   "ml_away": 155,
+   "ml_home": -177,
+   "ml_away": 150,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -416,9 +419,9 @@
    },
    "alt_p_home": 0.6179,
    "open_spread_home": -3.0,
-   "p_home": 0.6211,
+   "p_home": 0.615,
    "pick": "NE",
-   "pick_prob": 0.6211,
+   "pick_prob": 0.615,
    "yard": 38,
    "notes": []
   },
@@ -476,7 +479,7 @@
  ],
  "record": {
   "season": 2026,
-  "w": 20,
+  "w": 24,
   "l": 9,
   "weeks": [
    {
@@ -491,7 +494,7 @@
    },
    {
     "week": 9,
-    "w": 2,
+    "w": 6,
     "l": 0
    }
   ]
