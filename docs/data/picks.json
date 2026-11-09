@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 9,
- "generated_at": "2026-11-09T00:53+00:00",
+ "generated_at": "2026-11-09T02:10+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -390,7 +390,7 @@
    "home": "NE",
    "away_record": "6-3",
    "home_record": "5-4",
-   "spread_home": 17.5,
+   "spread_home": -3.0,
    "ml_home": -185.0,
    "ml_away": 154.0,
    "status": "final",
@@ -410,12 +410,7 @@
    "pick": "NE",
    "pick_prob": 0.6225,
    "yard": 38,
-   "notes": [
-    {
-     "kind": "move",
-     "text": "Line flipped: opened NE -3, now NE +17.5. Money came in on GB."
-    }
-   ],
+   "notes": [],
    "winner": "GB"
   },
   {
@@ -425,19 +420,24 @@
    "home": "CHI",
    "away_record": "3-5",
    "home_record": "6-2",
-   "spread_home": -6.5,
-   "ml_home": -280,
-   "ml_away": 230,
+   "spread_home": -17.5,
+   "ml_home": -2000,
+   "ml_away": 1000,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.7102,
    "open_spread_home": -6.0,
-   "p_home": 0.7086,
+   "p_home": 0.9129,
    "pick": "CHI",
-   "pick_prob": 0.7086,
-   "yard": 29,
-   "notes": []
+   "pick_prob": 0.9129,
+   "yard": 9,
+   "notes": [
+    {
+     "kind": "move",
+     "text": "Moved 11.5 pts toward CHI since open (CHI -6 to CHI -17.5)."
+    }
+   ]
   },
   {
    "id": "2026_09_BUF_MIN",
