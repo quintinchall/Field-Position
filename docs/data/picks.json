@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 9,
- "generated_at": "2026-11-09T00:19+00:00",
+ "generated_at": "2026-11-09T00:53+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -289,12 +289,12 @@
    "kickoff": "2026-11-08T16:05",
    "away": "HOU",
    "home": "LAC",
-   "away_record": "2-5",
-   "home_record": "0-7",
-   "spread_home": 21.5,
+   "away_record": "3-5",
+   "home_record": "0-8",
+   "spread_home": 5.5,
    "ml_home": 190.0,
    "ml_away": -230.0,
-   "status": "scheduled",
+   "status": "final",
    "neutral": false,
    "injuries": {
     "HOU": [
@@ -306,18 +306,14 @@
      "Brenen Thompson (WR) doubtful"
     ]
    },
-   "alt_p_home": 0.4024,
+   "alt_p_home": 0.3369,
    "open_spread_home": 5.0,
    "p_home": 0.331,
    "pick": "HOU",
    "pick_prob": 0.669,
    "yard": 33,
-   "notes": [
-    {
-     "kind": "move",
-     "text": "Moved 16.5 pts toward HOU since open (LAC +5 to LAC +21.5)."
-    }
-   ]
+   "notes": [],
+   "winner": "HOU"
   },
   {
    "id": "2026_09_LV_SF",
@@ -326,7 +322,7 @@
    "home": "SF",
    "away_record": "4-5",
    "home_record": "7-1",
-   "spread_home": -21.5,
+   "spread_home": -8.5,
    "ml_home": -410.0,
    "ml_away": 320.0,
    "status": "final",
@@ -347,7 +343,7 @@
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 11.5 pts toward SF since open (SF -10 to SF -21.5)."
+     "text": "Moved 1.5 pts toward LV since open (SF -10 to SF -8.5)."
     }
    ],
    "winner": "SF"
@@ -357,12 +353,12 @@
    "kickoff": "2026-11-08T16:25",
    "away": "ARI",
    "home": "SEA",
-   "away_record": "3-5",
-   "home_record": "4-4",
-   "spread_home": -13.5,
+   "away_record": "3-6",
+   "home_record": "5-4",
+   "spread_home": -8.5,
    "ml_home": -455.0,
    "ml_away": 350.0,
-   "status": "scheduled",
+   "status": "final",
    "neutral": false,
    "injuries": {
     "ARI": [
@@ -373,7 +369,7 @@
      "Rashid Shaheed (WR) out"
     ]
    },
-   "alt_p_home": 0.8064,
+   "alt_p_home": 0.8228,
    "open_spread_home": -11.0,
    "p_home": 0.7867,
    "pick": "SEA",
@@ -382,21 +378,22 @@
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 2.5 pts toward SEA since open (SEA -11 to SEA -13.5)."
+     "text": "Moved 2.5 pts toward ARI since open (SEA -11 to SEA -8.5)."
     }
-   ]
+   ],
+   "winner": "SEA"
   },
   {
    "id": "2026_09_GB_NE",
    "kickoff": "2026-11-08T16:25",
    "away": "GB",
    "home": "NE",
-   "away_record": "5-3",
-   "home_record": "5-3",
-   "spread_home": 23.5,
+   "away_record": "6-3",
+   "home_record": "5-4",
+   "spread_home": 17.5,
    "ml_home": -185.0,
    "ml_away": 154.0,
-   "status": "scheduled",
+   "status": "final",
    "neutral": false,
    "injuries": {
     "GB": [
@@ -407,7 +404,7 @@
      "A.J. Brown (WR) out"
     ]
    },
-   "alt_p_home": 0.6179,
+   "alt_p_home": 0.5113,
    "open_spread_home": -3.0,
    "p_home": 0.6225,
    "pick": "NE",
@@ -416,9 +413,10 @@
    "notes": [
     {
      "kind": "move",
-     "text": "Line flipped: opened NE -3, now NE +23.5. Money came in on GB."
+     "text": "Line flipped: opened NE -3, now NE +17.5. Money came in on GB."
     }
-   ]
+   ],
+   "winner": "GB"
   },
   {
    "id": "2026_09_TB_CHI",
@@ -427,18 +425,18 @@
    "home": "CHI",
    "away_record": "3-5",
    "home_record": "6-2",
-   "spread_home": -6.0,
-   "ml_home": -275,
-   "ml_away": 225,
+   "spread_home": -6.5,
+   "ml_home": -280,
+   "ml_away": 230,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.7102,
    "open_spread_home": -6.0,
-   "p_home": 0.7044,
+   "p_home": 0.7086,
    "pick": "CHI",
-   "pick_prob": 0.7044,
-   "yard": 30,
+   "pick_prob": 0.7086,
+   "yard": 29,
    "notes": []
   },
   {
@@ -474,8 +472,8 @@
  ],
  "record": {
   "season": 2026,
-  "w": 28,
-  "l": 9,
+  "w": 30,
+  "l": 10,
   "weeks": [
    {
     "week": 6,
@@ -489,8 +487,8 @@
    },
    {
     "week": 9,
-    "w": 10,
-    "l": 0
+    "w": 12,
+    "l": 1
    }
   ]
  },
