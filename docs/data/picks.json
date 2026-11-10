@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 9,
- "generated_at": "2026-11-10T00:20+00:00",
+ "generated_at": "2026-11-10T00:53+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -442,9 +442,9 @@
    "home": "MIN",
    "away_record": "6-1",
    "home_record": "6-1",
-   "spread_home": 3.5,
-   "ml_home": 163,
-   "ml_away": -194,
+   "spread_home": 3.0,
+   "ml_home": 165,
+   "ml_away": -192,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -459,10 +459,10 @@
    },
    "alt_p_home": 0.4975,
    "open_spread_home": 3.5,
-   "p_home": 0.3656,
+   "p_home": 0.3646,
    "pick": "BUF",
-   "pick_prob": 0.6344,
-   "yard": 37,
+   "pick_prob": 0.6354,
+   "yard": 36,
    "notes": []
   }
  ],
