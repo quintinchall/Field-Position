@@ -347,99 +347,99 @@
     "away": "WAS",
     "home": "NYG",
     "pick": "NYG",
-    "prob": 0.5556,
-    "locked_at": "2026-11-11T14:10+00:00"
+    "prob": 0.5467,
+    "locked_at": "2026-11-12T14:13+00:00"
    },
    "2026_10_NE_DET": {
     "away": "NE",
     "home": "DET",
     "pick": "DET",
     "prob": 0.583,
-    "locked_at": "2026-11-11T14:10+00:00"
+    "locked_at": "2026-11-12T14:13+00:00"
    },
    "2026_10_BUF_NYJ": {
     "away": "BUF",
     "home": "NYJ",
     "pick": "BUF",
     "prob": 0.7834,
-    "locked_at": "2026-11-11T14:10+00:00"
+    "locked_at": "2026-11-12T14:13+00:00"
    },
    "2026_10_CAR_NO": {
     "away": "CAR",
     "home": "NO",
     "pick": "NO",
-    "prob": 0.5553,
-    "locked_at": "2026-11-11T14:10+00:00"
+    "prob": 0.5549,
+    "locked_at": "2026-11-12T14:13+00:00"
    },
    "2026_10_HOU_CLE": {
     "away": "HOU",
     "home": "CLE",
     "pick": "HOU",
-    "prob": 0.669,
-    "locked_at": "2026-11-11T14:10+00:00"
+    "prob": 0.672,
+    "locked_at": "2026-11-12T14:13+00:00"
    },
    "2026_10_JAX_TEN": {
     "away": "JAX",
     "home": "TEN",
     "pick": "JAX",
-    "prob": 0.8167,
-    "locked_at": "2026-11-11T14:10+00:00"
+    "prob": 0.8173,
+    "locked_at": "2026-11-12T14:13+00:00"
    },
    "2026_10_KC_ATL": {
     "away": "KC",
     "home": "ATL",
     "pick": "KC",
-    "prob": 0.622,
-    "locked_at": "2026-11-11T14:10+00:00"
+    "prob": 0.6211,
+    "locked_at": "2026-11-12T14:13+00:00"
    },
    "2026_10_MIA_IND": {
     "away": "MIA",
     "home": "IND",
     "pick": "IND",
-    "prob": 0.6383,
-    "locked_at": "2026-11-11T14:10+00:00"
+    "prob": 0.6447,
+    "locked_at": "2026-11-12T14:13+00:00"
    },
    "2026_10_MIN_GB": {
     "away": "MIN",
     "home": "GB",
     "pick": "GB",
-    "prob": 0.6164,
-    "locked_at": "2026-11-11T14:10+00:00"
+    "prob": 0.5985,
+    "locked_at": "2026-11-12T14:13+00:00"
    },
    "2026_10_LA_ARI": {
     "away": "LA",
     "home": "ARI",
     "pick": "LA",
-    "prob": 0.7845,
-    "locked_at": "2026-11-11T14:10+00:00"
+    "prob": 0.7902,
+    "locked_at": "2026-11-12T14:13+00:00"
    },
    "2026_10_SEA_LV": {
     "away": "SEA",
     "home": "LV",
     "pick": "SEA",
-    "prob": 0.7144,
-    "locked_at": "2026-11-11T14:10+00:00"
+    "prob": 0.7136,
+    "locked_at": "2026-11-12T14:13+00:00"
    },
    "2026_10_SF_DAL": {
     "away": "SF",
     "home": "DAL",
     "pick": "SF",
-    "prob": 0.6507,
-    "locked_at": "2026-11-11T14:10+00:00"
+    "prob": 0.6515,
+    "locked_at": "2026-11-12T14:13+00:00"
    },
    "2026_10_PIT_CIN": {
     "away": "PIT",
     "home": "CIN",
     "pick": "CIN",
     "prob": 0.6234,
-    "locked_at": "2026-11-11T14:10+00:00"
+    "locked_at": "2026-11-12T14:13+00:00"
    },
    "2026_10_LAC_BAL": {
     "away": "LAC",
     "home": "BAL",
     "pick": "BAL",
-    "prob": 0.6599,
-    "locked_at": "2026-11-11T14:10+00:00"
+    "prob": 0.6548,
+    "locked_at": "2026-11-12T14:13+00:00"
    }
   }
  }
