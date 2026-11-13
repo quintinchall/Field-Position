@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 10,
- "generated_at": "2026-11-13T00:56+00:00",
+ "generated_at": "2026-11-13T02:06+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -12,9 +12,9 @@
    "home": "NYG",
    "away_record": "2-5-1",
    "home_record": "5-2-1",
-   "spread_home": -1.5,
-   "ml_home": -121,
-   "ml_away": 101,
+   "spread_home": 2.5,
+   "ml_home": 108,
+   "ml_away": -130,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -24,14 +24,14 @@
    },
    "alt_p_home": 0.6403,
    "open_spread_home": -2.5,
-   "p_home": 0.5239,
-   "pick": "NYG",
-   "pick_prob": 0.5239,
-   "yard": 48,
+   "p_home": 0.4596,
+   "pick": "WAS",
+   "pick_prob": 0.5404,
+   "yard": 46,
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 1 pt toward WAS since open (NYG -2.5 to NYG -1.5)."
+     "text": "Line flipped: opened NYG -2.5, now NYG +2.5. Money came in on WAS."
     },
     {
      "kind": "flip",
@@ -46,9 +46,9 @@
    "home": "DET",
    "away_record": "5-4",
    "home_record": "6-2",
-   "spread_home": -3.0,
-   "ml_home": -152,
-   "ml_away": 129,
+   "spread_home": -2.5,
+   "ml_home": -150,
+   "ml_away": 127,
    "status": "scheduled",
    "neutral": true,
    "injuries": {
@@ -59,9 +59,9 @@
    },
    "alt_p_home": 0.5629,
    "open_spread_home": -3.0,
-   "p_home": 0.5801,
+   "p_home": 0.5766,
    "pick": "DET",
-   "pick_prob": 0.5801,
+   "pick_prob": 0.5766,
    "yard": 42,
    "notes": []
   },
@@ -308,15 +308,15 @@
    "home_record": "6-2",
    "spread_home": -3.5,
    "ml_home": -185,
-   "ml_away": 155,
+   "ml_away": 156,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.5634,
    "open_spread_home": -3.5,
-   "p_home": 0.6234,
+   "p_home": 0.6243,
    "pick": "CIN",
-   "pick_prob": 0.6234,
+   "pick_prob": 0.6243,
    "yard": 38,
    "notes": []
   },
