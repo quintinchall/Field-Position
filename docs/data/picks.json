@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 10,
- "generated_at": "2026-11-13T02:06+00:00",
+ "generated_at": "2026-11-13T14:08+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -10,34 +10,35 @@
    "kickoff": "2026-11-12T20:15",
    "away": "WAS",
    "home": "NYG",
-   "away_record": "2-5-1",
-   "home_record": "5-2-1",
-   "spread_home": 2.5,
-   "ml_home": 108,
-   "ml_away": -130,
-   "status": "scheduled",
+   "away_record": "3-5-1",
+   "home_record": "5-3-1",
+   "spread_home": -1.5,
+   "ml_home": -122.0,
+   "ml_away": 102.0,
+   "status": "final",
    "neutral": false,
    "injuries": {
     "WAS": [
      "Colson Yankoff (TE) out"
     ]
    },
-   "alt_p_home": 0.6403,
+   "alt_p_home": 0.5897,
    "open_spread_home": -2.5,
-   "p_home": 0.4596,
-   "pick": "WAS",
-   "pick_prob": 0.5404,
-   "yard": 46,
+   "p_home": 0.5261,
+   "pick": "NYG",
+   "pick_prob": 0.5261,
+   "yard": 47,
    "notes": [
     {
      "kind": "move",
-     "text": "Line flipped: opened NYG -2.5, now NYG +2.5. Money came in on WAS."
+     "text": "Moved 1 pt toward WAS since open (NYG -2.5 to NYG -1.5)."
     },
     {
      "kind": "flip",
      "text": "Coin flip. In a confidence pool this belongs in a low-point slot."
     }
-   ]
+   ],
+   "winner": "WAS"
   },
   {
    "id": "2026_10_NE_DET",
@@ -46,22 +47,25 @@
    "home": "DET",
    "away_record": "5-4",
    "home_record": "6-2",
-   "spread_home": -2.5,
+   "spread_home": -3.0,
    "ml_home": -150,
-   "ml_away": 127,
+   "ml_away": 130,
    "status": "scheduled",
    "neutral": true,
    "injuries": {
     "NE": [
      "TreVeyon Henderson (RB) out",
      "Carlton Davis III (CB) out"
+    ],
+    "DET": [
+     "D.J. Reed (CB) out"
     ]
    },
    "alt_p_home": 0.5629,
    "open_spread_home": -3.0,
-   "p_home": 0.5766,
+   "p_home": 0.5798,
    "pick": "DET",
-   "pick_prob": 0.5766,
+   "pick_prob": 0.5798,
    "yard": 42,
    "notes": []
   },
@@ -73,16 +77,16 @@
    "away_record": "7-1",
    "home_record": "2-7",
    "spread_home": 8.0,
-   "ml_home": 344,
+   "ml_home": 340,
    "ml_away": -440,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.138,
    "open_spread_home": 8.5,
-   "p_home": 0.2166,
+   "p_home": 0.2181,
    "pick": "BUF",
-   "pick_prob": 0.7834,
+   "pick_prob": 0.7819,
    "yard": 22,
    "notes": []
   },
@@ -93,22 +97,22 @@
    "home": "NO",
    "away_record": "3-5",
    "home_record": "3-5",
-   "spread_home": -2.5,
-   "ml_home": -138,
-   "ml_away": 115,
+   "spread_home": -2.0,
+   "ml_home": -140,
+   "ml_away": 118,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.5444,
    "open_spread_home": -1.0,
-   "p_home": 0.5549,
+   "p_home": 0.5598,
    "pick": "NO",
-   "pick_prob": 0.5549,
-   "yard": 45,
+   "pick_prob": 0.5598,
+   "yard": 44,
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 1.5 pts toward NO since open (NO -1 to NO -2.5)."
+     "text": "Moved 1 pt toward NO since open (NO -1 to NO -2)."
     },
     {
      "kind": "flip",
@@ -124,16 +128,16 @@
    "away_record": "3-5",
    "home_record": "5-4",
    "spread_home": 4.5,
-   "ml_home": 189,
-   "ml_away": -230,
+   "ml_home": 190,
+   "ml_away": -235,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.4225,
    "open_spread_home": 5.0,
-   "p_home": 0.3318,
+   "p_home": 0.3296,
    "pick": "HOU",
-   "pick_prob": 0.6682,
+   "pick_prob": 0.6704,
    "yard": 33,
    "notes": []
   },
@@ -145,16 +149,16 @@
    "away_record": "6-2",
    "home_record": "1-7",
    "spread_home": 10.5,
-   "ml_home": 425,
-   "ml_away": -590,
+   "ml_home": 440,
+   "ml_away": -617,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.1511,
    "open_spread_home": 10.5,
-   "p_home": 0.1822,
+   "p_home": 0.1771,
    "pick": "JAX",
-   "pick_prob": 0.8178,
+   "pick_prob": 0.8229,
    "yard": 18,
    "notes": []
   },
@@ -166,16 +170,16 @@
    "away_record": "6-2",
    "home_record": "3-6",
    "spread_home": 3.0,
-   "ml_home": 153,
+   "ml_home": 154,
    "ml_away": -180,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.3922,
    "open_spread_home": 3.0,
-   "p_home": 0.3807,
+   "p_home": 0.3798,
    "pick": "KC",
-   "pick_prob": 0.6193,
+   "pick_prob": 0.6202,
    "yard": 38,
    "notes": []
   },
@@ -213,17 +217,17 @@
    "away_record": "6-2",
    "home_record": "6-3",
    "spread_home": -3.0,
-   "ml_home": -157,
-   "ml_away": 130,
+   "ml_home": -156,
+   "ml_away": 132,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.5451,
    "open_spread_home": -4.5,
-   "p_home": 0.5842,
+   "p_home": 0.5857,
    "pick": "GB",
-   "pick_prob": 0.5842,
-   "yard": 42,
+   "pick_prob": 0.5857,
+   "yard": 41,
    "notes": [
     {
      "kind": "move",
@@ -261,15 +265,15 @@
    "home_record": "4-5",
    "spread_home": 6.5,
    "ml_home": 235,
-   "ml_away": -290,
+   "ml_away": -295,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.2759,
    "open_spread_home": 3.5,
-   "p_home": 0.2864,
+   "p_home": 0.2856,
    "pick": "SEA",
-   "pick_prob": 0.7136,
+   "pick_prob": 0.7144,
    "yard": 29,
    "notes": [
     {
@@ -308,16 +312,16 @@
    "home_record": "6-2",
    "spread_home": -3.5,
    "ml_home": -185,
-   "ml_away": 156,
+   "ml_away": 158,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.5634,
    "open_spread_home": -3.5,
-   "p_home": 0.6243,
+   "p_home": 0.6261,
    "pick": "CIN",
-   "pick_prob": 0.6243,
-   "yard": 38,
+   "pick_prob": 0.6261,
+   "yard": 37,
    "notes": []
   },
   {
@@ -328,16 +332,16 @@
    "away_record": "0-8",
    "home_record": "4-5",
    "spread_home": -4.5,
-   "ml_home": -220,
+   "ml_home": -218,
    "ml_away": 180,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.6861,
    "open_spread_home": -5.0,
-   "p_home": 0.6581,
+   "p_home": 0.6575,
    "pick": "BAL",
-   "pick_prob": 0.6581,
+   "pick_prob": 0.6575,
    "yard": 34,
    "notes": []
   }
@@ -345,7 +349,7 @@
  "record": {
   "season": 2026,
   "w": 32,
-  "l": 10,
+  "l": 11,
   "weeks": [
    {
     "week": 6,
@@ -360,6 +364,11 @@
    {
     "week": 9,
     "w": 14,
+    "l": 1
+   },
+   {
+    "week": 10,
+    "w": 0,
     "l": 1
    }
   ]
