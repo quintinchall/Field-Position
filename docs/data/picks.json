@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 10,
- "generated_at": "2026-11-13T14:08+00:00",
+ "generated_at": "2026-11-14T13:46+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -47,7 +47,7 @@
    "home": "DET",
    "away_record": "5-4",
    "home_record": "6-2",
-   "spread_home": -3.0,
+   "spread_home": -2.5,
    "ml_home": -150,
    "ml_away": 130,
    "status": "scheduled",
@@ -77,16 +77,16 @@
    "away_record": "7-1",
    "home_record": "2-7",
    "spread_home": 8.0,
-   "ml_home": 340,
+   "ml_home": 344,
    "ml_away": -440,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.138,
    "open_spread_home": 8.5,
-   "p_home": 0.2181,
+   "p_home": 0.2166,
    "pick": "BUF",
-   "pick_prob": 0.7819,
+   "pick_prob": 0.7834,
    "yard": 22,
    "notes": []
   },
@@ -97,22 +97,30 @@
    "home": "NO",
    "away_record": "3-5",
    "home_record": "3-5",
-   "spread_home": -2.0,
-   "ml_home": -140,
+   "spread_home": -2.5,
+   "ml_home": -138,
    "ml_away": 118,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "CAR": [
+     "Mike Jackson (CB) doubtful",
+     "Jonathon Brooks (RB) doubtful"
+    ],
+    "NO": [
+     "CJ Donaldson (RB) out"
+    ]
+   },
    "alt_p_home": 0.5444,
    "open_spread_home": -1.0,
-   "p_home": 0.5598,
+   "p_home": 0.5583,
    "pick": "NO",
-   "pick_prob": 0.5598,
+   "pick_prob": 0.5583,
    "yard": 44,
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 1 pt toward NO since open (NO -1 to NO -2)."
+     "text": "Moved 1.5 pts toward NO since open (NO -1 to NO -2.5)."
     },
     {
      "kind": "flip",
@@ -128,16 +136,22 @@
    "away_record": "3-5",
    "home_record": "5-4",
    "spread_home": 4.5,
-   "ml_home": 190,
-   "ml_away": -235,
+   "ml_home": 192,
+   "ml_away": -230,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "HOU": [
+     "Marvin Harrison Jr. (WR) out",
+     "Danielle Hunter (DE) out",
+     "Brevin Jordan (TE) out"
+    ]
+   },
    "alt_p_home": 0.4225,
    "open_spread_home": 5.0,
-   "p_home": 0.3296,
+   "p_home": 0.3295,
    "pick": "HOU",
-   "pick_prob": 0.6704,
+   "pick_prob": 0.6705,
    "yard": 33,
    "notes": []
   },
@@ -153,7 +167,14 @@
    "ml_away": -617,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "JAX": [
+     "BJ Green II (DE) out"
+    ],
+    "TEN": [
+     "Carnell Tate (WR) out"
+    ]
+   },
    "alt_p_home": 0.1511,
    "open_spread_home": 10.5,
    "p_home": 0.1771,
@@ -170,17 +191,21 @@
    "away_record": "6-2",
    "home_record": "3-6",
    "spread_home": 3.0,
-   "ml_home": 154,
-   "ml_away": -180,
+   "ml_home": 150,
+   "ml_away": -175,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "ATL": [
+     "Zachariah Branch (WR) out"
+    ]
+   },
    "alt_p_home": 0.3922,
    "open_spread_home": 3.0,
-   "p_home": 0.3798,
+   "p_home": 0.386,
    "pick": "KC",
-   "pick_prob": 0.6202,
-   "yard": 38,
+   "pick_prob": 0.614,
+   "yard": 39,
    "notes": []
   },
   {
@@ -191,16 +216,24 @@
    "away_record": "1-7",
    "home_record": "2-7",
    "spread_home": -4.0,
-   "ml_home": -205,
-   "ml_away": 173,
+   "ml_home": -210,
+   "ml_away": 180,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "MIA": [
+     "Jared Wayne (WR) out",
+     "Chris Bell (WR) doubtful"
+    ],
+    "IND": [
+     "Mo Alie-Cox (TE) out"
+    ]
+   },
    "alt_p_home": 0.5889,
    "open_spread_home": -2.5,
-   "p_home": 0.6473,
+   "p_home": 0.6548,
    "pick": "IND",
-   "pick_prob": 0.6473,
+   "pick_prob": 0.6548,
    "yard": 35,
    "notes": [
     {
@@ -217,17 +250,27 @@
    "away_record": "6-2",
    "home_record": "6-3",
    "spread_home": -3.0,
-   "ml_home": -156,
-   "ml_away": 132,
+   "ml_home": -150,
+   "ml_away": 129,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "MIN": [
+     "Kyler Murray (QB) out",
+     "T.J. Hockenson (TE) out",
+     "Jauan Jennings (WR) out"
+    ],
+    "GB": [
+     "Josh Whyle (TE) out",
+     "Josh Jacobs (RB) out"
+    ]
+   },
    "alt_p_home": 0.5451,
    "open_spread_home": -4.5,
-   "p_home": 0.5857,
+   "p_home": 0.5788,
    "pick": "GB",
-   "pick_prob": 0.5857,
-   "yard": 41,
+   "pick_prob": 0.5788,
+   "yard": 42,
    "notes": [
     {
      "kind": "move",
@@ -247,7 +290,11 @@
    "ml_away": -475,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "LA": [
+     "Terrance Ferguson (TE) out"
+    ]
+   },
    "alt_p_home": 0.273,
    "open_spread_home": 9.5,
    "p_home": 0.2101,
@@ -264,17 +311,21 @@
    "away_record": "5-4",
    "home_record": "4-5",
    "spread_home": 6.5,
-   "ml_home": 235,
+   "ml_home": 238,
    "ml_away": -295,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "SEA": [
+     "Sam Darnold (QB) out"
+    ]
+   },
    "alt_p_home": 0.2759,
    "open_spread_home": 3.5,
-   "p_home": 0.2856,
+   "p_home": 0.2837,
    "pick": "SEA",
-   "pick_prob": 0.7144,
-   "yard": 29,
+   "pick_prob": 0.7163,
+   "yard": 28,
    "notes": [
     {
      "kind": "move",
@@ -290,16 +341,25 @@
    "away_record": "7-1",
    "home_record": "4-5",
    "spread_home": 4.0,
-   "ml_home": 176,
+   "ml_home": 180,
    "ml_away": -210,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "SF": [
+     "Mike Evans (WR) out"
+    ],
+    "DAL": [
+     "Tyler Goodson (RB) out",
+     "Jonathan Mingo (WR) out",
+     "Jake Ferguson (TE) out"
+    ]
+   },
    "alt_p_home": 0.326,
    "open_spread_home": 4.0,
-   "p_home": 0.3485,
+   "p_home": 0.3452,
    "pick": "SF",
-   "pick_prob": 0.6515,
+   "pick_prob": 0.6548,
    "yard": 35,
    "notes": []
   },
@@ -312,16 +372,21 @@
    "home_record": "6-2",
    "spread_home": -3.5,
    "ml_home": -185,
-   "ml_away": 158,
+   "ml_away": 155,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {},
+   "injuries": {
+    "CIN": [
+     "Jalen Davis (CB) doubtful",
+     "Andrei Iosivas (WR) doubtful"
+    ]
+   },
    "alt_p_home": 0.5634,
    "open_spread_home": -3.5,
-   "p_home": 0.6261,
+   "p_home": 0.6234,
    "pick": "CIN",
-   "pick_prob": 0.6261,
-   "yard": 37,
+   "pick_prob": 0.6234,
+   "yard": 38,
    "notes": []
   },
   {
@@ -332,16 +397,16 @@
    "away_record": "0-8",
    "home_record": "4-5",
    "spread_home": -4.5,
-   "ml_home": -218,
-   "ml_away": 180,
+   "ml_home": -220,
+   "ml_away": 183,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.6861,
    "open_spread_home": -5.0,
-   "p_home": 0.6575,
+   "p_home": 0.6605,
    "pick": "BAL",
-   "pick_prob": 0.6575,
+   "pick_prob": 0.6605,
    "yard": 34,
    "notes": []
   }
