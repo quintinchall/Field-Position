@@ -356,7 +356,8 @@
     "home": "DET",
     "pick": "DET",
     "prob": 0.5681,
-    "locked_at": "2026-11-15T14:13+00:00"
+    "locked_at": "2026-11-15T14:13+00:00",
+    "winner": "DET"
    },
    "2026_10_BUF_NYJ": {
     "away": "BUF",
@@ -411,36 +412,36 @@
     "away": "LA",
     "home": "ARI",
     "pick": "LA",
-    "prob": 0.802,
-    "locked_at": "2026-11-15T17:41+00:00"
+    "prob": 0.8,
+    "locked_at": "2026-11-15T20:15+00:00"
    },
    "2026_10_SEA_LV": {
     "away": "SEA",
     "home": "LV",
     "pick": "SEA",
     "prob": 0.7175,
-    "locked_at": "2026-11-15T17:41+00:00"
+    "locked_at": "2026-11-15T20:15+00:00"
    },
    "2026_10_SF_DAL": {
     "away": "SF",
     "home": "DAL",
     "pick": "SF",
-    "prob": 0.6575,
-    "locked_at": "2026-11-15T17:41+00:00"
+    "prob": 0.6515,
+    "locked_at": "2026-11-15T20:15+00:00"
    },
    "2026_10_PIT_CIN": {
     "away": "PIT",
     "home": "CIN",
     "pick": "CIN",
-    "prob": 0.6301,
-    "locked_at": "2026-11-15T17:41+00:00"
+    "prob": 0.6318,
+    "locked_at": "2026-11-15T20:15+00:00"
    },
    "2026_10_LAC_BAL": {
     "away": "LAC",
     "home": "BAL",
     "pick": "BAL",
     "prob": 0.6644,
-    "locked_at": "2026-11-15T17:41+00:00"
+    "locked_at": "2026-11-15T20:15+00:00"
    }
   }
  }
