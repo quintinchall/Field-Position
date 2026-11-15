@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 10,
- "generated_at": "2026-11-15T20:44+00:00",
+ "generated_at": "2026-11-15T22:08+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -75,38 +75,34 @@
    "kickoff": "2026-11-15T13:00",
    "away": "BUF",
    "home": "NYJ",
-   "away_record": "7-1",
-   "home_record": "2-7",
-   "spread_home": 15.5,
+   "away_record": "8-1",
+   "home_record": "2-8",
+   "spread_home": 8.5,
    "ml_home": 370.0,
    "ml_away": -485.0,
-   "status": "scheduled",
+   "status": "final",
    "neutral": false,
    "injuries": {},
-   "alt_p_home": 0.138,
+   "alt_p_home": 0.1284,
    "open_spread_home": 8.5,
    "p_home": 0.2042,
    "pick": "BUF",
    "pick_prob": 0.7958,
    "yard": 20,
-   "notes": [
-    {
-     "kind": "move",
-     "text": "Moved 7 pts toward BUF since open (NYJ +8.5 to NYJ +15.5)."
-    }
-   ]
+   "notes": [],
+   "winner": "BUF"
   },
   {
    "id": "2026_10_CAR_NO",
    "kickoff": "2026-11-15T13:00",
    "away": "CAR",
    "home": "NO",
-   "away_record": "3-5",
-   "home_record": "3-5",
-   "spread_home": 0.5,
-   "ml_home": -115,
-   "ml_away": -113,
-   "status": "scheduled",
+   "away_record": "4-5",
+   "home_record": "3-6",
+   "spread_home": -1.5,
+   "ml_home": -110.0,
+   "ml_away": -110.0,
+   "status": "final",
    "neutral": false,
    "injuries": {
     "CAR": [
@@ -117,34 +113,31 @@
      "CJ Donaldson (RB) out"
     ]
    },
-   "alt_p_home": 0.5444,
+   "alt_p_home": 0.5005,
    "open_spread_home": -1.0,
-   "p_home": 0.502,
+   "p_home": 0.5,
    "pick": "NO",
-   "pick_prob": 0.502,
+   "pick_prob": 0.5,
    "yard": 50,
    "notes": [
-    {
-     "kind": "move",
-     "text": "Line flipped: opened NO -1, now NO +0.5. Money came in on CAR."
-    },
     {
      "kind": "flip",
      "text": "Coin flip. In a confidence pool this belongs in a low-point slot."
     }
-   ]
+   ],
+   "winner": "CAR"
   },
   {
    "id": "2026_10_HOU_CLE",
    "kickoff": "2026-11-15T13:00",
    "away": "HOU",
    "home": "CLE",
-   "away_record": "3-5",
-   "home_record": "5-4",
-   "spread_home": 3.5,
-   "ml_home": 200,
-   "ml_away": -250,
-   "status": "scheduled",
+   "away_record": "3-6",
+   "home_record": "6-4",
+   "spread_home": 4.5,
+   "ml_home": 164.0,
+   "ml_away": -198.0,
+   "status": "final",
    "neutral": false,
    "injuries": {
     "HOU": [
@@ -153,30 +146,26 @@
      "Brevin Jordan (TE) out"
     ]
    },
-   "alt_p_home": 0.4225,
+   "alt_p_home": 0.4691,
    "open_spread_home": 5.0,
-   "p_home": 0.3182,
+   "p_home": 0.3631,
    "pick": "HOU",
-   "pick_prob": 0.6818,
-   "yard": 32,
-   "notes": [
-    {
-     "kind": "move",
-     "text": "Moved 1.5 pts toward CLE since open (CLE +5 to CLE +3.5)."
-    }
-   ]
+   "pick_prob": 0.6369,
+   "yard": 36,
+   "notes": [],
+   "winner": "CLE"
   },
   {
    "id": "2026_10_JAX_TEN",
    "kickoff": "2026-11-15T13:00",
    "away": "JAX",
    "home": "TEN",
-   "away_record": "6-2",
-   "home_record": "1-7",
-   "spread_home": 13.5,
+   "away_record": "7-2",
+   "home_record": "1-8",
+   "spread_home": 10.5,
    "ml_home": 470.0,
    "ml_away": -650.0,
-   "status": "scheduled",
+   "status": "final",
    "neutral": false,
    "injuries": {
     "JAX": [
@@ -186,60 +175,52 @@
      "Carnell Tate (WR) out"
     ]
    },
-   "alt_p_home": 0.1511,
+   "alt_p_home": 0.1401,
    "open_spread_home": 10.5,
    "p_home": 0.1684,
    "pick": "JAX",
    "pick_prob": 0.8316,
    "yard": 17,
-   "notes": [
-    {
-     "kind": "move",
-     "text": "Moved 3 pts toward JAX since open (TEN +10.5 to TEN +13.5)."
-    }
-   ]
+   "notes": [],
+   "winner": "JAX"
   },
   {
    "id": "2026_10_KC_ATL",
    "kickoff": "2026-11-15T13:00",
    "away": "KC",
    "home": "ATL",
-   "away_record": "6-2",
-   "home_record": "3-6",
-   "spread_home": 15.5,
+   "away_record": "7-2",
+   "home_record": "3-7",
+   "spread_home": 3.0,
    "ml_home": 145.0,
    "ml_away": -175.0,
-   "status": "scheduled",
+   "status": "final",
    "neutral": false,
    "injuries": {
     "ATL": [
      "Zachariah Branch (WR) out"
     ]
    },
-   "alt_p_home": 0.3922,
+   "alt_p_home": 0.3292,
    "open_spread_home": 3.0,
    "p_home": 0.3908,
    "pick": "KC",
    "pick_prob": 0.6092,
    "yard": 39,
-   "notes": [
-    {
-     "kind": "move",
-     "text": "Moved 12.5 pts toward KC since open (ATL +3 to ATL +15.5)."
-    }
-   ]
+   "notes": [],
+   "winner": "KC"
   },
   {
    "id": "2026_10_MIA_IND",
    "kickoff": "2026-11-15T13:00",
    "away": "MIA",
    "home": "IND",
-   "away_record": "1-7",
-   "home_record": "2-7",
-   "spread_home": -1.5,
-   "ml_home": -145,
-   "ml_away": 113,
-   "status": "scheduled",
+   "away_record": "1-8",
+   "home_record": "3-7",
+   "spread_home": -4.5,
+   "ml_home": -225.0,
+   "ml_away": 185.0,
+   "status": "final",
    "neutral": false,
    "injuries": {
     "MIA": [
@@ -250,34 +231,31 @@
      "Mo Alie-Cox (TE) out"
     ]
    },
-   "alt_p_home": 0.5889,
+   "alt_p_home": 0.6131,
    "open_spread_home": -2.5,
-   "p_home": 0.5576,
+   "p_home": 0.6636,
    "pick": "IND",
-   "pick_prob": 0.5576,
-   "yard": 44,
+   "pick_prob": 0.6636,
+   "yard": 34,
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 1 pt toward MIA since open (IND -2.5 to IND -1.5)."
-    },
-    {
-     "kind": "flip",
-     "text": "Coin flip. In a confidence pool this belongs in a low-point slot."
+     "text": "Moved 2 pts toward IND since open (IND -2.5 to IND -4.5)."
     }
-   ]
+   ],
+   "winner": "IND"
   },
   {
    "id": "2026_10_MIN_GB",
    "kickoff": "2026-11-15T13:00",
    "away": "MIN",
    "home": "GB",
-   "away_record": "6-2",
-   "home_record": "6-3",
-   "spread_home": 20.5,
+   "away_record": "7-2",
+   "home_record": "6-4",
+   "spread_home": -2.5,
    "ml_home": -148.0,
    "ml_away": 124.0,
-   "status": "scheduled",
+   "status": "final",
    "neutral": false,
    "injuries": {
     "MIN": [
@@ -290,7 +268,7 @@
      "Josh Jacobs (RB) out"
     ]
    },
-   "alt_p_home": 0.5451,
+   "alt_p_home": 0.4485,
    "open_spread_home": -4.5,
    "p_home": 0.5721,
    "pick": "GB",
@@ -299,9 +277,10 @@
    "notes": [
     {
      "kind": "move",
-     "text": "Line flipped: opened GB -4.5, now GB +20.5. Money came in on MIN."
+     "text": "Moved 2 pts toward MIN since open (GB -4.5 to GB -2.5)."
     }
-   ]
+   ],
+   "winner": "MIN"
   },
   {
    "id": "2026_10_LA_ARI",
@@ -310,9 +289,9 @@
    "home": "ARI",
    "away_record": "5-4",
    "home_record": "3-6",
-   "spread_home": 10.0,
-   "ml_home": 390,
-   "ml_away": -510,
+   "spread_home": 5.5,
+   "ml_home": 230,
+   "ml_away": -310,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -322,11 +301,16 @@
    },
    "alt_p_home": 0.273,
    "open_spread_home": 9.5,
-   "p_home": 0.1962,
+   "p_home": 0.2861,
    "pick": "LA",
-   "pick_prob": 0.8038,
-   "yard": 20,
-   "notes": []
+   "pick_prob": 0.7139,
+   "yard": 29,
+   "notes": [
+    {
+     "kind": "move",
+     "text": "Moved 4 pts toward ARI since open (ARI +9.5 to ARI +5.5)."
+    }
+   ]
   },
   {
    "id": "2026_10_SEA_LV",
@@ -335,9 +319,9 @@
    "home": "LV",
    "away_record": "5-4",
    "home_record": "4-5",
-   "spread_home": 6.5,
-   "ml_home": 240,
-   "ml_away": -295,
+   "spread_home": 1.5,
+   "ml_home": 101,
+   "ml_away": -130,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -347,14 +331,18 @@
    },
    "alt_p_home": 0.2759,
    "open_spread_home": 3.5,
-   "p_home": 0.2825,
+   "p_home": 0.4681,
    "pick": "SEA",
-   "pick_prob": 0.7175,
-   "yard": 28,
+   "pick_prob": 0.5319,
+   "yard": 47,
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 3 pts toward SEA since open (LV +3.5 to LV +6.5)."
+     "text": "Moved 2 pts toward LV since open (LV +3.5 to LV +1.5)."
+    },
+    {
+     "kind": "flip",
+     "text": "Coin flip. In a confidence pool this belongs in a low-point slot."
     }
    ]
   },
@@ -365,9 +353,9 @@
    "home": "DAL",
    "away_record": "7-1",
    "home_record": "4-5",
-   "spread_home": 4.0,
-   "ml_home": 164,
-   "ml_away": -190,
+   "spread_home": 2.5,
+   "ml_home": 135,
+   "ml_away": -146,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -382,11 +370,16 @@
    },
    "alt_p_home": 0.326,
    "open_spread_home": 4.0,
-   "p_home": 0.3663,
+   "p_home": 0.4176,
    "pick": "SF",
-   "pick_prob": 0.6337,
-   "yard": 37,
-   "notes": []
+   "pick_prob": 0.5824,
+   "yard": 42,
+   "notes": [
+    {
+     "kind": "move",
+     "text": "Moved 1.5 pts toward DAL since open (DAL +4 to DAL +2.5)."
+    }
+   ]
   },
   {
    "id": "2026_10_PIT_CIN",
@@ -396,8 +389,8 @@
    "away_record": "6-2",
    "home_record": "6-2",
    "spread_home": -3.5,
-   "ml_home": -192,
-   "ml_away": 161,
+   "ml_home": -190,
+   "ml_away": 163,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -408,9 +401,9 @@
    },
    "alt_p_home": 0.5634,
    "open_spread_home": -3.5,
-   "p_home": 0.6318,
+   "p_home": 0.6328,
    "pick": "CIN",
-   "pick_prob": 0.6318,
+   "pick_prob": 0.6328,
    "yard": 37,
    "notes": []
   },
@@ -443,8 +436,8 @@
  ],
  "record": {
   "season": 2026,
-  "w": 33,
-  "l": 11,
+  "w": 38,
+  "l": 13,
   "weeks": [
    {
     "week": 6,
@@ -463,8 +456,8 @@
    },
    {
     "week": 10,
-    "w": 1,
-    "l": 1
+    "w": 6,
+    "l": 3
    }
   ]
  },

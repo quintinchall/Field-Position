@@ -364,49 +364,56 @@
     "home": "NYJ",
     "pick": "BUF",
     "prob": 0.7955,
-    "locked_at": "2026-11-15T17:41+00:00"
+    "locked_at": "2026-11-15T17:41+00:00",
+    "winner": "BUF"
    },
    "2026_10_CAR_NO": {
     "away": "CAR",
     "home": "NO",
     "pick": "CAR",
     "prob": 0.5108,
-    "locked_at": "2026-11-15T17:41+00:00"
+    "locked_at": "2026-11-15T17:41+00:00",
+    "winner": "CAR"
    },
    "2026_10_HOU_CLE": {
     "away": "HOU",
     "home": "CLE",
     "pick": "HOU",
     "prob": 0.6366,
-    "locked_at": "2026-11-15T17:41+00:00"
+    "locked_at": "2026-11-15T17:41+00:00",
+    "winner": "CLE"
    },
    "2026_10_JAX_TEN": {
     "away": "JAX",
     "home": "TEN",
     "pick": "JAX",
     "prob": 0.825,
-    "locked_at": "2026-11-15T17:41+00:00"
+    "locked_at": "2026-11-15T17:41+00:00",
+    "winner": "JAX"
    },
    "2026_10_KC_ATL": {
     "away": "KC",
     "home": "ATL",
     "pick": "KC",
     "prob": 0.627,
-    "locked_at": "2026-11-15T17:41+00:00"
+    "locked_at": "2026-11-15T17:41+00:00",
+    "winner": "KC"
    },
    "2026_10_MIA_IND": {
     "away": "MIA",
     "home": "IND",
     "pick": "IND",
     "prob": 0.6652,
-    "locked_at": "2026-11-15T17:41+00:00"
+    "locked_at": "2026-11-15T17:41+00:00",
+    "winner": "IND"
    },
    "2026_10_MIN_GB": {
     "away": "MIN",
     "home": "GB",
     "pick": "GB",
     "prob": 0.5711,
-    "locked_at": "2026-11-15T17:41+00:00"
+    "locked_at": "2026-11-15T17:41+00:00",
+    "winner": "MIN"
    },
    "2026_10_LA_ARI": {
     "away": "LA",
@@ -433,15 +440,15 @@
     "away": "PIT",
     "home": "CIN",
     "pick": "CIN",
-    "prob": 0.6318,
-    "locked_at": "2026-11-15T20:44+00:00"
+    "prob": 0.6328,
+    "locked_at": "2026-11-15T22:08+00:00"
    },
    "2026_10_LAC_BAL": {
     "away": "LAC",
     "home": "BAL",
     "pick": "BAL",
     "prob": 0.6644,
-    "locked_at": "2026-11-15T20:44+00:00"
+    "locked_at": "2026-11-15T22:08+00:00"
    }
   }
  }
