@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 10,
- "generated_at": "2026-11-16T00:31+00:00",
+ "generated_at": "2026-11-16T00:36+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -346,7 +346,7 @@
    "home": "DAL",
    "away_record": "7-1",
    "home_record": "4-5",
-   "spread_home": 8.5,
+   "spread_home": 7.5,
    "ml_home": 3000,
    "ml_away": -1111,
    "status": "scheduled",
@@ -370,7 +370,7 @@
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 4.5 pts toward SF since open (DAL +4 to DAL +8.5)."
+     "text": "Moved 3.5 pts toward SF since open (DAL +4 to DAL +7.5)."
     }
    ]
   },
