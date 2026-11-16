@@ -436,21 +436,22 @@
     "home": "DAL",
     "pick": "SF",
     "prob": 0.6337,
-    "locked_at": "2026-11-15T20:44+00:00"
+    "locked_at": "2026-11-15T20:44+00:00",
+    "winner": "SF"
    },
    "2026_10_PIT_CIN": {
     "away": "PIT",
     "home": "CIN",
     "pick": "CIN",
-    "prob": 0.6515,
-    "locked_at": "2026-11-16T00:36+00:00"
+    "prob": 0.6624,
+    "locked_at": "2026-11-16T01:10+00:00"
    },
    "2026_10_LAC_BAL": {
     "away": "LAC",
     "home": "BAL",
     "pick": "BAL",
     "prob": 0.6644,
-    "locked_at": "2026-11-16T00:36+00:00"
+    "locked_at": "2026-11-16T01:10+00:00"
    }
   }
  }

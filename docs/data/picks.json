@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 10,
- "generated_at": "2026-11-16T00:36+00:00",
+ "generated_at": "2026-11-16T01:10+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -344,12 +344,12 @@
    "kickoff": "2026-11-15T16:25",
    "away": "SF",
    "home": "DAL",
-   "away_record": "7-1",
-   "home_record": "4-5",
-   "spread_home": 7.5,
-   "ml_home": 3000,
-   "ml_away": -1111,
-   "status": "scheduled",
+   "away_record": "8-1",
+   "home_record": "4-6",
+   "spread_home": 3.5,
+   "ml_home": 170.0,
+   "ml_away": -205.0,
+   "status": "final",
    "neutral": false,
    "injuries": {
     "SF": [
@@ -361,18 +361,14 @@
      "Jake Ferguson (TE) out"
     ]
    },
-   "alt_p_home": 0.326,
+   "alt_p_home": 0.2964,
    "open_spread_home": 4.0,
-   "p_home": 0.034,
+   "p_home": 0.3553,
    "pick": "SF",
-   "pick_prob": 0.966,
-   "yard": 3,
-   "notes": [
-    {
-     "kind": "move",
-     "text": "Moved 3.5 pts toward SF since open (DAL +4 to DAL +7.5)."
-    }
-   ]
+   "pick_prob": 0.6447,
+   "yard": 36,
+   "notes": [],
+   "winner": "SF"
   },
   {
    "id": "2026_10_PIT_CIN",
@@ -381,9 +377,9 @@
    "home": "CIN",
    "away_record": "6-2",
    "home_record": "6-2",
-   "spread_home": -3.5,
-   "ml_home": -210,
-   "ml_away": 176,
+   "spread_home": -4.0,
+   "ml_home": -221,
+   "ml_away": 185,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -394,10 +390,10 @@
    },
    "alt_p_home": 0.5634,
    "open_spread_home": -3.5,
-   "p_home": 0.6515,
+   "p_home": 0.6624,
    "pick": "CIN",
-   "pick_prob": 0.6515,
-   "yard": 35,
+   "pick_prob": 0.6624,
+   "yard": 34,
    "notes": []
   },
   {
@@ -429,7 +425,7 @@
  ],
  "record": {
   "season": 2026,
-  "w": 40,
+  "w": 41,
   "l": 13,
   "weeks": [
    {
@@ -449,7 +445,7 @@
    },
    {
     "week": 10,
-    "w": 8,
+    "w": 9,
     "l": 3
    }
   ]
