@@ -1,437 +1,288 @@
 {
  "season": 2026,
- "week": 10,
- "generated_at": "2026-11-16T02:23+00:00",
+ "week": 11,
+ "generated_at": "2026-11-17T05:15+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
   {
-   "id": "2026_10_WAS_NYG",
-   "kickoff": "2026-11-12T20:15",
-   "away": "WAS",
-   "home": "NYG",
-   "away_record": "3-5-1",
-   "home_record": "5-3-1",
-   "spread_home": -1.5,
-   "ml_home": -122.0,
-   "ml_away": 102.0,
-   "status": "final",
-   "neutral": false,
-   "injuries": {
-    "WAS": [
-     "Colson Yankoff (TE) out"
-    ]
-   },
-   "alt_p_home": 0.5897,
-   "open_spread_home": -2.5,
-   "p_home": 0.5261,
-   "pick": "NYG",
-   "pick_prob": 0.5261,
-   "yard": 47,
-   "notes": [
-    {
-     "kind": "move",
-     "text": "Moved 1 pt toward WAS since open (NYG -2.5 to NYG -1.5)."
-    },
-    {
-     "kind": "flip",
-     "text": "Coin flip. In a confidence pool this belongs in a low-point slot."
-    }
-   ],
-   "winner": "WAS"
-  },
-  {
-   "id": "2026_10_NE_DET",
-   "kickoff": "2026-11-15T09:30",
-   "away": "NE",
-   "home": "DET",
-   "away_record": "5-5",
-   "home_record": "7-2",
-   "spread_home": -2.5,
-   "ml_home": -148.0,
-   "ml_away": 124.0,
-   "status": "final",
-   "neutral": true,
-   "injuries": {
-    "NE": [
-     "TreVeyon Henderson (RB) out",
-     "Carlton Davis III (CB) out"
-    ],
-    "DET": [
-     "D.J. Reed (CB) out"
-    ]
-   },
-   "alt_p_home": 0.6398,
-   "open_spread_home": -3.0,
-   "p_home": 0.5721,
-   "pick": "DET",
-   "pick_prob": 0.5721,
-   "yard": 43,
-   "notes": [],
-   "winner": "DET"
-  },
-  {
-   "id": "2026_10_BUF_NYJ",
-   "kickoff": "2026-11-15T13:00",
-   "away": "BUF",
-   "home": "NYJ",
-   "away_record": "8-1",
-   "home_record": "2-8",
-   "spread_home": 8.5,
-   "ml_home": 370.0,
-   "ml_away": -485.0,
-   "status": "final",
+   "id": "2026_11_IND_HOU",
+   "kickoff": "2026-11-19T20:15",
+   "away": "IND",
+   "home": "HOU",
+   "away_record": "3-7",
+   "home_record": "3-6",
+   "spread_home": -12.0,
+   "ml_home": -700,
+   "ml_away": 497,
+   "status": "scheduled",
    "neutral": false,
    "injuries": {},
-   "alt_p_home": 0.1284,
-   "open_spread_home": 8.5,
-   "p_home": 0.2042,
-   "pick": "BUF",
-   "pick_prob": 0.7958,
-   "yard": 20,
-   "notes": [],
-   "winner": "BUF"
-  },
-  {
-   "id": "2026_10_CAR_NO",
-   "kickoff": "2026-11-15T13:00",
-   "away": "CAR",
-   "home": "NO",
-   "away_record": "4-5",
-   "home_record": "3-6",
-   "spread_home": -1.5,
-   "ml_home": -110.0,
-   "ml_away": -110.0,
-   "status": "final",
-   "neutral": false,
-   "injuries": {
-    "CAR": [
-     "Mike Jackson (CB) doubtful",
-     "Jonathon Brooks (RB) doubtful"
-    ],
-    "NO": [
-     "CJ Donaldson (RB) out"
-    ]
-   },
-   "alt_p_home": 0.5005,
-   "open_spread_home": -1.0,
-   "p_home": 0.5,
-   "pick": "NO",
-   "pick_prob": 0.5,
-   "yard": 50,
-   "notes": [
-    {
-     "kind": "flip",
-     "text": "Coin flip. In a confidence pool this belongs in a low-point slot."
-    }
-   ],
-   "winner": "CAR"
-  },
-  {
-   "id": "2026_10_HOU_CLE",
-   "kickoff": "2026-11-15T13:00",
-   "away": "HOU",
-   "home": "CLE",
-   "away_record": "3-6",
-   "home_record": "6-4",
-   "spread_home": 4.5,
-   "ml_home": 164.0,
-   "ml_away": -198.0,
-   "status": "final",
-   "neutral": false,
-   "injuries": {
-    "HOU": [
-     "Marvin Harrison Jr. (WR) out",
-     "Danielle Hunter (DE) out",
-     "Brevin Jordan (TE) out"
-    ]
-   },
-   "alt_p_home": 0.4691,
-   "open_spread_home": 5.0,
-   "p_home": 0.3631,
-   "pick": "HOU",
-   "pick_prob": 0.6369,
-   "yard": 36,
-   "notes": [],
-   "winner": "CLE"
-  },
-  {
-   "id": "2026_10_JAX_TEN",
-   "kickoff": "2026-11-15T13:00",
-   "away": "JAX",
-   "home": "TEN",
-   "away_record": "7-2",
-   "home_record": "1-8",
-   "spread_home": 10.5,
-   "ml_home": 470.0,
-   "ml_away": -650.0,
-   "status": "final",
-   "neutral": false,
-   "injuries": {
-    "JAX": [
-     "BJ Green II (DE) out"
-    ],
-    "TEN": [
-     "Carnell Tate (WR) out"
-    ]
-   },
-   "alt_p_home": 0.1401,
-   "open_spread_home": 10.5,
-   "p_home": 0.1684,
-   "pick": "JAX",
-   "pick_prob": 0.8316,
-   "yard": 17,
-   "notes": [],
-   "winner": "JAX"
-  },
-  {
-   "id": "2026_10_KC_ATL",
-   "kickoff": "2026-11-15T13:00",
-   "away": "KC",
-   "home": "ATL",
-   "away_record": "7-2",
-   "home_record": "3-7",
-   "spread_home": 3.0,
-   "ml_home": 145.0,
-   "ml_away": -175.0,
-   "status": "final",
-   "neutral": false,
-   "injuries": {
-    "ATL": [
-     "Zachariah Branch (WR) out"
-    ]
-   },
-   "alt_p_home": 0.3292,
-   "open_spread_home": 3.0,
-   "p_home": 0.3908,
-   "pick": "KC",
-   "pick_prob": 0.6092,
-   "yard": 39,
-   "notes": [],
-   "winner": "KC"
-  },
-  {
-   "id": "2026_10_MIA_IND",
-   "kickoff": "2026-11-15T13:00",
-   "away": "MIA",
-   "home": "IND",
-   "away_record": "1-8",
-   "home_record": "3-7",
-   "spread_home": -4.5,
-   "ml_home": -225.0,
-   "ml_away": 185.0,
-   "status": "final",
-   "neutral": false,
-   "injuries": {
-    "MIA": [
-     "Jared Wayne (WR) out",
-     "Chris Bell (WR) doubtful"
-    ],
-    "IND": [
-     "Mo Alie-Cox (TE) out"
-    ]
-   },
-   "alt_p_home": 0.6131,
-   "open_spread_home": -2.5,
-   "p_home": 0.6636,
-   "pick": "IND",
-   "pick_prob": 0.6636,
-   "yard": 34,
-   "notes": [
-    {
-     "kind": "move",
-     "text": "Moved 2 pts toward IND since open (IND -2.5 to IND -4.5)."
-    }
-   ],
-   "winner": "IND"
-  },
-  {
-   "id": "2026_10_MIN_GB",
-   "kickoff": "2026-11-15T13:00",
-   "away": "MIN",
-   "home": "GB",
-   "away_record": "7-2",
-   "home_record": "6-4",
-   "spread_home": -2.5,
-   "ml_home": -148.0,
-   "ml_away": 124.0,
-   "status": "final",
-   "neutral": false,
-   "injuries": {
-    "MIN": [
-     "Kyler Murray (QB) out",
-     "T.J. Hockenson (TE) out",
-     "Jauan Jennings (WR) out"
-    ],
-    "GB": [
-     "Josh Whyle (TE) out",
-     "Josh Jacobs (RB) out"
-    ]
-   },
-   "alt_p_home": 0.4485,
-   "open_spread_home": -4.5,
-   "p_home": 0.5721,
-   "pick": "GB",
-   "pick_prob": 0.5721,
-   "yard": 43,
-   "notes": [
-    {
-     "kind": "move",
-     "text": "Moved 2 pts toward MIN since open (GB -4.5 to GB -2.5)."
-    }
-   ],
-   "winner": "MIN"
-  },
-  {
-   "id": "2026_10_LA_ARI",
-   "kickoff": "2026-11-15T16:05",
-   "away": "LA",
-   "home": "ARI",
-   "away_record": "6-4",
-   "home_record": "3-7",
-   "spread_home": 10.0,
-   "ml_home": 410.0,
-   "ml_away": -550.0,
-   "status": "final",
-   "neutral": false,
-   "injuries": {
-    "LA": [
-     "Terrance Ferguson (TE) out"
-    ]
-   },
-   "alt_p_home": 0.2358,
-   "open_spread_home": 9.5,
-   "p_home": 0.1881,
-   "pick": "LA",
-   "pick_prob": 0.8119,
-   "yard": 19,
-   "notes": [],
-   "winner": "LA"
-  },
-  {
-   "id": "2026_10_SEA_LV",
-   "kickoff": "2026-11-15T16:05",
-   "away": "SEA",
-   "home": "LV",
-   "away_record": "6-4",
-   "home_record": "4-6",
-   "spread_home": 6.5,
-   "ml_home": 240.0,
-   "ml_away": -298.0,
-   "status": "final",
-   "neutral": false,
-   "injuries": {
-    "SEA": [
-     "Sam Darnold (QB) out"
-    ]
-   },
-   "alt_p_home": 0.2508,
-   "open_spread_home": 3.5,
-   "p_home": 0.282,
-   "pick": "SEA",
-   "pick_prob": 0.718,
-   "yard": 28,
-   "notes": [
-    {
-     "kind": "move",
-     "text": "Moved 3 pts toward SEA since open (LV +3.5 to LV +6.5)."
-    }
-   ],
-   "winner": "SEA"
-  },
-  {
-   "id": "2026_10_SF_DAL",
-   "kickoff": "2026-11-15T16:25",
-   "away": "SF",
-   "home": "DAL",
-   "away_record": "8-1",
-   "home_record": "4-6",
-   "spread_home": 3.5,
-   "ml_home": 170.0,
-   "ml_away": -205.0,
-   "status": "final",
-   "neutral": false,
-   "injuries": {
-    "SF": [
-     "Mike Evans (WR) out"
-    ],
-    "DAL": [
-     "Tyler Goodson (RB) out",
-     "Jonathan Mingo (WR) out",
-     "Jake Ferguson (TE) out"
-    ]
-   },
-   "alt_p_home": 0.2964,
-   "open_spread_home": 4.0,
-   "p_home": 0.3553,
-   "pick": "SF",
-   "pick_prob": 0.6447,
-   "yard": 36,
-   "notes": [],
-   "winner": "SF"
-  },
-  {
-   "id": "2026_10_PIT_CIN",
-   "kickoff": "2026-11-15T20:20",
-   "away": "PIT",
-   "home": "CIN",
-   "away_record": "6-2",
-   "home_record": "6-2",
-   "spread_home": -10.5,
-   "ml_home": -750,
-   "ml_away": 492,
-   "status": "scheduled",
-   "neutral": false,
-   "injuries": {
-    "CIN": [
-     "Jalen Davis (CB) doubtful",
-     "Andrei Iosivas (WR) doubtful"
-    ]
-   },
-   "alt_p_home": 0.5634,
-   "open_spread_home": -3.5,
+   "alt_p_home": 0.7212,
+   "open_spread_home": -12.0,
    "p_home": 0.8393,
-   "pick": "CIN",
+   "pick": "HOU",
    "pick_prob": 0.8393,
    "yard": 16,
-   "notes": [
-    {
-     "kind": "move",
-     "text": "Moved 7 pts toward CIN since open (CIN -3.5 to CIN -10.5)."
-    }
-   ]
+   "notes": []
   },
   {
-   "id": "2026_10_LAC_BAL",
-   "kickoff": "2026-11-16T20:15",
-   "away": "LAC",
-   "home": "BAL",
-   "away_record": "0-8",
-   "home_record": "4-5",
-   "spread_home": -4.5,
-   "ml_home": -225,
-   "ml_away": 185,
+   "id": "2026_11_ARI_KC",
+   "kickoff": "2026-11-22T13:00",
+   "away": "ARI",
+   "home": "KC",
+   "away_record": "3-7",
+   "home_record": "7-2",
+   "spread_home": -16.5,
+   "ml_home": -1550,
+   "ml_away": 892,
    "status": "scheduled",
    "neutral": false,
-   "injuries": {
-    "LAC": [
-     "Isas Waxter (CB) out",
-     "Brenen Thompson (WR) doubtful"
-    ]
-   },
-   "alt_p_home": 0.6861,
-   "open_spread_home": -5.0,
-   "p_home": 0.6636,
-   "pick": "BAL",
-   "pick_prob": 0.6636,
+   "injuries": {},
+   "alt_p_home": 0.8122,
+   "open_spread_home": -16.5,
+   "p_home": 0.9031,
+   "pick": "KC",
+   "pick_prob": 0.9031,
+   "yard": 10,
+   "notes": []
+  },
+  {
+   "id": "2026_11_BAL_CAR",
+   "kickoff": "2026-11-22T13:00",
+   "away": "BAL",
+   "home": "CAR",
+   "away_record": "4-6",
+   "home_record": "4-5",
+   "spread_home": -2.5,
+   "ml_home": -140,
+   "ml_away": 120,
+   "status": "scheduled",
+   "neutral": false,
+   "injuries": {},
+   "alt_p_home": 0.5398,
+   "open_spread_home": -2.5,
+   "p_home": 0.562,
+   "pick": "CAR",
+   "pick_prob": 0.562,
+   "yard": 44,
+   "notes": []
+  },
+  {
+   "id": "2026_11_JAX_NYG",
+   "kickoff": "2026-11-22T13:00",
+   "away": "JAX",
+   "home": "NYG",
+   "away_record": "7-2",
+   "home_record": "5-3-1",
+   "spread_home": 5.5,
+   "ml_home": 215,
+   "ml_away": -265,
+   "status": "scheduled",
+   "neutral": false,
+   "injuries": {},
+   "alt_p_home": 0.2956,
+   "open_spread_home": 5.5,
+   "p_home": 0.3042,
+   "pick": "JAX",
+   "pick_prob": 0.6958,
+   "yard": 30,
+   "notes": []
+  },
+  {
+   "id": "2026_11_MIA_BUF",
+   "kickoff": "2026-11-22T13:00",
+   "away": "MIA",
+   "home": "BUF",
+   "away_record": "1-8",
+   "home_record": "8-1",
+   "spread_home": -16.5,
+   "ml_home": -1550,
+   "ml_away": 892,
+   "status": "scheduled",
+   "neutral": false,
+   "injuries": {},
+   "alt_p_home": 0.9004,
+   "open_spread_home": -16.5,
+   "p_home": 0.9031,
+   "pick": "BUF",
+   "pick_prob": 0.9031,
+   "yard": 10,
+   "notes": []
+  },
+  {
+   "id": "2026_11_NO_CHI",
+   "kickoff": "2026-11-22T13:00",
+   "away": "NO",
+   "home": "CHI",
+   "away_record": "3-6",
+   "home_record": "7-2",
+   "spread_home": -11.5,
+   "ml_home": -680,
+   "ml_away": 500,
+   "status": "scheduled",
+   "neutral": false,
+   "injuries": {},
+   "alt_p_home": 0.8176,
+   "open_spread_home": -11.5,
+   "p_home": 0.8395,
+   "pick": "CHI",
+   "pick_prob": 0.8395,
+   "yard": 16,
+   "notes": []
+  },
+  {
+   "id": "2026_11_TB_DET",
+   "kickoff": "2026-11-22T13:00",
+   "away": "TB",
+   "home": "DET",
+   "away_record": "3-6",
+   "home_record": "7-2",
+   "spread_home": -6.5,
+   "ml_home": -280,
+   "ml_away": 225,
+   "status": "scheduled",
+   "neutral": false,
+   "injuries": {},
+   "alt_p_home": 0.7266,
+   "open_spread_home": -6.5,
+   "p_home": 0.7054,
+   "pick": "DET",
+   "pick_prob": 0.7054,
+   "yard": 29,
+   "notes": []
+  },
+  {
+   "id": "2026_11_TEN_DAL",
+   "kickoff": "2026-11-22T13:00",
+   "away": "TEN",
+   "home": "DAL",
+   "away_record": "1-8",
+   "home_record": "4-6",
+   "spread_home": -8.0,
+   "ml_home": -424,
+   "ml_away": 321,
+   "status": "scheduled",
+   "neutral": false,
+   "injuries": {},
+   "alt_p_home": 0.7521,
+   "open_spread_home": -8.0,
+   "p_home": 0.7731,
+   "pick": "DAL",
+   "pick_prob": 0.7731,
+   "yard": 23,
+   "notes": []
+  },
+  {
+   "id": "2026_11_NYJ_LAC",
+   "kickoff": "2026-11-22T16:05",
+   "away": "NYJ",
+   "home": "LAC",
+   "away_record": "2-8",
+   "home_record": "1-8",
+   "spread_home": -3.0,
+   "ml_home": -165,
+   "ml_away": 140,
+   "status": "scheduled",
+   "neutral": false,
+   "injuries": {},
+   "alt_p_home": 0.659,
+   "open_spread_home": -3.0,
+   "p_home": 0.5991,
+   "pick": "LAC",
+   "pick_prob": 0.5991,
+   "yard": 40,
+   "notes": []
+  },
+  {
+   "id": "2026_11_LV_DEN",
+   "kickoff": "2026-11-22T16:25",
+   "away": "LV",
+   "home": "DEN",
+   "away_record": "4-6",
+   "home_record": "7-2",
+   "spread_home": -10.0,
+   "ml_home": -540,
+   "ml_away": 406,
+   "status": "scheduled",
+   "neutral": false,
+   "injuries": {},
+   "alt_p_home": 0.8438,
+   "open_spread_home": -10.0,
+   "p_home": 0.8102,
+   "pick": "DEN",
+   "pick_prob": 0.8102,
+   "yard": 19,
+   "notes": []
+  },
+  {
+   "id": "2026_11_PIT_PHI",
+   "kickoff": "2026-11-22T16:25",
+   "away": "PIT",
+   "home": "PHI",
+   "away_record": "6-3",
+   "home_record": "2-7",
+   "spread_home": 4.5,
+   "ml_home": 180,
+   "ml_away": -218,
+   "status": "scheduled",
+   "neutral": false,
+   "injuries": {},
+   "alt_p_home": 0.3308,
+   "open_spread_home": 4.5,
+   "p_home": 0.3425,
+   "pick": "PIT",
+   "pick_prob": 0.6575,
    "yard": 34,
+   "notes": []
+  },
+  {
+   "id": "2026_11_MIN_SF",
+   "kickoff": "2026-11-22T20:20",
+   "away": "MIN",
+   "home": "SF",
+   "away_record": "7-2",
+   "home_record": "8-1",
+   "spread_home": -3.0,
+   "ml_home": -164,
+   "ml_away": 137,
+   "status": "scheduled",
+   "neutral": true,
+   "injuries": {},
+   "alt_p_home": 0.5237,
+   "open_spread_home": -3.0,
+   "p_home": 0.5955,
+   "pick": "SF",
+   "pick_prob": 0.5955,
+   "yard": 40,
+   "notes": []
+  },
+  {
+   "id": "2026_11_CIN_WAS",
+   "kickoff": "2026-11-23T20:15",
+   "away": "CIN",
+   "home": "WAS",
+   "away_record": "7-2",
+   "home_record": "3-5-1",
+   "spread_home": 6.5,
+   "ml_home": 235,
+   "ml_away": -288,
+   "status": "scheduled",
+   "neutral": false,
+   "injuries": {},
+   "alt_p_home": 0.3161,
+   "open_spread_home": 6.5,
+   "p_home": 0.2868,
+   "pick": "CIN",
+   "pick_prob": 0.7132,
+   "yard": 29,
    "notes": []
   }
  ],
  "record": {
   "season": 2026,
-  "w": 41,
-  "l": 13,
+  "w": 42,
+  "l": 14,
   "weeks": [
    {
     "week": 6,
@@ -450,8 +301,8 @@
    },
    {
     "week": 10,
-    "w": 9,
-    "l": 3
+    "w": 10,
+    "l": 4
    }
   ]
  },
