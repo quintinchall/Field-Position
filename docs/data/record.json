@@ -546,15 +546,15 @@
     "away": "MIN",
     "home": "SF",
     "pick": "SF",
-    "prob": 0.6429,
-    "locked_at": "2026-11-22T21:59+00:00"
+    "prob": 0.6489,
+    "locked_at": "2026-11-22T22:25+00:00"
    },
    "2026_11_CIN_WAS": {
     "away": "CIN",
     "home": "WAS",
     "pick": "CIN",
     "prob": 0.7163,
-    "locked_at": "2026-11-22T21:59+00:00"
+    "locked_at": "2026-11-22T22:25+00:00"
    }
   }
  }
