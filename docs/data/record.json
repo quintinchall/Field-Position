@@ -550,14 +550,15 @@
     "home": "SF",
     "pick": "SF",
     "prob": 0.6508,
-    "locked_at": "2026-11-23T00:48+00:00"
+    "locked_at": "2026-11-23T00:48+00:00",
+    "winner": "SF"
    },
    "2026_11_CIN_WAS": {
     "away": "CIN",
     "home": "WAS",
     "pick": "CIN",
-    "prob": 0.7169,
-    "locked_at": "2026-11-23T04:03+00:00"
+    "prob": 0.7175,
+    "locked_at": "2026-11-23T06:50+00:00"
    }
   }
  }

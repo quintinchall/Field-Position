@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 11,
- "generated_at": "2026-11-23T04:03+00:00",
+ "generated_at": "2026-11-23T06:50+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -337,12 +337,12 @@
    "kickoff": "2026-11-22T20:20",
    "away": "MIN",
    "home": "SF",
-   "away_record": "7-2",
-   "home_record": "8-1",
-   "spread_home": -22.5,
+   "away_record": "7-3",
+   "home_record": "9-1",
+   "spread_home": -4.5,
    "ml_home": -203.0,
    "ml_away": 170.0,
-   "status": "scheduled",
+   "status": "final",
    "neutral": true,
    "injuries": {
     "MIN": [
@@ -350,7 +350,7 @@
      "Jordan Addison (WR) out"
     ]
    },
-   "alt_p_home": 0.5237,
+   "alt_p_home": 0.6105,
    "open_spread_home": -3.0,
    "p_home": 0.644,
    "pick": "SF",
@@ -359,9 +359,10 @@
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 19.5 pts toward SF since open (SF -3 to SF -22.5)."
+     "text": "Moved 1.5 pts toward SF since open (SF -3 to SF -4.5)."
     }
-   ]
+   ],
+   "winner": "SF"
   },
   {
    "id": "2026_11_CIN_WAS",
@@ -371,7 +372,7 @@
    "away_record": "7-2",
    "home_record": "3-5-1",
    "spread_home": 6.0,
-   "ml_home": 239,
+   "ml_home": 240,
    "ml_away": -295,
    "status": "scheduled",
    "neutral": false,
@@ -383,16 +384,16 @@
    },
    "alt_p_home": 0.3161,
    "open_spread_home": 6.5,
-   "p_home": 0.2831,
+   "p_home": 0.2825,
    "pick": "CIN",
-   "pick_prob": 0.7169,
+   "pick_prob": 0.7175,
    "yard": 28,
    "notes": []
   }
  ],
  "record": {
   "season": 2026,
-  "w": 50,
+  "w": 51,
   "l": 17,
   "weeks": [
    {
@@ -417,7 +418,7 @@
    },
    {
     "week": 11,
-    "w": 8,
+    "w": 9,
     "l": 3
    }
   ]
