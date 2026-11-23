@@ -486,7 +486,8 @@
     "home": "NYG",
     "pick": "JAX",
     "prob": 0.7126,
-    "locked_at": "2026-11-22T20:25+00:00"
+    "locked_at": "2026-11-22T20:25+00:00",
+    "winner": "NYG"
    },
    "2026_11_MIA_BUF": {
     "away": "MIA",
@@ -533,7 +534,8 @@
     "home": "DEN",
     "pick": "DEN",
     "prob": 0.839,
-    "locked_at": "2026-11-22T20:25+00:00"
+    "locked_at": "2026-11-22T20:25+00:00",
+    "winner": "DEN"
    },
    "2026_11_PIT_PHI": {
     "away": "PIT",
@@ -554,8 +556,8 @@
     "away": "CIN",
     "home": "WAS",
     "pick": "CIN",
-    "prob": 0.7163,
-    "locked_at": "2026-11-23T00:48+00:00"
+    "prob": 0.7169,
+    "locked_at": "2026-11-23T04:03+00:00"
    }
   }
  }
