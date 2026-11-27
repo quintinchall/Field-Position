@@ -584,98 +584,100 @@
     "home": "DAL",
     "pick": "DAL",
     "prob": 0.7914,
-    "locked_at": "2026-11-25T22:13+00:00"
+    "locked_at": "2026-11-25T22:13+00:00",
+    "winner": "PHI"
    },
    "2026_12_KC_BUF": {
     "away": "KC",
     "home": "BUF",
     "pick": "BUF",
     "prob": 0.5896,
-    "locked_at": "2026-11-26T22:11+00:00"
+    "locked_at": "2026-11-26T22:11+00:00",
+    "winner": "BUF"
    },
    "2026_12_DEN_PIT": {
     "away": "DEN",
     "home": "PIT",
     "pick": "DEN",
-    "prob": 0.675,
-    "locked_at": "2026-11-26T22:11+00:00"
+    "prob": 0.6803,
+    "locked_at": "2026-11-27T05:25+00:00"
    },
    "2026_12_ATL_MIN": {
     "away": "ATL",
     "home": "MIN",
     "pick": "MIN",
     "prob": 0.7335,
-    "locked_at": "2026-11-26T22:11+00:00"
+    "locked_at": "2026-11-27T05:25+00:00"
    },
    "2026_12_BAL_HOU": {
     "away": "BAL",
     "home": "HOU",
     "pick": "HOU",
     "prob": 0.725,
-    "locked_at": "2026-11-26T22:11+00:00"
+    "locked_at": "2026-11-27T05:25+00:00"
    },
    "2026_12_NO_CIN": {
     "away": "NO",
     "home": "CIN",
     "pick": "CIN",
     "prob": 0.8169,
-    "locked_at": "2026-11-26T22:11+00:00"
+    "locked_at": "2026-11-27T05:25+00:00"
    },
    "2026_12_NYG_IND": {
     "away": "NYG",
     "home": "IND",
     "pick": "NYG",
-    "prob": 0.7086,
-    "locked_at": "2026-11-26T22:11+00:00"
+    "prob": 0.7082,
+    "locked_at": "2026-11-27T05:25+00:00"
    },
    "2026_12_NYJ_MIA": {
     "away": "NYJ",
     "home": "MIA",
     "pick": "NYJ",
     "prob": 0.6792,
-    "locked_at": "2026-11-26T22:11+00:00"
+    "locked_at": "2026-11-27T05:25+00:00"
    },
    "2026_12_TEN_JAX": {
     "away": "TEN",
     "home": "JAX",
     "pick": "JAX",
     "prob": 0.8812,
-    "locked_at": "2026-11-26T22:11+00:00"
+    "locked_at": "2026-11-27T05:25+00:00"
    },
    "2026_12_NE_LAC": {
     "away": "NE",
     "home": "LAC",
     "pick": "NE",
     "prob": 0.5526,
-    "locked_at": "2026-11-26T22:11+00:00"
+    "locked_at": "2026-11-27T05:25+00:00"
    },
    "2026_12_SEA_SF": {
     "away": "SEA",
     "home": "SF",
     "pick": "SF",
     "prob": 0.5746,
-    "locked_at": "2026-11-26T22:11+00:00"
+    "locked_at": "2026-11-27T05:25+00:00"
    },
    "2026_12_WAS_ARI": {
     "away": "WAS",
     "home": "ARI",
     "pick": "WAS",
     "prob": 0.7396,
-    "locked_at": "2026-11-26T22:11+00:00"
+    "locked_at": "2026-11-27T05:25+00:00"
    },
    "2026_12_LV_CLE": {
     "away": "LV",
     "home": "CLE",
     "pick": "CLE",
     "prob": 0.6729,
-    "locked_at": "2026-11-26T22:11+00:00"
+    "locked_at": "2026-11-27T05:25+00:00"
    },
    "2026_12_CAR_TB": {
     "away": "CAR",
     "home": "TB",
     "pick": "TB",
     "prob": 0.5928,
-    "locked_at": "2026-11-26T22:11+00:00"
+    "locked_at": "2026-11-27T05:25+00:00"
    }
   }
  }

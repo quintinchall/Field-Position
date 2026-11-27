@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 12,
- "generated_at": "2026-11-26T22:11+00:00",
+ "generated_at": "2026-11-27T05:25+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -80,12 +80,12 @@
    "kickoff": "2026-11-26T16:30",
    "away": "PHI",
    "home": "DAL",
-   "away_record": "3-7",
-   "home_record": "5-6",
-   "spread_home": -12.5,
-   "ml_home": -1000,
-   "ml_away": 550,
-   "status": "scheduled",
+   "away_record": "4-7",
+   "home_record": "5-7",
+   "spread_home": -8.5,
+   "ml_home": -451.0,
+   "ml_away": 351.0,
+   "status": "final",
    "neutral": false,
    "injuries": {
     "PHI": [
@@ -96,43 +96,40 @@
      "Jake Ferguson (TE) out"
     ]
    },
-   "alt_p_home": 0.6275,
+   "alt_p_home": 0.6027,
    "open_spread_home": -8.5,
-   "p_home": 0.8553,
+   "p_home": 0.7868,
    "pick": "DAL",
-   "pick_prob": 0.8553,
-   "yard": 14,
-   "notes": [
-    {
-     "kind": "move",
-     "text": "Moved 4 pts toward DAL since open (DAL -8.5 to DAL -12.5)."
-    }
-   ]
+   "pick_prob": 0.7868,
+   "yard": 21,
+   "notes": [],
+   "winner": "PHI"
   },
   {
    "id": "2026_12_KC_BUF",
    "kickoff": "2026-11-26T20:20",
    "away": "KC",
    "home": "BUF",
-   "away_record": "8-2",
-   "home_record": "9-1",
+   "away_record": "8-3",
+   "home_record": "10-1",
    "spread_home": -3.0,
-   "ml_home": -159,
-   "ml_away": 134,
-   "status": "scheduled",
+   "ml_home": -156.0,
+   "ml_away": 131.0,
+   "status": "final",
    "neutral": false,
    "injuries": {
     "KC": [
      "Kenneth Walker III (RB) out"
     ]
    },
-   "alt_p_home": 0.7018,
+   "alt_p_home": 0.7201,
    "open_spread_home": -2.5,
-   "p_home": 0.5896,
+   "p_home": 0.5847,
    "pick": "BUF",
-   "pick_prob": 0.5896,
-   "yard": 41,
-   "notes": []
+   "pick_prob": 0.5847,
+   "yard": 42,
+   "notes": [],
+   "winner": "BUF"
   },
   {
    "id": "2026_12_DEN_PIT",
@@ -141,9 +138,9 @@
    "home": "PIT",
    "away_record": "8-2",
    "home_record": "6-4",
-   "spread_home": 4.5,
-   "ml_home": 195,
-   "ml_away": -238,
+   "spread_home": 5.0,
+   "ml_home": 200,
+   "ml_away": -244,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -153,14 +150,14 @@
    },
    "alt_p_home": 0.3924,
    "open_spread_home": 2.5,
-   "p_home": 0.325,
+   "p_home": 0.3197,
    "pick": "DEN",
-   "pick_prob": 0.675,
+   "pick_prob": 0.6803,
    "yard": 32,
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 2 pts toward DEN since open (PIT +2.5 to PIT +4.5)."
+     "text": "Moved 2.5 pts toward DEN since open (PIT +2.5 to PIT +5)."
     }
    ]
   },
@@ -236,15 +233,15 @@
    "home_record": "3-8",
    "spread_home": 6.0,
    "ml_home": 230,
-   "ml_away": -280,
+   "ml_away": -278,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.399,
    "open_spread_home": 6.5,
-   "p_home": 0.2914,
+   "p_home": 0.2918,
    "pick": "NYG",
-   "pick_prob": 0.7086,
+   "pick_prob": 0.7082,
    "yard": 29,
    "notes": []
   },
@@ -417,8 +414,8 @@
  ],
  "record": {
   "season": 2026,
-  "w": 53,
-  "l": 18,
+  "w": 54,
+  "l": 19,
   "weeks": [
    {
     "week": 6,
@@ -447,8 +444,8 @@
    },
    {
     "week": 12,
-    "w": 2,
-    "l": 0
+    "w": 3,
+    "l": 1
    }
   ]
  },
