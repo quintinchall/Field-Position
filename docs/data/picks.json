@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 12,
- "generated_at": "2026-11-27T05:25+00:00",
+ "generated_at": "2026-11-27T07:41+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -140,19 +140,23 @@
    "home_record": "6-4",
    "spread_home": 5.0,
    "ml_home": 200,
-   "ml_away": -244,
+   "ml_away": -235,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
     "DEN": [
-     "Sai'vion Jones (DE) out"
+     "Sai'vion Jones (DE) out",
+     "Caleb Lohner (TE) out"
+    ],
+    "PIT": [
+     "Ben Skowronek (WR) out"
     ]
    },
    "alt_p_home": 0.3924,
    "open_spread_home": 2.5,
-   "p_home": 0.3197,
+   "p_home": 0.3221,
    "pick": "DEN",
-   "pick_prob": 0.6803,
+   "pick_prob": 0.6779,
    "yard": 32,
    "notes": [
     {
