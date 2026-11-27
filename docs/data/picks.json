@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 12,
- "generated_at": "2026-11-27T09:37+00:00",
+ "generated_at": "2026-11-27T21:51+00:00",
  "alt_label": "Elo",
  "source": "nflverse schedule and lines, The Odds API live lines, Elo from nflverse results",
  "games": [
@@ -138,9 +138,9 @@
    "home": "PIT",
    "away_record": "8-2",
    "home_record": "6-4",
-   "spread_home": 5.0,
-   "ml_home": 200,
-   "ml_away": -235,
+   "spread_home": -14.5,
+   "ml_home": -2500,
+   "ml_away": 1000,
    "status": "scheduled",
    "neutral": false,
    "injuries": {
@@ -154,14 +154,14 @@
    },
    "alt_p_home": 0.3924,
    "open_spread_home": 2.5,
-   "p_home": 0.3221,
-   "pick": "DEN",
-   "pick_prob": 0.6779,
-   "yard": 32,
+   "p_home": 0.9136,
+   "pick": "PIT",
+   "pick_prob": 0.9136,
+   "yard": 9,
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 2.5 pts toward DEN since open (PIT +2.5 to PIT +5)."
+     "text": "Line flipped: opened PIT +2.5, now PIT -14.5. Money came in on PIT."
     }
    ]
   },
@@ -194,17 +194,17 @@
    "away_record": "4-7",
    "home_record": "4-6",
    "spread_home": -6.5,
-   "ml_home": -305,
-   "ml_away": 250,
+   "ml_home": -310,
+   "ml_away": 251,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.6815,
    "open_spread_home": -6.5,
-   "p_home": 0.725,
+   "p_home": 0.7263,
    "pick": "HOU",
-   "pick_prob": 0.725,
-   "yard": 28,
+   "pick_prob": 0.7263,
+   "yard": 27,
    "notes": []
   },
   {
@@ -235,19 +235,24 @@
    "home": "IND",
    "away_record": "6-3-1",
    "home_record": "3-8",
-   "spread_home": 6.0,
-   "ml_home": 230,
-   "ml_away": -280,
+   "spread_home": 5.5,
+   "ml_home": 225,
+   "ml_away": -275,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.399,
    "open_spread_home": 6.5,
-   "p_home": 0.2914,
+   "p_home": 0.2956,
    "pick": "NYG",
-   "pick_prob": 0.7086,
-   "yard": 29,
-   "notes": []
+   "pick_prob": 0.7044,
+   "yard": 30,
+   "notes": [
+    {
+     "kind": "move",
+     "text": "Moved 1 pt toward IND since open (IND +6.5 to IND +5.5)."
+    }
+   ]
   },
   {
    "id": "2026_12_NYJ_MIA",
@@ -256,22 +261,22 @@
    "home": "MIA",
    "away_record": "3-8",
    "home_record": "1-9",
-   "spread_home": 5.0,
+   "spread_home": 5.5,
    "ml_home": 200,
-   "ml_away": -240,
+   "ml_away": -245,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.566,
    "open_spread_home": 3.5,
-   "p_home": 0.3208,
+   "p_home": 0.3194,
    "pick": "NYJ",
-   "pick_prob": 0.6792,
+   "pick_prob": 0.6806,
    "yard": 32,
    "notes": [
     {
      "kind": "move",
-     "text": "Moved 1.5 pts toward NYJ since open (MIA +3.5 to MIA +5)."
+     "text": "Moved 2 pts toward NYJ since open (MIA +3.5 to MIA +5.5)."
     }
    ]
   },
@@ -282,18 +287,18 @@
    "home": "JAX",
    "away_record": "1-9",
    "home_record": "7-3",
-   "spread_home": -14.5,
-   "ml_home": -1100,
-   "ml_away": 709,
+   "spread_home": -14.0,
+   "ml_home": -1000,
+   "ml_away": 661,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.9002,
    "open_spread_home": -14.5,
-   "p_home": 0.8812,
+   "p_home": 0.8737,
    "pick": "JAX",
-   "pick_prob": 0.8812,
-   "yard": 12,
+   "pick_prob": 0.8737,
+   "yard": 13,
    "notes": []
   },
   {
@@ -303,26 +308,22 @@
    "home": "LAC",
    "away_record": "5-5",
    "home_record": "1-9",
-   "spread_home": 2.0,
-   "ml_home": 115,
-   "ml_away": -135,
+   "spread_home": 2.5,
+   "ml_home": 120,
+   "ml_away": -140,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.3566,
    "open_spread_home": -1.0,
-   "p_home": 0.4474,
+   "p_home": 0.438,
    "pick": "NE",
-   "pick_prob": 0.5526,
-   "yard": 45,
+   "pick_prob": 0.562,
+   "yard": 44,
    "notes": [
     {
      "kind": "move",
-     "text": "Line flipped: opened LAC -1, now LAC +2. Money came in on NE."
-    },
-    {
-     "kind": "flip",
-     "text": "Coin flip. In a confidence pool this belongs in a low-point slot."
+     "text": "Line flipped: opened LAC -1, now LAC +2.5. Money came in on NE."
     }
    ]
   },
@@ -333,19 +334,24 @@
    "home": "SF",
    "away_record": "6-4",
    "home_record": "9-1",
-   "spread_home": -3.0,
-   "ml_home": -147,
-   "ml_away": 127,
+   "spread_home": -2.5,
+   "ml_home": -137,
+   "ml_away": 117,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.6252,
    "open_spread_home": -3.0,
-   "p_home": 0.5746,
+   "p_home": 0.5564,
    "pick": "SF",
-   "pick_prob": 0.5746,
-   "yard": 43,
-   "notes": []
+   "pick_prob": 0.5564,
+   "yard": 44,
+   "notes": [
+    {
+     "kind": "flip",
+     "text": "Coin flip. In a confidence pool this belongs in a low-point slot."
+    }
+   ]
   },
   {
    "id": "2026_12_WAS_ARI",
@@ -356,15 +362,15 @@
    "home_record": "3-8",
    "spread_home": 6.5,
    "ml_home": 270,
-   "ml_away": -330,
+   "ml_away": -335,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.4163,
    "open_spread_home": 7.5,
-   "p_home": 0.2604,
+   "p_home": 0.2598,
    "pick": "WAS",
-   "pick_prob": 0.7396,
+   "pick_prob": 0.7402,
    "yard": 26,
    "notes": [
     {
@@ -382,15 +388,15 @@
    "home_record": "6-4",
    "spread_home": -4.5,
    "ml_home": -233,
-   "ml_away": 194,
+   "ml_away": 190,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.6571,
    "open_spread_home": -4.5,
-   "p_home": 0.6729,
+   "p_home": 0.6699,
    "pick": "CLE",
-   "pick_prob": 0.6729,
+   "pick_prob": 0.6699,
    "yard": 33,
    "notes": []
   },
@@ -403,15 +409,15 @@
    "home_record": "3-7",
    "spread_home": -3.0,
    "ml_home": -161,
-   "ml_away": 136,
+   "ml_away": 135,
    "status": "scheduled",
    "neutral": false,
    "injuries": {},
    "alt_p_home": 0.5968,
    "open_spread_home": -3.0,
-   "p_home": 0.5928,
+   "p_home": 0.5918,
    "pick": "TB",
-   "pick_prob": 0.5928,
+   "pick_prob": 0.5918,
    "yard": 41,
    "notes": []
   }
